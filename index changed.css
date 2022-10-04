@@ -1,0 +1,53 @@
+/* Richard Davies, Data Science for Economists */
+
+/* This is my first proper css file */
+
+
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/* Set the background color for my page: */
+body{
+    background-color: rgb(170, 193, 196)
+ 
+}
+
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+h1, h3, p{
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+    
+.myWeek1{
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(194, 197, 197);
+
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(65, 95, 97);
+}
+
+
+/* Set the apperance of the class, chart */
+.chart{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width:346px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(65, 95, 97);
+    
+
+    
+}
+    
+
