@@ -20,6 +20,11 @@ h1, h2, h3, p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
     
 .myWeek1{
     margin: auto;
@@ -53,7 +58,7 @@ h1, h2, h3, p{
     width:580px;
     border-width: 3px;
     border-style: solid;
-    border-radius: 8px;
+    border-radius: 6px;
     border-color: rgb(65, 95, 97);
     margin: 0 10px;
 
