@@ -1,0 +1,107 @@
+/* Richard Davies, Data Science for Economists */
+
+/* This is my first proper css file */
+
+
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+/* Set the background color for my page: */
+body{
+    background-color: rgb(170, 193, 196)
+ 
+}
+
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+h1, h2, h3, p{
+    color:rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    
+.myWeek1{
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(194, 197, 197);
+
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(65, 95, 97);
+}
+
+
+/* Set the apperance of the class, chart */
+.chart{
+    background-color: rgb(255, 255, 255);
+    width:346px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(65, 95, 97);
+    margin: 0 127px;
+
+    
+}
+    
+#Chart3, #Chart4{
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    width:580px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: rgb(65, 95, 97);
+    margin: 0 10px;
+
+}
+
+.Buttons{
+    margin-top: 50px;
+}
+
+
+a{
+    background-color: rgb(194, 197, 197);
+
+    padding:20px;
+    
+    border:4px;
+    border-color: rgb(65, 95, 97);
+    border-style: solid;
+    border-radius: 10px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight:700;
+    color:black;
+    font-size: 0.8cm;
+
+    
+    text-decoration: none;
+
+   
+}
+
+#link:hover{
+
+    background-color: rgba(184, 186, 186, 0.8);
+
+    border:2px;
+    border-color:rgb(65, 95, 97);
+    border-style: solid;
+    
+    margin-block: 5;
+}
