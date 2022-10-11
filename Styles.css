@@ -19,6 +19,7 @@ body{
 }
 
 
+
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h2, h3, p{
     color:rgb(0, 0, 0);
@@ -27,13 +28,13 @@ h1, h2, h3, p{
 }
 
 p{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
     
 .myWeek1{
     margin: auto;
-    max-width: 600px;
+    max-width: 800px;
     background-color: rgb(194, 197, 197);
 
     border-width: 3px;
@@ -51,7 +52,10 @@ p{
     border-style: solid;
     border-radius: 8px;
     border-color: rgb(65, 95, 97);
-    margin: 0 127px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
 
     
 }
@@ -65,19 +69,22 @@ p{
     border-style: solid;
     border-radius: 6px;
     border-color: rgb(65, 95, 97);
-    margin: 0 10px;
+    
 
 }
 
 .Buttons{
     margin-top: 50px;
+    
 }
 
 
 a{
     background-color: rgb(194, 197, 197);
 
-    padding:20px;
+    padding:25px;
+    margin-left: 25px;
+    margin-right: 25px;
     
     border:4px;
     border-color: rgb(65, 95, 97);
@@ -105,3 +112,42 @@ a{
     
     margin-block: 5;
 }
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+   
+}
+
+.container2 {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    max-width: 1000px;
+    column-gap: 20px;
+    
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    max-width: 1000px;
+
+    background-color: rgb(255, 255, 255);
+    width:346px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(65, 95, 97);
+
+}
+
+.container4 {
+    width: 50%;
+}
+
