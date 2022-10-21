@@ -31,7 +31,7 @@ p{
     margin-left: 10%;
     margin-right: 10%;
 }
-    
+/* main style */
 .myWeek1{
     margin: auto;
     max-width: 800px;
@@ -59,7 +59,7 @@ p{
 
     
 }
-    
+    /* Formatting for IMF charts */
 #Chart3, #Chart4{
     background-color: rgb(255, 255, 255);
     margin-left: auto;
@@ -70,7 +70,18 @@ p{
     border-radius: 6px;
     border-color: rgb(65, 95, 97);
     
+}
 
+/* Formatting for Fire Chart */
+#Chart5{
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    width:600px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: rgb(65, 95, 97);
 }
 
 .Buttons{
@@ -78,7 +89,7 @@ p{
     
 }
 
-
+/* button options */
 a{
     background-color: rgb(194, 197, 197);
 
@@ -113,6 +124,7 @@ a{
     margin-block: 5;
 }
 
+/* containers to centre objects */
 .container1 {
     display: flex;
     justify-content: center;
