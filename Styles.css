@@ -73,7 +73,7 @@ p{
 }
 
 /* Formatting for Fire Chart */
-#Chart5{
+#Chart5, #Chart6{
     background-color: rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;

@@ -86,8 +86,9 @@
         <p style="position:relative; top:10px">This chart has been contextualised through the inclusion of inflation and World GDP.
             Previously the data was not relative to the economic situation at each given period.
         </p> 
-        <p style="position:relative; top:10px"> Contrary to the inital FT graph, the relative outstanding lending of the IMF has decreased since 1984. 
-            This indicates an improving world economic situation. </p>
+        <p style="position:relative; top:10px"> The relative outstanding IMF lending has actually decreased since 1984, 
+            indicating an improving global economic situation. The risiest year was surprisingly 1984. </p>
+            <p> </p>
         
     </div>
     <p> </p>
@@ -96,13 +97,20 @@
 <!-- Week 3 -->
 <div class="myWeek1">
     <h2>Week 3</h2>
-    <h3>Fire Incidents in Great Britain per 1000 Population</h3>
+    <h3>US Unemployment rate - Two ways</h3>
 <!-- graph -->
 <div class="container1">
     <div class="chart" id="Chart5"> </div>
 </div>
-<p>This week we encoded data straight into VegaLite rather than linking it to a an uploaded spreadsheet. We did this through python by importing the CSV, then extracting the raw data in a way suitable for use in VegaLite. </p>
-<p>For this week I have used data on fire statistics in Great Britain. In my raw data, I included both the nominal incident rates as well as in proportion to the population. I did this so that I could easily compare and switch analysis when/if I so wish.</p>
+<p> </p>
+<h3>Modified Chart</h3>
+<div class="container1">
+    <div class="chart" id="Chart6"></div>
+</div>
+  
+    
+<p>This week we encoded data inline into VegaLite rather than linking it to a an uploaded spreadsheet. We did this through python by importing the CSV, then extracting the raw data in a way suitable for use in VegaLite. </p>
+<p>The graphs shows the unemployment rate for the USA vs for African Americans. The black population experienced higher unemployment rates in all time periods.</p>
 
 
 
@@ -128,7 +136,9 @@
     var myChart2 = "chartENV15.json";
     var myChart3 = "imflending.json";
     var myChart4 = "imflending2.json";
-    var myChart5 = "Fire chart.json";
+    var myChart5 = "UNRATE1.json";
+    var myChart6 = "UNRATE2.json";
+
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -136,6 +146,7 @@
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
 </script>
 
 </html>
