@@ -178,15 +178,58 @@
 <div class="myWeek1">
     <h2>Week 7</h2>
     <h3>Map Data</h3>
+    <h3>Base Map of Germany</h3>
 <!-- graph -->
-<divXYZ class="container1">
-    <div class="chart" id="Chart7"> </div>
-</divXYZ>
+<div class="container1">
+    <div class="chart" id="Chart17"> </div>
+    
+</div>
 <p> </p>
+
+<h3>Choropleth Map of the world with public transport satisfaction</h3>
 
 <p>This week we did map data</p>
 
 </div>
+<p> </p>
+
+
+<!-- Week 8 -->
+<div class="myWeek1">
+    <h2>Week 7</h2>
+    <h3>Festival of Economic</h3>
+
+<p> </p>
+
+<h3>Claim</h3>
+<p>The UK has had a stagnation problem since 2008. 
+    Producitivty doubled in the USA, France, and Germany compared to the UK.</p>
+
+ <h3>Evidence</h3>
+<!-- graphs -->
+
+<div class="container2">
+
+        <div class="container4">
+            <div class="container1">
+                <div class="chart" id="Chart19"></div>
+            </div>
+            <p>Productivity grew by ~$4 in the UK and Germany, but by ~$8 in the USA and France</p>
+        </div>
+
+        <div class="container4">
+            <div class="container1">
+                <div class="chart" id="Chart20"> </div>
+            </div>
+            <p>Real wages have mostly slowed/declined since 2008</p>
+        </div>
+</div>
+
+<p> </p>
+
+
+</div>
+
 
 
 
@@ -216,6 +259,11 @@
     var myChart14 = "graph_ONS_CHBI.json";
     var myChart15 = "graph_ONS_CHBM.json";
     var myChart16 = "graph_ONS_CHBR.json";
+    var myChart17 = "graph_map_DE.json";
+    var myChart18 = "XYZgraph_map_DE.json";
+    var myChart19 = "graph_line_productivity.json";
+    var myChart20 = "graph_line_wagegrowth.json";
+
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -234,6 +282,11 @@
     vegaEmbed('#Chart14', myChart14);
     vegaEmbed('#Chart15', myChart15);
     vegaEmbed('#Chart16', myChart16);
+    vegaEmbed('#Chart17', myChart17);
+    vegaEmbed('#Chart18', myChart18);
+    vegaEmbed('#Chart19', myChart19);
+    vegaEmbed('#Chart20', myChart20);
+
 </script>
 
 </html>
