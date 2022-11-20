@@ -1,0 +1,781 @@
+,Period,Measure,Percentage
+0,Jan-01,Total pay (real),4.2
+1,Jan-01,Regular pay (real),2.4
+2,Jan-01,CPIH,1.2
+3,Feb-01,Total pay (real),7.0
+4,Feb-01,Regular pay (real),2.4
+5,Feb-01,CPIH,1.2
+6,Mar-01,Total pay (real),3.5
+7,Mar-01,Regular pay (real),3.3
+8,Mar-01,CPIH,1.3
+9,Apr-01,Total pay (real),4.3
+10,Apr-01,Regular pay (real),3.8
+11,Apr-01,CPIH,1.5
+12,May-01,Total pay (real),3.1
+13,May-01,Regular pay (real),2.9
+14,May-01,CPIH,1.9
+15,Jun-01,Total pay (real),3.7
+16,Jun-01,Regular pay (real),2.9
+17,Jun-01,CPIH,1.9
+18,Jul-01,Total pay (real),3.1
+19,Jul-01,Regular pay (real),3.7
+20,Jul-01,CPIH,1.7
+21,Aug-01,Total pay (real),2.9
+22,Aug-01,Regular pay (real),3.5
+23,Aug-01,CPIH,2.1
+24,Sep-01,Total pay (real),2.7
+25,Sep-01,Regular pay (real),3.1
+26,Sep-01,CPIH,1.7
+27,Oct-01,Total pay (real),3.2
+28,Oct-01,Regular pay (real),3.2
+29,Oct-01,CPIH,1.6
+30,Nov-01,Total pay (real),3.0
+31,Nov-01,Regular pay (real),3.5
+32,Nov-01,CPIH,1.2
+33,Dec-01,Total pay (real),2.0
+34,Dec-01,Regular pay (real),3.0
+35,Dec-01,CPIH,1.4
+36,Jan-02,Total pay (real),1.9
+37,Jan-02,Regular pay (real),2.7
+38,Jan-02,CPIH,1.8
+39,Feb-02,Total pay (real),1.0
+40,Feb-02,Regular pay (real),3.4
+41,Feb-02,CPIH,1.7
+42,Mar-02,Total pay (real),1.4
+43,Mar-02,Regular pay (real),3.1
+44,Mar-02,CPIH,1.7
+45,Apr-02,Total pay (real),1.5
+46,Apr-02,Regular pay (real),2.3
+47,Apr-02,CPIH,1.6
+48,May-02,Total pay (real),2.4
+49,May-02,Regular pay (real),2.8
+50,May-02,CPIH,1.2
+51,Jun-02,Total pay (real),2.5
+52,Jun-02,Regular pay (real),3.4
+53,Jun-02,CPIH,1.1
+54,Jul-02,Total pay (real),2.5
+55,Jul-02,Regular pay (real),2.5
+56,Jul-02,CPIH,1.4
+57,Aug-02,Total pay (real),1.8
+58,Aug-02,Regular pay (real),1.7
+59,Aug-02,CPIH,1.3
+60,Sep-02,Total pay (real),1.7
+61,Sep-02,Regular pay (real),2.0
+62,Sep-02,CPIH,1.2
+63,Oct-02,Total pay (real),1.2
+64,Oct-02,Regular pay (real),1.6
+65,Oct-02,CPIH,1.5
+66,Nov-02,Total pay (real),1.2
+67,Nov-02,Regular pay (real),1.4
+68,Nov-02,CPIH,1.6
+69,Dec-02,Total pay (real),0.8
+70,Dec-02,Regular pay (real),1.2
+71,Dec-02,CPIH,1.7
+72,Jan-03,Total pay (real),1.0
+73,Jan-03,Regular pay (real),2.0
+74,Jan-03,CPIH,1.4
+75,Feb-03,Total pay (real),0.5
+76,Feb-03,Regular pay (real),1.5
+77,Feb-03,CPIH,1.6
+78,Mar-03,Total pay (real),2.5
+79,Mar-03,Regular pay (real),1.1
+80,Mar-03,CPIH,1.6
+81,Apr-03,Total pay (real),1.6
+82,Apr-03,Regular pay (real),1.6
+83,Apr-03,CPIH,1.5
+84,May-03,Total pay (real),1.5
+85,May-03,Regular pay (real),1.9
+86,May-03,CPIH,1.3
+87,Jun-03,Total pay (real),1.3
+88,Jun-03,Regular pay (real),1.7
+89,Jun-03,CPIH,1.2
+90,Jul-03,Total pay (real),1.4
+91,Jul-03,Regular pay (real),1.7
+92,Jul-03,CPIH,1.3
+93,Aug-03,Total pay (real),1.9
+94,Aug-03,Regular pay (real),2.2
+95,Aug-03,CPIH,1.4
+96,Sep-03,Total pay (real),2.3
+97,Sep-03,Regular pay (real),2.3
+98,Sep-03,CPIH,1.3
+99,Oct-03,Total pay (real),2.7
+100,Oct-03,Regular pay (real),2.3
+101,Oct-03,CPIH,1.3
+102,Nov-03,Total pay (real),2.4
+103,Nov-03,Regular pay (real),2.4
+104,Nov-03,CPIH,1.3
+105,Dec-03,Total pay (real),2.7
+106,Dec-03,Regular pay (real),3.0
+107,Dec-03,CPIH,1.3
+108,Jan-04,Total pay (real),2.8
+109,Jan-04,Regular pay (real),1.9
+110,Jan-04,CPIH,1.5
+111,Feb-04,Total pay (real),2.3
+112,Feb-04,Regular pay (real),1.8
+113,Feb-04,CPIH,1.4
+114,Mar-04,Total pay (real),2.7
+115,Mar-04,Regular pay (real),2.3
+116,Mar-04,CPIH,1.2
+117,Apr-04,Total pay (real),3.0
+118,Apr-04,Regular pay (real),2.4
+119,Apr-04,CPIH,1.1
+120,May-04,Total pay (real),2.8
+121,May-04,Regular pay (real),2.1
+122,May-04,CPIH,1.4
+123,Jun-04,Total pay (real),2.8
+124,Jun-04,Regular pay (real),2.0
+125,Jun-04,CPIH,1.5
+126,Jul-04,Total pay (real),2.9
+127,Jul-04,Regular pay (real),2.3
+128,Jul-04,CPIH,1.4
+129,Aug-04,Total pay (real),3.1
+130,Aug-04,Regular pay (real),2.5
+131,Aug-04,CPIH,1.4
+132,Sep-04,Total pay (real),3.1
+133,Sep-04,Regular pay (real),2.3
+134,Sep-04,CPIH,1.2
+135,Oct-04,Total pay (real),3.2
+136,Oct-04,Regular pay (real),2.6
+137,Oct-04,CPIH,1.3
+138,Nov-04,Total pay (real),3.1
+139,Nov-04,Regular pay (real),2.2
+140,Nov-04,CPIH,1.5
+141,Dec-04,Total pay (real),3.1
+142,Dec-04,Regular pay (real),2.4
+143,Dec-04,CPIH,1.8
+144,Jan-05,Total pay (real),2.9
+145,Jan-05,Regular pay (real),2.5
+146,Jan-05,CPIH,1.7
+147,Feb-05,Total pay (real),3.8
+148,Feb-05,Regular pay (real),2.5
+149,Feb-05,CPIH,1.7
+150,Mar-05,Total pay (real),2.4
+151,Mar-05,Regular pay (real),2.6
+152,Mar-05,CPIH,2.0
+153,Apr-05,Total pay (real),2.1
+154,Apr-05,Regular pay (real),2.2
+155,Apr-05,CPIH,1.9
+156,May-05,Total pay (real),2.5
+157,May-05,Regular pay (real),2.2
+158,May-05,CPIH,1.9
+159,Jun-05,Total pay (real),2.3
+160,Jun-05,Regular pay (real),2.3
+161,Jun-05,CPIH,2.0
+162,Jul-05,Total pay (real),2.4
+163,Jul-05,Regular pay (real),2.1
+164,Jul-05,CPIH,2.3
+165,Aug-05,Total pay (real),2.7
+166,Aug-05,Regular pay (real),2.0
+167,Aug-05,CPIH,2.4
+168,Sep-05,Total pay (real),2.2
+169,Sep-05,Regular pay (real),2.0
+170,Sep-05,CPIH,2.5
+171,Oct-05,Total pay (real),1.9
+172,Oct-05,Regular pay (real),1.8
+173,Oct-05,CPIH,2.4
+174,Nov-05,Total pay (real),2.4
+175,Nov-05,Regular pay (real),2.0
+176,Nov-05,CPIH,2.2
+177,Dec-05,Total pay (real),2.1
+178,Dec-05,Regular pay (real),1.5
+179,Dec-05,CPIH,2.1
+180,Jan-06,Total pay (real),1.5
+181,Jan-06,Regular pay (real),1.8
+182,Jan-06,CPIH,2.2
+183,Feb-06,Total pay (real),3.8
+184,Feb-06,Regular pay (real),2.0
+185,Feb-06,CPIH,2.2
+186,Mar-06,Total pay (real),3.0
+187,Mar-06,Regular pay (real),1.6
+188,Mar-06,CPIH,2.0
+189,Apr-06,Total pay (real),2.6
+190,Apr-06,Regular pay (real),1.5
+191,Apr-06,CPIH,2.2
+192,May-06,Total pay (real),2.1
+193,May-06,Regular pay (real),1.5
+194,May-06,CPIH,2.4
+195,Jun-06,Total pay (real),2.8
+196,Jun-06,Regular pay (real),1.6
+197,Jun-06,CPIH,2.6
+198,Jul-06,Total pay (real),2.1
+199,Jul-06,Regular pay (real),1.1
+200,Jul-06,CPIH,2.5
+201,Aug-06,Total pay (real),1.1
+202,Aug-06,Regular pay (real),0.7
+203,Aug-06,CPIH,2.6
+204,Sep-06,Total pay (real),1.3
+205,Sep-06,Regular pay (real),1.0
+206,Sep-06,CPIH,2.5
+207,Oct-06,Total pay (real),1.9
+208,Oct-06,Regular pay (real),1.5
+209,Oct-06,CPIH,2.5
+210,Nov-06,Total pay (real),1.6
+211,Nov-06,Regular pay (real),1.3
+212,Nov-06,CPIH,2.8
+213,Dec-06,Total pay (real),2.6
+214,Dec-06,Regular pay (real),1.2
+215,Dec-06,CPIH,2.9
+216,Jan-07,Total pay (real),3.7
+217,Jan-07,Regular pay (real),1.1
+218,Jan-07,CPIH,2.7
+219,Feb-07,Total pay (real),4.5
+220,Feb-07,Regular pay (real),1.1
+221,Feb-07,CPIH,2.7
+222,Mar-07,Total pay (real),1.0
+223,Mar-07,Regular pay (real),1.0
+224,Mar-07,CPIH,2.9
+225,Apr-07,Total pay (real),1.7
+226,Apr-07,Regular pay (real),1.2
+227,Apr-07,CPIH,2.7
+228,May-07,Total pay (real),2.2
+229,May-07,Regular pay (real),1.7
+230,May-07,CPIH,2.5
+231,Jun-07,Total pay (real),1.8
+232,Jun-07,Regular pay (real),1.7
+233,Jun-07,CPIH,2.5
+234,Jul-07,Total pay (real),2.7
+235,Jul-07,Regular pay (real),2.6
+236,Jul-07,CPIH,2.0
+237,Aug-07,Total pay (real),3.2
+238,Aug-07,Regular pay (real),2.9
+239,Aug-07,CPIH,2.0
+240,Sep-07,Total pay (real),3.4
+241,Sep-07,Regular pay (real),2.5
+242,Sep-07,CPIH,2.0
+243,Oct-07,Total pay (real),2.1
+244,Oct-07,Regular pay (real),1.6
+245,Oct-07,CPIH,2.3
+246,Nov-07,Total pay (real),2.3
+247,Nov-07,Regular pay (real),1.8
+248,Nov-07,CPIH,2.2
+249,Dec-07,Total pay (real),0.7
+250,Dec-07,Regular pay (real),1.6
+251,Dec-07,CPIH,2.3
+252,Jan-08,Total pay (real),1.5
+253,Jan-08,Regular pay (real),1.7
+254,Jan-08,CPIH,2.4
+255,Feb-08,Total pay (real),1.8
+256,Feb-08,Regular pay (real),1.6
+257,Feb-08,CPIH,2.6
+258,Mar-08,Total pay (real),2.1
+259,Mar-08,Regular pay (real),1.7
+260,Mar-08,CPIH,2.6
+261,Apr-08,Total pay (real),1.4
+262,Apr-08,Regular pay (real),1.5
+263,Apr-08,CPIH,3.0
+264,May-08,Total pay (real),0.9
+265,May-08,Regular pay (real),0.4
+266,May-08,CPIH,3.3
+267,Jun-08,Total pay (real),-0.3
+268,Jun-08,Regular pay (real),-0.2
+269,Jun-08,CPIH,3.7
+270,Jul-08,Total pay (real),-0.9
+271,Jul-08,Regular pay (real),-0.8
+272,Jul-08,CPIH,4.2
+273,Aug-08,Total pay (real),-1.3
+274,Aug-08,Regular pay (real),-1.1
+275,Aug-08,CPIH,4.4
+276,Sep-08,Total pay (real),-2.1
+277,Sep-08,Regular pay (real),-1.5
+278,Sep-08,CPIH,4.8
+279,Oct-08,Total pay (real),-0.9
+280,Oct-08,Regular pay (real),-0.5
+281,Oct-08,CPIH,4.2
+282,Nov-08,Total pay (real),-1.5
+283,Nov-08,Regular pay (real),-0.5
+284,Nov-08,CPIH,3.8
+285,Dec-08,Total pay (real),-0.4
+286,Dec-08,Regular pay (real),0.1
+287,Dec-08,CPIH,3.0
+288,Jan-09,Total pay (real),-4.0
+289,Jan-09,Regular pay (real),-0.2
+290,Jan-09,CPIH,2.9
+291,Feb-09,Total pay (real),-8.3
+292,Feb-09,Regular pay (real),-0.4
+293,Feb-09,CPIH,3.1
+294,Mar-09,Total pay (real),-4.8
+295,Mar-09,Regular pay (real),-0.8
+296,Mar-09,CPIH,2.8
+297,Apr-09,Total pay (real),-0.2
+298,Apr-09,Regular pay (real),-0.3
+299,Apr-09,CPIH,2.3
+300,May-09,Total pay (real),-1.2
+301,May-09,Regular pay (real),0.2
+302,May-09,CPIH,2.1
+303,Jun-09,Total pay (real),-0.7
+304,Jun-09,Regular pay (real),0.3
+305,Jun-09,CPIH,1.7
+306,Jul-09,Total pay (real),-1.2
+307,Jul-09,Regular pay (real),-0.2
+308,Jul-09,CPIH,1.6
+309,Aug-09,Total pay (real),-0.8
+310,Aug-09,Regular pay (real),-0.2
+311,Aug-09,CPIH,1.4
+312,Sep-09,Total pay (real),-0.2
+313,Sep-09,Regular pay (real),0.5
+314,Sep-09,CPIH,1.0
+315,Oct-09,Total pay (real),-1.0
+316,Oct-09,Regular pay (real),-0.2
+317,Oct-09,CPIH,1.2
+318,Nov-09,Total pay (real),-0.7
+319,Nov-09,Regular pay (real),-0.5
+320,Nov-09,CPIH,1.5
+321,Dec-09,Total pay (real),-0.9
+322,Dec-09,Regular pay (real),-0.7
+323,Dec-09,CPIH,2.1
+324,Jan-10,Total pay (real),-1.0
+325,Jan-10,Regular pay (real),-0.6
+326,Jan-10,CPIH,2.6
+327,Feb-10,Total pay (real),3.9
+328,Feb-10,Regular pay (real),-0.5
+329,Feb-10,CPIH,2.1
+330,Mar-10,Total pay (real),3.6
+331,Mar-10,Regular pay (real),-0.2
+332,Mar-10,CPIH,2.4
+333,Apr-10,Total pay (real),-2.3
+334,Apr-10,Regular pay (real),-1.2
+335,Apr-10,CPIH,2.7
+336,May-10,Total pay (real),-1.2
+337,May-10,Regular pay (real),-1.3
+338,May-10,CPIH,2.5
+339,Jun-10,Total pay (real),-0.9
+340,Jun-10,Regular pay (real),-1.0
+341,Jun-10,CPIH,2.4
+342,Jul-10,Total pay (real),-0.6
+343,Jul-10,Regular pay (real),-0.1
+344,Jul-10,CPIH,2.3
+345,Aug-10,Total pay (real),-0.5
+346,Aug-10,Regular pay (real),-0.1
+347,Aug-10,CPIH,2.4
+348,Sep-10,Total pay (real),-0.4
+349,Sep-10,Regular pay (real),-0.2
+350,Sep-10,CPIH,2.4
+351,Oct-10,Total pay (real),-0.4
+352,Oct-10,Regular pay (real),-0.3
+353,Oct-10,CPIH,2.5
+354,Nov-10,Total pay (real),-0.6
+355,Nov-10,Regular pay (real),-0.2
+356,Nov-10,CPIH,2.6
+357,Dec-10,Total pay (real),-1.6
+358,Dec-10,Regular pay (real),-1.2
+359,Dec-10,CPIH,3.1
+360,Jan-11,Total pay (real),1.5
+361,Jan-11,Regular pay (real),-1.0
+362,Jan-11,CPIH,3.4
+363,Feb-11,Total pay (real),-1.6
+364,Feb-11,Regular pay (real),-1.5
+365,Feb-11,CPIH,3.7
+366,Mar-11,Total pay (real),-1.5
+367,Mar-11,Regular pay (real),-1.8
+368,Mar-11,CPIH,3.5
+369,Apr-11,Total pay (real),-1.4
+370,Apr-11,Regular pay (real),-1.6
+371,Apr-11,CPIH,3.8
+372,May-11,Total pay (real),-1.5
+373,May-11,Regular pay (real),-1.5
+374,May-11,CPIH,3.8
+375,Jun-11,Total pay (real),-0.9
+376,Jun-11,Regular pay (real),-1.6
+377,Jun-11,CPIH,3.6
+378,Jul-11,Total pay (real),-1.1
+379,Jul-11,Regular pay (real),-2.2
+380,Jul-11,CPIH,3.8
+381,Aug-11,Total pay (real),-2.0
+382,Aug-11,Regular pay (real),-2.2
+383,Aug-11,CPIH,3.9
+384,Sep-11,Total pay (real),-2.6
+385,Sep-11,Regular pay (real),-2.7
+386,Sep-11,CPIH,4.5
+387,Oct-11,Total pay (real),-2.2
+388,Oct-11,Regular pay (real),-2.3
+389,Oct-11,CPIH,4.3
+390,Nov-11,Total pay (real),-2.2
+391,Nov-11,Regular pay (real),-2.3
+392,Nov-11,CPIH,4.1
+393,Dec-11,Total pay (real),-1.5
+394,Dec-11,Regular pay (real),-1.6
+395,Dec-11,CPIH,3.7
+396,Jan-12,Total pay (real),-2.6
+397,Jan-12,Regular pay (real),-2.1
+398,Jan-12,CPIH,3.2
+399,Feb-12,Total pay (real),-1.9
+400,Feb-12,Regular pay (real),-1.4
+401,Feb-12,CPIH,3.1
+402,Mar-12,Total pay (real),-2.4
+403,Mar-12,Regular pay (real),-1.1
+404,Mar-12,CPIH,3.1
+405,Apr-12,Total pay (real),-0.8
+406,Apr-12,Regular pay (real),-1.1
+407,Apr-12,CPIH,2.8
+408,May-12,Total pay (real),-0.9
+409,May-12,Regular pay (real),-0.8
+410,May-12,CPIH,2.5
+411,Jun-12,Total pay (real),-1.2
+412,Jun-12,Regular pay (real),-0.4
+413,Jun-12,CPIH,2.3
+414,Jul-12,Total pay (real),-1.0
+415,Jul-12,Regular pay (real),-0.5
+416,Jul-12,CPIH,2.4
+417,Aug-12,Total pay (real),-0.1
+418,Aug-12,Regular pay (real),-0.2
+419,Aug-12,CPIH,2.3
+420,Sep-12,Total pay (real),-0.4
+421,Sep-12,Regular pay (real),-0.5
+422,Sep-12,CPIH,2.1
+423,Oct-12,Total pay (real),-1.0
+424,Oct-12,Regular pay (real),-1.1
+425,Oct-12,CPIH,2.4
+426,Nov-12,Total pay (real),-0.9
+427,Nov-12,Regular pay (real),-1.0
+428,Nov-12,CPIH,2.4
+429,Dec-12,Total pay (real),-1.1
+430,Dec-12,Regular pay (real),-1.2
+431,Dec-12,CPIH,2.4
+432,Jan-13,Total pay (real),-1.1
+433,Jan-13,Regular pay (real),-1.4
+434,Jan-13,CPIH,2.4
+435,Feb-13,Total pay (real),-1.2
+436,Feb-13,Regular pay (real),-1.7
+437,Feb-13,CPIH,2.5
+438,Mar-13,Total pay (real),-2.9
+439,Mar-13,Regular pay (real),-1.8
+440,Mar-13,CPIH,2.5
+441,Apr-13,Total pay (real),0.9
+442,Apr-13,Regular pay (real),-1.1
+443,Apr-13,CPIH,2.2
+444,May-13,Total pay (real),-0.8
+445,May-13,Regular pay (real),-1.4
+446,May-13,CPIH,2.4
+447,Jun-13,Total pay (real),-1.4
+448,Jun-13,Regular pay (real),-1.7
+449,Jun-13,CPIH,2.6
+450,Jul-13,Total pay (real),-1.6
+451,Jul-13,Regular pay (real),-1.4
+452,Jul-13,CPIH,2.5
+453,Aug-13,Total pay (real),-1.8
+454,Aug-13,Regular pay (real),-1.9
+455,Aug-13,CPIH,2.4
+456,Sep-13,Total pay (real),-1.4
+457,Sep-13,Regular pay (real),-1.7
+458,Sep-13,CPIH,2.4
+459,Oct-13,Total pay (real),-1.1
+460,Oct-13,Regular pay (real),-1.1
+461,Oct-13,CPIH,2.0
+462,Nov-13,Total pay (real),-1.1
+463,Nov-13,Regular pay (real),-1.3
+464,Nov-13,CPIH,1.9
+465,Dec-13,Total pay (real),-0.5
+466,Dec-13,Regular pay (real),-0.7
+467,Dec-13,CPIH,1.9
+468,Jan-14,Total pay (real),-0.1
+469,Jan-14,Regular pay (real),-0.1
+470,Jan-14,CPIH,1.8
+471,Feb-14,Total pay (real),0.4
+472,Feb-14,Regular pay (real),-0.6
+473,Feb-14,CPIH,1.6
+474,Mar-14,Total pay (real),-0.5
+475,Mar-14,Regular pay (real),-0.8
+476,Mar-14,CPIH,1.5
+477,Apr-14,Total pay (real),-3.0
+478,Apr-14,Regular pay (real),-1.2
+479,Apr-14,CPIH,1.7
+480,May-14,Total pay (real),-1.2
+481,May-14,Regular pay (real),-0.9
+482,May-14,CPIH,1.5
+483,Jun-14,Total pay (real),-1.0
+484,Jun-14,Regular pay (real),-1.1
+485,Jun-14,CPIH,1.8
+486,Jul-14,Total pay (real),-1.2
+487,Jul-14,Regular pay (real),-1.0
+488,Jul-14,CPIH,1.6
+489,Aug-14,Total pay (real),-0.7
+490,Aug-14,Regular pay (real),-0.5
+491,Aug-14,CPIH,1.5
+492,Sep-14,Total pay (real),0.1
+493,Sep-14,Regular pay (real),0.4
+494,Sep-14,CPIH,1.3
+495,Oct-14,Total pay (real),0.6
+496,Oct-14,Regular pay (real),0.4
+497,Oct-14,CPIH,1.3
+498,Nov-14,Total pay (real),0.7
+499,Nov-14,Regular pay (real),0.5
+500,Nov-14,CPIH,1.1
+501,Dec-14,Total pay (real),1.6
+502,Dec-14,Regular pay (real),0.7
+503,Dec-14,CPIH,0.7
+504,Jan-15,Total pay (real),0.9
+505,Jan-15,Regular pay (real),1.0
+506,Jan-15,CPIH,0.5
+507,Feb-15,Total pay (real),1.0
+508,Feb-15,Regular pay (real),1.8
+509,Feb-15,CPIH,0.4
+510,Mar-15,Total pay (real),3.7
+511,Mar-15,Regular pay (real),2.5
+512,Mar-15,CPIH,0.3
+513,Apr-15,Total pay (real),2.2
+514,Apr-15,Regular pay (real),2.4
+515,Apr-15,CPIH,0.3
+516,May-15,Total pay (real),2.2
+517,May-15,Regular pay (real),2.2
+518,May-15,CPIH,0.4
+519,Jun-15,Total pay (real),2.0
+520,Jun-15,Regular pay (real),2.4
+521,Jun-15,CPIH,0.3
+522,Jul-15,Total pay (real),3.1
+523,Jul-15,Regular pay (real),2.5
+524,Jul-15,CPIH,0.5
+525,Aug-15,Total pay (real),2.8
+526,Aug-15,Regular pay (real),2.2
+527,Aug-15,CPIH,0.4
+528,Sep-15,Total pay (real),1.9
+529,Sep-15,Regular pay (real),1.6
+530,Sep-15,CPIH,0.2
+531,Oct-15,Total pay (real),1.6
+532,Oct-15,Regular pay (real),1.4
+533,Oct-15,CPIH,0.2
+534,Nov-15,Total pay (real),1.6
+535,Nov-15,Regular pay (real),1.7
+536,Nov-15,CPIH,0.4
+537,Dec-15,Total pay (real),1.2
+538,Dec-15,Regular pay (real),1.5
+539,Dec-15,CPIH,0.5
+540,Jan-16,Total pay (real),2.0
+541,Jan-16,Regular pay (real),1.6
+542,Jan-16,CPIH,0.6
+543,Feb-16,Total pay (real),0.9
+544,Feb-16,Regular pay (real),1.8
+545,Feb-16,CPIH,0.6
+546,Mar-16,Total pay (real),1.6
+547,Mar-16,Regular pay (real),1.4
+548,Mar-16,CPIH,0.8
+549,Apr-16,Total pay (real),1.8
+550,Apr-16,Regular pay (real),1.6
+551,Apr-16,CPIH,0.7
+552,May-16,Total pay (real),1.7
+553,May-16,Regular pay (real),1.3
+554,May-16,CPIH,0.7
+555,Jun-16,Total pay (real),1.7
+556,Jun-16,Regular pay (real),1.4
+557,Jun-16,CPIH,0.8
+558,Jul-16,Total pay (real),1.6
+559,Jul-16,Regular pay (real),1.3
+560,Jul-16,CPIH,0.9
+561,Aug-16,Total pay (real),1.2
+562,Aug-16,Regular pay (real),1.4
+563,Aug-16,CPIH,1.0
+564,Sep-16,Total pay (real),1.2
+565,Sep-16,Regular pay (real),1.3
+566,Sep-16,CPIH,1.3
+567,Oct-16,Total pay (real),1.4
+568,Oct-16,Regular pay (real),1.3
+569,Oct-16,CPIH,1.3
+570,Nov-16,Total pay (real),1.3
+571,Nov-16,Regular pay (real),1.2
+572,Nov-16,CPIH,1.5
+573,Dec-16,Total pay (real),0.1
+574,Dec-16,Regular pay (real),0.5
+575,Dec-16,CPIH,1.8
+576,Jan-17,Total pay (real),-0.2
+577,Jan-17,Regular pay (real),0.1
+578,Jan-17,CPIH,1.9
+579,Feb-17,Total pay (real),0.4
+580,Feb-17,Regular pay (real),-0.6
+581,Feb-17,CPIH,2.3
+582,Mar-17,Total pay (real),-0.2
+583,Mar-17,Regular pay (real),-0.5
+584,Mar-17,CPIH,2.3
+585,Apr-17,Total pay (real),-0.8
+586,Apr-17,Regular pay (real),-0.7
+587,Apr-17,CPIH,2.6
+588,May-17,Total pay (real),-0.7
+589,May-17,Regular pay (real),-0.3
+590,May-17,CPIH,2.7
+591,Jun-17,Total pay (real),0.4
+592,Jun-17,Regular pay (real),-0.3
+593,Jun-17,CPIH,2.6
+594,Jul-17,Total pay (real),-1.0
+595,Jul-17,Regular pay (real),-0.5
+596,Jul-17,CPIH,2.6
+597,Aug-17,Total pay (real),-0.4
+598,Aug-17,Regular pay (real),-0.4
+599,Aug-17,CPIH,2.7
+600,Sep-17,Total pay (real),0.1
+601,Sep-17,Regular pay (real),-0.4
+602,Sep-17,CPIH,2.8
+603,Oct-17,Total pay (real),-0.4
+604,Oct-17,Regular pay (real),-0.4
+605,Oct-17,CPIH,2.8
+606,Nov-17,Total pay (real),-0.5
+607,Nov-17,Regular pay (real),-0.6
+608,Nov-17,CPIH,2.8
+609,Dec-17,Total pay (real),0.4
+610,Dec-17,Regular pay (real),0.0
+611,Dec-17,CPIH,2.7
+612,Jan-18,Total pay (real),-0.1
+613,Jan-18,Regular pay (real),0.0
+614,Jan-18,CPIH,2.7
+615,Feb-18,Total pay (real),0.2
+616,Feb-18,Regular pay (real),0.4
+617,Feb-18,CPIH,2.5
+618,Mar-18,Total pay (real),0.9
+619,Mar-18,Regular pay (real),0.7
+620,Mar-18,CPIH,2.3
+621,Apr-18,Total pay (real),0.0
+622,Apr-18,Regular pay (real),0.4
+623,Apr-18,CPIH,2.2
+624,May-18,Total pay (real),0.2
+625,May-18,Regular pay (real),0.3
+626,May-18,CPIH,2.3
+627,Jun-18,Total pay (real),-0.2
+628,Jun-18,Regular pay (real),0.5
+629,Jun-18,CPIH,2.3
+630,Jul-18,Total pay (real),1.0
+631,Jul-18,Regular pay (real),0.8
+632,Jul-18,CPIH,2.3
+633,Aug-18,Total pay (real),0.8
+634,Aug-18,Regular pay (real),0.9
+635,Aug-18,CPIH,2.4
+636,Sep-18,Total pay (real),0.6
+637,Sep-18,Regular pay (real),0.9
+638,Sep-18,CPIH,2.2
+639,Oct-18,Total pay (real),1.9
+640,Oct-18,Regular pay (real),1.2
+641,Oct-18,CPIH,2.2
+642,Nov-18,Total pay (real),1.1
+643,Nov-18,Regular pay (real),1.2
+644,Nov-18,CPIH,2.2
+645,Dec-18,Total pay (real),1.2
+646,Dec-18,Regular pay (real),1.2
+647,Dec-18,CPIH,2.0
+648,Jan-19,Total pay (real),1.9
+649,Jan-19,Regular pay (real),1.8
+650,Jan-19,CPIH,1.8
+651,Feb-19,Total pay (real),1.7
+652,Feb-19,Regular pay (real),1.4
+653,Feb-19,CPIH,1.8
+654,Mar-19,Total pay (real),0.6
+655,Mar-19,Regular pay (real),1.3
+656,Mar-19,CPIH,1.8
+657,Apr-19,Total pay (real),2.0
+658,Apr-19,Regular pay (real),2.0
+659,Apr-19,CPIH,2.0
+660,May-19,Total pay (real),2.0
+661,May-19,Regular pay (real),1.9
+662,May-19,CPIH,1.9
+663,Jun-19,Total pay (real),1.9
+664,Jun-19,Regular pay (real),2.1
+665,Jun-19,CPIH,1.9
+666,Jul-19,Total pay (real),2.1
+667,Jul-19,Regular pay (real),1.8
+668,Jul-19,CPIH,2.0
+669,Aug-19,Total pay (real),1.5
+670,Aug-19,Regular pay (real),1.8
+671,Aug-19,CPIH,1.7
+672,Sep-19,Total pay (real),2.4
+673,Sep-19,Regular pay (real),1.9
+674,Sep-19,CPIH,1.7
+675,Oct-19,Total pay (real),0.9
+676,Oct-19,Regular pay (real),1.6
+677,Oct-19,CPIH,1.5
+678,Nov-19,Total pay (real),1.6
+679,Nov-19,Regular pay (real),1.7
+680,Nov-19,CPIH,1.5
+681,Dec-19,Total pay (real),1.3
+682,Dec-19,Regular pay (real),1.8
+683,Dec-19,CPIH,1.4
+684,Jan-20,Total pay (real),1.3
+685,Jan-20,Regular pay (real),0.9
+686,Jan-20,CPIH,1.8
+687,Feb-20,Total pay (real),1.0
+688,Feb-20,Regular pay (real),1.2
+689,Feb-20,CPIH,1.7
+690,Mar-20,Total pay (real),-0.2
+691,Mar-20,Regular pay (real),0.9
+692,Mar-20,CPIH,1.5
+693,Apr-20,Total pay (real),-2.0
+694,Apr-20,Regular pay (real),-0.9
+695,Apr-20,CPIH,0.9
+696,May-20,Total pay (real),-2.0
+697,May-20,Regular pay (real),-0.8
+698,May-20,CPIH,0.7
+699,Jun-20,Total pay (real),-2.2
+700,Jun-20,Regular pay (real),-0.9
+701,Jun-20,CPIH,0.8
+702,Jul-20,Total pay (real),-1.3
+703,Jul-20,Regular pay (real),-0.1
+704,Jul-20,CPIH,1.1
+705,Aug-20,Total pay (real),1.6
+706,Aug-20,Regular pay (real),1.5
+707,Aug-20,CPIH,0.5
+708,Sep-20,Total pay (real),1.3
+709,Sep-20,Regular pay (real),2.1
+710,Sep-20,CPIH,0.7
+711,Oct-20,Total pay (real),3.1
+712,Oct-20,Regular pay (real),2.8
+713,Oct-20,CPIH,0.9
+714,Nov-20,Total pay (real),4.8
+715,Nov-20,Regular pay (real),3.6
+716,Nov-20,CPIH,0.6
+717,Dec-20,Total pay (real),3.9
+718,Dec-20,Regular pay (real),3.5
+719,Dec-20,CPIH,0.8
+720,Jan-21,Total pay (real),3.7
+721,Jan-21,Regular pay (real),3.3
+722,Jan-21,CPIH,0.9
+723,Feb-21,Total pay (real),3.3
+724,Feb-21,Regular pay (real),3.6
+725,Feb-21,CPIH,0.7
+726,Mar-21,Total pay (real),2.9
+727,Mar-21,Regular pay (real),3.8
+728,Mar-21,CPIH,1.0
+729,Apr-21,Total pay (real),7.8
+730,Apr-21,Regular pay (real),5.9
+731,Apr-21,CPIH,1.6
+732,May-21,Total pay (real),7.1
+733,May-21,Regular pay (real),5.2
+734,May-21,CPIH,2.1
+735,Jun-21,Total pay (real),6.5
+736,Jun-21,Regular pay (real),4.7
+737,Jun-21,CPIH,2.4
+738,Jul-21,Total pay (real),5.1
+739,Jul-21,Regular pay (real),3.8
+740,Jul-21,CPIH,2.1
+741,Aug-21,Total pay (real),2.7
+742,Aug-21,Regular pay (real),1.8
+743,Aug-21,CPIH,3.0
+744,Sep-21,Total pay (real),1.8
+745,Sep-21,Regular pay (real),1.1
+746,Sep-21,CPIH,2.9
+747,Oct-21,Total pay (real),0.6
+748,Oct-21,Regular pay (real),0.0
+749,Oct-21,CPIH,3.8
+750,Nov-21,Total pay (real),-0.9
+751,Nov-21,Regular pay (real),-1.0
+752,Nov-21,CPIH,4.6
+753,Dec-21,Total pay (real),1.0
+754,Dec-21,Regular pay (real),-1.1
+755,Dec-21,CPIH,4.8
+756,Jan-22,Total pay (real),0.4
+757,Jan-22,Regular pay (real),-0.6
+758,Jan-22,CPIH,4.9
+759,Feb-22,Total pay (real),0.3
+760,Feb-22,Regular pay (real),-1.2
+761,Feb-22,CPIH,5.5
+762,Mar-22,Total pay (real),3.6
+763,Mar-22,Regular pay (real),-1.9
+764,Mar-22,CPIH,6.2
+765,Apr-22,Total pay (real),-2.5
+766,Apr-22,Regular pay (real),-3.5
+767,Apr-22,CPIH,7.8
+768,May-22,Total pay (real),-3.2
+769,May-22,Regular pay (real),-2.6
+770,May-22,CPIH,7.9
+771,Jun-22,Total pay (real),-1.7
+772,Jun-22,Regular pay (real),-2.8
+773,Jun-22,CPIH,8.2
+774,Jul-22,Total pay (real),-2.8
+775,Jul-22,Regular pay (real),-3.0
+776,Jul-22,CPIH,8.8
+777,Aug-22,Total pay (real),-2.7
+778,Aug-22,Regular pay (real),-2.8
+779,Aug-22,CPIH,8.6
