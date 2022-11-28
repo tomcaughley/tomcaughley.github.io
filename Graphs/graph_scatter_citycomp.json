@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
+  "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/City%20data%20TIDY.csv"},
+  
+  "title": {
+      "text": "City Case Study Comparision",
+      "subtitle":["Comparison of three western-European cities of similar population size", "Bristol, West of England Combined Authority (UK), Hannover (DE), Toulouse (FR)", " Size of city-wide public transport(x), Annual GDP Growth Rates (y), 1998-2021","Sources: Statista, Eurostat, Region Hannover, Finanzen.net, OFX, ONS", " "],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+    "width": 250,
+    "height": 200,
+  
+  "layer":[{
+  
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "transport turnover (£mil)", "type": "quantitative", "title": "Local Transport Company Revenue (Millions of Pounds)"},
+    "y": {"field": "GDP growth rate", "type": "quantitative", "title": "GDP Growth Rate (%)"},
+    "color":{"field":"City"}
+  }
+
+  },
+
+  
+    {
+      "mark": {"type": "line", "color": "grey"},
+
+      "transform": [{"regression": "GDP growth rate", "on": "transport turnover (£mil)", "extent": [30,425]}],
+         
+      "encoding": {
+        "x": {"field": "transport turnover (£mil)", "type": "quantitative", "scale": {"domain": [0, 500]}},
+        
+        "y": {"field": "GDP growth rate", "type": "quantitative", "scale": {"domain": [-10, 10]}}
+
+      }},
+
+      {"transform": [
+        {"regression": "GDP growth rate", "on": "transport turnover (£mil)", "params": true},
+        {"calculate": "'R^2: '+format(datum.rSquared, '.2f')", "as": "R^2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "#122b39",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {"text": {"type": "nominal", "field": "R^2"}}
+    } 
+    ]
+
+
+      
+
+      }
+
+  
+
+  
+
