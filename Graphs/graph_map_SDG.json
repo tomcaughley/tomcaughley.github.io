@@ -1,0 +1,77 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+
+
+ "title": {
+      "text": "Public Satisfaction with Public Transport",
+      "subtitle":["SDG Goal 11: Sustainable Cities and Communities", "82.5% Long-Term Goal","Source: Sustainable Development Report 2022"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+
+
+  "params": [
+    {
+      "name": "yearSelector",
+      "value": 2018,
+      "bind": {
+        "input": "range",
+        "min": 2006,
+        "max": 2021,
+        "step": 1,
+        "name": "Year:"
+      }
+    }
+  ],
+
+  "height": 300,
+  "width": 550,
+  "data": {
+    "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
+    "format": {"type": "topojson", "feature": "countries"}
+  },
+  "transform": [
+    {"calculate": "parseInt(datum.id)", "as": "id_N"},
+    {
+      "lookup": "id_N",
+      "from": {
+        "key": "id",
+        "fields": ["name"],
+        "data": {
+          "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/maps/dataWorldCountryNamesIDs.json"
+        }
+      }
+    },
+    {
+      "lookup": "name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/sdg_long.csv"
+        },
+        "key": "Country",
+        "fields": ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"]
+      }
+    },
+    {"fold": ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"], "as": ["Year", "Value"]},
+    {"calculate": "toNumber(datum.Value)", "as": "Value_N"},
+    {"filter": "datum.Year==yearSelector"}
+  ],
+  "projection": {"type": "naturalEarth1"},
+  "mark": {"type": "geoshape", "stroke": "rgb(50, 50, 50)", "strokeWidth": 0.1},
+  "encoding": {
+    "tooltip": [
+      {"field": "name", "title": "Country"},
+      {"field": "2020", "title": "€/KG", "type": "quantitative"}
+    ],
+    "color": {
+      "field": "Value_N",
+      "type": "quantitative",
+      "scale": {"scheme": "redyellowgreen"},
+      "title": "Pulic Satisfaction (%)",
+      "legend": {"orient": "bottom", "direction": "horizontal"}
+    }
+  }
+}
