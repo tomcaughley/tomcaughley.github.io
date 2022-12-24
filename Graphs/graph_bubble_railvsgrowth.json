@@ -15,7 +15,7 @@
       "stroke": "transparent"}},
   
     "data": {
-      "url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/rail%20km%20per%20capita.csv",
+      "url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/rail%20km%20per%20capita%20gdp%20growth.csv",
       "format":{"type":"csv"}},
     
 
@@ -25,10 +25,10 @@
     
     
     {
-        "filter": "datum.Year>=minYear"
+        "filter": "datum.TIME>=minYear"
     },
     {
-    "filter": "datum.Year<=maxYear"
+    "filter": "datum.TIME<=maxYear"
     }
 
 
@@ -81,7 +81,7 @@
   
     "encoding": {
       "x": {
-        "field": "rail km per capita", 
+        "field": "Rail Passenger KM per capita", 
         "type": "quantitative",
         "scale": {"domain": [0, 3500]},
         "axis":{"grid": false},
@@ -111,10 +111,10 @@
       
       "tooltip":[
         {"field":"Country", "type": "ordinal", "title":"Country"},
-        {"field":"rail km per capita", "type": "quantitative", "title":"Rail km per capita", "format":".0f"},
+        {"field":"Rail Passenger KM per capita", "type": "quantitative", "title":"Rail km per capita", "format":".0f"},
         {"field":"GDP Growth Rate", "type": "quantitative", "title":"GDP Growth Rate (%)", "format":".0f"},
         {"field":"Population", "type": "quantitative", "title":"Population", "format":","},
-        {"field":"Year", "type": "quantitative", "title":"Year"}
+        {"field":"TIME", "type": "quantitative", "title":"Year"}
 
       ]
       
@@ -123,10 +123,10 @@
     {
       "mark": {"type": "line", "color": "grey"},
 
-      "transform": [{"regression": "GDP Growth Rate", "on": "rail km per capita", "extent": [30,1750]}],
+      "transform": [{"regression": "GDP Growth Rate", "on": "Rail Passenger KM per capita", "extent": [30,1750]}],
          
       "encoding": {
-        "x": {"field": "rail km per capita", "type": "quantitative", "scale": {"domain": [0, 3500]}},
+        "x": {"field": "Rail Passenger KM per capita", "type": "quantitative", "scale": {"domain": [0, 3500]}},
         
         "y": {"field": "GDP Growth Rate", "type": "quantitative", "scale": {"domain": [-15, 15]}}
       }}
