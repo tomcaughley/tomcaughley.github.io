@@ -1,0 +1,175 @@
+,City/Measure,Time Period,Percentage
+0,Edinburgh gdp/capita GR,-6,-1.4
+1,Edinburgh gdp/capita GR,-5,-4.0
+2,Edinburgh gdp/capita GR,-4,0.7
+3,Edinburgh gdp/capita GR,-3,-0.1
+4,Edinburgh gdp/capita GR,-2,0.4
+5,Edinburgh gdp/capita GR,-1,0.7
+6,Edinburgh gdp/capita GR,0,0.9
+7,Edinburgh gdp/capita GR,1,2.4
+8,Edinburgh gdp/capita GR,2,3.1
+9,Edinburgh gdp/capita GR,3,2.2
+10,Edinburgh gdp/capita GR,4,1.0
+11,Edinburgh gdp/capita GR,5,0.4
+12,cambridge gdp/capita GR,-6,-0.5
+13,cambridge gdp/capita GR,-5,-2.0
+14,cambridge gdp/capita GR,-4,-1.8
+15,cambridge gdp/capita GR,-3,1.4
+16,cambridge gdp/capita GR,-2,2.4
+17,cambridge gdp/capita GR,-1,4.6
+18,cambridge gdp/capita GR,0,1.0
+19,cambridge gdp/capita GR,1,2.4
+20,cambridge gdp/capita GR,2,0.7
+21,cambridge gdp/capita GR,3,3.5
+22,cambridge gdp/capita GR,4,-1.0
+23,cambridge gdp/capita GR,5,4.4
+24,edinburgh gdp,-6,-1.4
+25,edinburgh gdp,-5,-2.7
+26,edinburgh gdp,-4,0.0
+27,edinburgh gdp,-3,-0.8
+28,edinburgh gdp,-2,2.7
+29,edinburgh gdp,-1,1.0
+30,edinburgh gdp,0,-0.1
+31,edinburgh gdp,1,3.5
+32,edinburgh gdp,2,6.6
+33,edinburgh gdp,3,3.9
+34,edinburgh gdp,4,1.8
+35,edinburgh gdp,5,0.9
+36,"glasgow gdp
+",-6,1.3
+37,"glasgow gdp
+",-5,-4.6
+38,"glasgow gdp
+",-4,-0.7
+39,"glasgow gdp
+",-3,3.6
+40,"glasgow gdp
+",-2,0.3
+41,"glasgow gdp
+",-1,2.9
+42,"glasgow gdp
+",0,1.0
+43,"glasgow gdp
+",1,1.0
+44,"glasgow gdp
+",2,1.4
+45,"glasgow gdp
+",3,3.5
+46,"glasgow gdp
+",4,1.3
+47,"glasgow gdp
+",5,3.3
+48,west mids CA gdp/capita gr,-6,5.090953486
+49,west mids CA gdp/capita gr,-5,5.076672862
+50,west mids CA gdp/capita gr,-4,6.677722499
+51,west mids CA gdp/capita gr,-3,3.793139185
+52,west mids CA gdp/capita gr,0,3.016899921
+53,west mids CA gdp/capita gr,1,2.883691125
+54,west mids CA gdp/capita gr,2,4.316412333
+55,west mids CA gdp/capita gr,3,3.200382135
+56,west mids CA gdp/capita gr,4,4.582272622
+57,west mids CA gdp/capita gr,5,4.304049568
+58,west mids CA gdp/capita gr,6,4.094621831
+59,West Yorkshire Combined Authority,-6,5.636272545
+60,West Yorkshire Combined Authority,-5,3.545174295
+61,West Yorkshire Combined Authority,-4,4.958204512
+62,West Yorkshire Combined Authority,-3,4.571241545
+63,West Yorkshire Combined Authority,0,1.659886086
+64,West Yorkshire Combined Authority,1,4.202016968
+65,West Yorkshire Combined Authority,2,5.814578693
+66,West Yorkshire Combined Authority,3,5.945121951
+67,West Yorkshire Combined Authority,4,6.303528606
+68,West Yorkshire Combined Authority,5,5.414115372
+69,West Yorkshire Combined Authority,6,3.032711709
+70,west mids gdp/capita,-6,12825.92
+71,west mids gdp/capita,-5,13477.05
+72,west mids gdp/capita,-4,14377.01
+73,west mids gdp/capita,-3,14922.35
+74,west mids gdp/capita,-1,15148.0
+75,west mids gdp/capita,0,15605.0
+76,west mids gdp/capita,1,16055.0
+77,west mids gdp/capita,2,16748.0
+78,west mids gdp/capita,3,17284.0
+79,west mids gdp/capita,4,18076.0
+80,west mids gdp/capita,5,18854.0
+81,west mids gdp/capita,6,19626.0
+82,yorkshire gdp /capita,-6,12566.66
+83,yorkshire gdp /capita,-5,13012.17
+84,yorkshire gdp /capita,-4,13657.34
+85,yorkshire gdp /capita,-3,14281.65
+86,yorkshire gdp /capita,-1,12290.0
+87,yorkshire gdp /capita,0,12494.0
+88,yorkshire gdp /capita,1,13019.0
+89,yorkshire gdp /capita,2,13776.0
+90,yorkshire gdp /capita,3,14595.0
+91,yorkshire gdp /capita,4,15515.0
+92,yorkshire gdp /capita,5,16355.0
+93,yorkshire gdp /capita,6,16851.0
+94,,-6,5.090953486
+95,,-5,5.076672862
+96,,-4,6.677722499
+97,,-3,3.793139185
+98,,0,3.016899921
+99,,1,2.883691125
+100,,2,4.316412333
+101,,3,3.200382135
+102,,4,4.582272622
+103,,5,4.304049568
+104,,6,4.094621831
+105,,-6,5.636272545
+106,,-5,3.545174295
+107,,-4,4.958204512
+108,,-3,4.571241545
+109,,0,1.659886086
+110,,1,4.202016968
+111,,2,5.814578693
+112,,3,5.945121951
+113,,4,6.303528606
+114,,5,5.414115372
+115,,6,3.032711709
+116,west mids gdp,-6,45533.0
+117,west mids gdp,-5,47891.0
+118,west mids gdp,-4,51200.0
+119,west mids gdp,-3,53245.0
+120,west mids gdp,-1,59631.0
+121,west mids gdp,0,61390.0
+122,west mids gdp,1,62585.0
+123,west mids gdp,2,64635.0
+124,west mids gdp,3,64982.0
+125,west mids gdp,4,66309.0
+126,west mids gdp,5,67566.0
+127,west mids gdp,6,68283.0
+128,yorkshire gdp,-6,42287.0
+129,yorkshire gdp,-5,43892.0
+130,yorkshire gdp,-4,46099.0
+131,yorkshire gdp,-3,48266.0
+132,yorkshire gdp,-1,45050.0
+133,yorkshire gdp,0,47480.0
+134,yorkshire gdp,1,48379.0
+135,yorkshire gdp,2,49440.0
+136,yorkshire gdp,3,50339.0
+137,yorkshire gdp,4,52619.0
+138,yorkshire gdp,5,54294.0
+139,yorkshire gdp,6,55637.0
+140,west mids gdp gr,-6,5.33462882
+141,west mids gdp gr,-5,5.17866163
+142,west mids gdp gr,-4,6.909440187
+143,west mids gdp gr,-3,3.994140625
+144,west mids gdp gr,0,2.949807986
+145,west mids gdp gr,1,1.946571103
+146,west mids gdp gr,2,3.275545258
+147,west mids gdp gr,3,0.536860834
+148,west mids gdp gr,4,2.042103967
+149,west mids gdp gr,5,1.895670271
+150,west mids gdp gr,6,1.061184619
+151,yorkshire gdp gr,-6,5.884267722
+152,yorkshire gdp gr,-5,3.795492705
+153,yorkshire gdp gr,-4,5.028251162
+154,yorkshire gdp gr,-3,4.700752728
+155,yorkshire gdp gr,0,5.394006659
+156,yorkshire gdp gr,1,1.893428812
+157,yorkshire gdp gr,2,2.193100312
+158,yorkshire gdp gr,3,1.818365696
+159,yorkshire gdp gr,4,4.529291404
+160,yorkshire gdp gr,5,3.183260799
+161,yorkshire gdp gr,6,2.473569824
