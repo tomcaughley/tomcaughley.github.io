@@ -1,0 +1,94 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+
+  "title": {
+  "text": "Public Transport Inflation",
+  "subtitle": ["Total vs Public Transport Related Inflation","Jan 1997 = 100, Source = ONS"],
+  "subtitleFontStyle":"italic",
+  "subtitleFontSize":10,
+  "anchor": "start",
+  "color": "black"
+},
+
+
+  "width":300,
+  "height":300,
+
+
+  "encoding": {
+
+     "x": {
+  "field": "date",
+  "type": "temporal",
+  "title": null,
+  "axis": {
+  "grid": true
+  }
+  },
+  "y": {
+  "field": "value",
+  "type": "quantitative",
+  "title": "Inflation index",
+  "axis": {
+  "grid": false
+  }
+  },
+    
+    "color": {
+      "field": "name", 
+      "type": "nominal", 
+      "title":null,
+      "legend":{"orient": "bottom", "columns":1},
+      "scale":{"scheme":"darkmulti"}},
+
+    "tooltip":[
+      {"field":"name", "title":"Division"},
+      {"field":"year", "title":"Year", "type": "temporal", "format":"%Y"},
+      {"field":"value", "title":"Weight"}
+
+    ]
+  },
+
+
+  "layer":[
+    
+  {"data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Fares%20API/data_ONS-CHAW.json",
+    "format": {"type":"json", "property": "years"}},
+    "transform": [
+      {"calculate":"replace(datum.quarter, '', '1. RPI: All Items Index')", "as": "name"}
+    ],
+    "mark":{"type": "line", "color": "#000000","strokeWidth": 2.5, "opacity": 0.8}},
+
+    {"data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Fares%20API/data_ONS-CHBR.json",
+    "format": {"type":"json", "property": "years"}},
+    "transform": [
+      {"calculate":"replace(datum.quarter, '', '2. RPI: Fares & Other Travel Costs')", "as": "name"}
+    ],
+    "mark":{"type": "line","strokeWidth": 2.5, "opacity": 0.8}},
+
+    {"data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Fares%20API/data_ONS-DOCW.json",
+    "format": {"type":"json", "property": "years"}},
+    "transform": [
+      {"calculate":"replace(datum.quarter, '', '4. RPI: Rail Fares')", "as": "name"}
+  ],
+    "mark":{"type": "line","strokeWidth": 2.5, "opacity": 0.8}},
+
+    {"data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Fares%20API/data_ONS-DOCX.json",
+    "format": {"type":"json", "property": "years"}},
+    "transform": [
+      {"calculate":"replace(datum.quarter, '', '3. RPI: Bus & Coach Fares')", "as": "name"}
+    ],
+    "mark":{"type": "line","strokeWidth": 2.5, "opacity": 0.8}},
+
+    {"data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Fares%20API/data_ONS-DOCY.json",
+    "format": {"type":"json", "property": "years"}},
+    "transform": [
+      {"calculate":"replace(datum.quarter, '', '5. RPI: Other Travel Costs')", "as": "name"}
+    ],
+    "mark":{"type": "line","strokeWidth": 2.5, "opacity": 0.8}}
+  
+]
+ 
+}

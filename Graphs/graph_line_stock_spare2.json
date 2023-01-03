@@ -1,0 +1,78 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Stock Price of Olympic Partner Programme Firms",
+      "subtitle": "Price at close (US$) over past year, Source: Yahoo Finance",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#FEFEFE",
+      "subtitleColor": "#B3B3B3"
+    },
+    "config": {"background": "#404040", "view": {"stroke": "transparent"}},
+    "data": {
+      "url": "https://raw.githubusercontent.com/chrisbrierley20/chrisbrierley20.github.io/main/project_sponsorship.csv"
+    },
+    "width": 290,
+    "height": 300,
+    "encoding": {
+      "x": {
+        "field": "Date",
+        "type": "temporal",
+        "title": null,
+        "axis": {
+          "grid": false,
+          "domainColor": "#B3B3B3",
+          "labelColor": "#FFFFFF",
+          "tickColor": "#B3B3B3",
+          "gridColor": "black"
+        }
+      },
+      "y": {
+        "field": "Close",
+        "type": "quantitative",
+        "title": "Closing Price (US$)",
+        "axis": {
+          "grid": false,
+          "domainColor": "#B3B3B3",
+          "labelColor": "#FFFFFF",
+          "tickColor": "#B3B3B3",
+          "gridColor": "black",
+          "titleColor": "#FFFFFF"
+        }
+      },
+      "color": {
+        "condition": {
+          "param": "hover",
+          "field": "Name",
+          "type": "nominal",
+          "legend": null
+        },
+        "value": "grey"
+      },
+      "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0.2},
+      "tooltip": [
+        {"field": "Name", "title": "Sponsor"},
+        {
+          "field": "Close",
+          "title": "Closing Price (US$)",
+          "type": "quantitative"
+        },
+        {"field": "Date", "type": "temporal"}
+      ]
+    },
+    "layer": [
+      {
+        "description": "transparent layer to make it easier to trigger selection",
+        "params": [
+          {
+            "name": "hover",
+            "value": [{"Name": "ABNB"}],
+            "select": {"type": "point", "fields": ["Name"], "on": "mouseover"}
+          }
+        ],
+        "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+      },
+      {"mark": "line"}
+    ]
+  }

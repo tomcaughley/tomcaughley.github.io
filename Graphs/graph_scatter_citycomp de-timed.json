@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
+  "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/city%20turnover%20gdp%20per%20capita%20de-timed.csv"},
+  
+  "title": {
+      "text": "City Case Study Comparision",
+      "subtitle":["Comparison of three western-European cities of similar population size", "Bristol, West of England Combined Authority (UK), Hannover (DE), Toulouse (FR)", " Size of city-wide public transport(x), Annual GDP Growth Rates (y), 1998-2021","Sources: Statista, Eurostat, Region Hannover, Finanzen.net, OFX, ONS", " "],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+    "width": 400,
+    "height": 250,
+  
+  "layer":[{
+  
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "Turnover de-time", "type": "quantitative", "title": "Local Transport Company Revenue De-Timed (Millions of Pounds)"},
+    "y": {"field": "GDP per capita de-time", "type": "quantitative", "title": "GDP per capita de-timed"},
+    "color":{"field":"City"}
+  }
+
+  },
+
+  
+    {
+      "mark": {"type": "line", "color": "grey"},
+
+      "transform": [{"regression": "GDP per capita de-time", "on": "Turnover de-time", "extent": [-25,25]}],
+         
+      "encoding": {
+        "x": {"field": "Turnover de-time", "type": "quantitative"},
+        
+        "y": {"field": "GDP per capita de-time", "type": "quantitative" }
+
+      }},
+
+      {"transform": [
+        {"regression": "GDP per capita de-time", "on": "Turnover de-time", "params": true},
+        {"calculate": "'R^2: '+format(datum.rSquared, '.2f')", "as": "R^2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "#122b39",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {"text": {"type": "nominal", "field": "R^2"}}
+    } 
+    ]
+
+
+      
+
+      }
+
+  
+
+  
+

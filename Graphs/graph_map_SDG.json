@@ -64,7 +64,7 @@
   "encoding": {
     "tooltip": [
       {"field": "name", "title": "Country"},
-      {"field": "2020", "title": "€/KG", "type": "quantitative"}
+      {"field": "2020", "title": "Satisfaction (%)", "type": "quantitative"}
     ],
     "color": {
       "field": "Value_N",

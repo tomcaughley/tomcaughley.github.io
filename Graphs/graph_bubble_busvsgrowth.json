@@ -1,7 +1,7 @@
 { "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
     "title": {
-      "text": "Use of Rail vs GDP Growth",
+      "text": "Use of Bus and Coaches vs GDP Growth",
       "subtitle":["Passenger Transport Kilometers (x), Annual GDP Growth Rates (y), 1970-2021","Source: OECD","Size of points based on popluation", "Colour based on magnitude of GDP growth for visual clarity"],
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
@@ -15,7 +15,7 @@
       "stroke": "transparent"}},
   
     "data": {
-      "url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/rail%20km%20per%20capita%20gdp%20growth.csv",
+      "url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/bus%20km%20per%20capita%20gdp%20growth.csv",
       "format":{"type":"csv"}},
     
 
@@ -81,11 +81,11 @@
   
     "encoding": {
       "x": {
-        "field": "Rail Passenger KM per capita", 
+        "field": "Bus Passenger KM per capita", 
         "type": "quantitative",
-        "scale": {"domain": [0, 3500]},
+        "scale": {"domain": [0, 4300]},
         "axis":{"grid": false},
-        "title":"Annual Rail Usage per capita (km)"},
+        "title":"Annual Bus Usage per capita (km)"},
   
       "y": {
         "field": "GDP Growth Rate", 
@@ -111,7 +111,7 @@
       
       "tooltip":[
         {"field":"Country", "type": "ordinal", "title":"Country"},
-        {"field":"Rail Passenger KM per capita", "type": "quantitative", "title":"Rail km per capita", "format":".0f"},
+        {"field":"Bus Passenger KM per capita", "type": "quantitative", "title":"Bus km per capita", "format":".0f"},
         {"field":"GDP Growth Rate", "type": "quantitative", "title":"GDP Growth Rate (%)", "format":".0f"},
         {"field":"Population", "type": "quantitative", "title":"Population", "format":","},
         {"field":"Year", "type": "quantitative", "title":"Year"}
@@ -123,10 +123,10 @@
     {
       "mark": {"type": "line", "color": "grey"},
 
-      "transform": [{"regression": "GDP Growth Rate", "on": "Rail Passenger KM per capita", "extent": [30,1750]}],
+      "transform": [{"regression": "GDP Growth Rate", "on": "Bus Passenger KM per capita", "extent": [30,1750]}],
          
       "encoding": {
-        "x": {"field": "Rail Passenger KM per capita", "type": "quantitative", "scale": {"domain": [0, 3500]}},
+        "x": {"field": "Bus Passenger KM per capita", "type": "quantitative", "scale": {"domain": [0, 3500]}},
         
         "y": {"field": "GDP Growth Rate", "type": "quantitative", "scale": {"domain": [-15, 15]}}
       }}
