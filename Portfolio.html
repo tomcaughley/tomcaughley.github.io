@@ -23,6 +23,39 @@
 
 
 <body>
+    
+
+
+    <!-- top banner -->
+    <div id="banner">
+        <div id="banner-content">
+            <p></p>
+        </div>
+      </div>
+      <div id="main-content">
+
+
+
+    
+     <!-- Side navigation -->
+<div class="sidenav">
+    <a href="index.html">Home</a>
+    <p> </p>
+    <a href="Portfolio.html">Portfolio</a>
+    <p> </p>
+    <a href="Project.html">Project</a>
+    <p> </p>
+    <a href="https://github.com/tomcaughley/tomcaughley.github.io">Github</a>
+  </div>
+  
+  <!-- Page content -->
+  <div class="main">
+    
+    
+    
+    
+    
+    
     <!-- Header -->
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <div class="myWeek1">
@@ -45,7 +78,7 @@
         <p>The first chart tracks the share of population aged over 65</p>
         
             <div class="container1">
-        <div class="chart" id="Chart1"></div>
+        <div class="chart" id="Chart01"></div>
         </div>
         </div>
 
@@ -54,7 +87,7 @@
         <p>My second chart looks at the GDP loss in different global warming scenarios</p>
         
         <div class="container1">
-        <div class="chart" id="Chart2"> </div>
+        <div class="chart" id="Chart02"> </div>
     </div>
     </div>
 </div>
@@ -253,7 +286,7 @@
     <div class="chart" id="Chart21"> </div>
 </div>
 <p> </p>
-<h3>Scatter Graph with Univariate Regression</h3>
+<h3>Detrended Scatter Graph with Univariate Regression</h3>
 <div class="container1">
     <div class="chart" id="Chart22"></div>
 </div>
@@ -262,11 +295,40 @@
 
 </div>
 
+<p> </p>
+
+
+
+
+<!-- Week 10 -->
+<div class="myWeek1">
+    <h2>Week 10</h2>
+    <h3>Machine Learning</h3>
+
+<p> </p>
+
+<!-- graphs -->
+<h3>Time Series Hierarchical Clustering</h3>
+<div class="container1">
+    <img src="stock_comparison.png">
+</div>
+<p> </p>
+
+
+<p> </p>
 
 
 
 
 
+</div>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+  </div>
+  </div>
 </body>
 
 
@@ -277,13 +339,13 @@
 
 <script>
     //Define charts:
-    var myChart1 = "chartextreme1.json";
-    var myChart2 = "chartENV15.json";
-    var myChart3 = "imflending.json";
-    var myChart4 = "imflending2.json";
-    var myChart5 = "UNRATE1.json";
-    var myChart6 = "UNRATE2.json";
-    var myChart7 = "Wimbledon Winners.json";
+    var myChart1 = "Portfolio Graphs/chartextreme1.json";
+    var myChart2 = "Portfolio Graphs/chartENV15.json";
+    var myChart3 = "Portfolio Graphs/imflending.json";
+    var myChart4 = "Portfolio Graphs/imflending2.json";
+    var myChart5 = "Portfolio Graphs/UNRATE1.json";
+    var myChart6 = "Portfolio Graphs/UNRATE2.json";
+    var myChart7 = "Portfolio Graphs/Wimbledon Winners.json";
     var myChart8 = "Week 5 Graphs/graph_ONS_CHAW.json";
     var myChart9 = "Week 5 Graphs/graph_ONS_CHAY.json";
     var myChart10 = "Week 5 Graphs/graph_ONS_CHAZ.json";
@@ -293,16 +355,16 @@
     var myChart14 = "Week 5 Graphs/graph_ONS_CHBI.json";
     var myChart15 = "Week 5 Graphs/graph_ONS_CHBM.json";
     var myChart16 = "Week 5 Graphs/graph_ONS_CHBR.json";
-    var myChart17 = "graph_map_DE.json";
-    var myChart18 = "Graphs/graph_map_SDG.json";
-    var myChart19 = "graph_line_productivity.json";
-    var myChart20 = "graph_line_wagegrowth.json";
+    var myChart17 = "Portfolio Graphs/graph_map_DE.json";
+    var myChart18 = "Portfolio Graphs/Graphs/graph_map_SDG.json";
+    var myChart19 = "Portfolio Graphs/graph_line_productivity.json";
+    var myChart20 = "Portfolio Graphs/graph_line_wagegrowth.json";
     var myChart21 = "Graphs/graph_bubble_railvsgrowth.json";
-    var myChart22 = "Graphs/graph_scatter_citycomp.json";
+    var myChart22 = "Graphs/graph_scatter_citycomp de-timed.json";
 
     // Embed charts:
-    vegaEmbed('#Chart1', myChart1);
-    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart01', myChart1);
+    vegaEmbed('#Chart02', myChart2);
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
@@ -323,6 +385,36 @@
     vegaEmbed('#Chart20', myChart20);
     vegaEmbed('#Chart21', myChart21);
     vegaEmbed('#Chart22', myChart22);
+
+
+
+
+
+
+///////////////////////////////////////////////
+//Code for the scroll to the top button
+
+    // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
 
 </script>
 

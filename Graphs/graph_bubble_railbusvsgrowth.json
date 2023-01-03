@@ -2,7 +2,7 @@
 
     "title": {
       "text": "Use of Rail vs GDP Growth",
-      "subtitle":["Passenger Transport Kilometers (x), Annual GDP Growth Rates (y), 1970-2021","Source: OECD","Size of points based on popluation", "Colour based on magnitude of GDP growth for visual clarity"],
+      "subtitle":["Passenger Transport Kilometers (x), Annual GDP Growth Rates (y), 1970-2021","Source: OECD","Size of points based on Bus Passenger KM per capita", "Colour based on magnitude of GDP growth for visual clarity"],
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
@@ -15,7 +15,7 @@
       "stroke": "transparent"}},
   
     "data": {
-      "url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/rail%20km%20per%20capita%20gdp%20growth.csv",
+      "url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/bus%20and%20rail%20km%20per%20capita%20gdp%20growth.csv",
       "format":{"type":"csv"}},
     
 
@@ -95,10 +95,10 @@
         "title":"GDP Growth Rate (%)"},
   
       "size": {
-        "field": "Population", 
+        "field": "Bus Passenger KM per capita", 
         "type": "quantitative",
-        "title":"Prison Rate",
-        "scale": { "range": [10, 600]},
+        
+        "scale": { "range": [0, 500]},
         "legend":null},
 
         
@@ -113,7 +113,7 @@
         {"field":"Country", "type": "ordinal", "title":"Country"},
         {"field":"Rail Passenger KM per capita", "type": "quantitative", "title":"Rail km per capita", "format":".0f"},
         {"field":"GDP Growth Rate", "type": "quantitative", "title":"GDP Growth Rate (%)", "format":".0f"},
-        {"field":"Population", "type": "quantitative", "title":"Population", "format":","},
+        {"field":"Bus Passenger KM per capita", "type": "quantitative", "title":"Bus Passenger KM per capita", "format":","},
         {"field":"Year", "type": "quantitative", "title":"Year"}
 
       ]

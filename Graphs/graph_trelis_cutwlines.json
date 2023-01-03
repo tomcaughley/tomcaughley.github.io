@@ -1,0 +1,192 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+
+
+
+
+    "vconcat": [{
+
+
+
+
+
+    "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/tram%20diff%20in%20diff%20neat%20long%20split1.csv",
+    "format":{
+      "type": "csv"
+    }
+    },
+  
+
+    
+  
+      "title": {
+      "text": "Region Growth Rate post - Tram Introduction",
+      "subtitle":["GDP growth 6 years before and 6 years after the introduction of a tram system","2020 Removed for ease of understanding for 1 and 2",""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+  
+    },
+
+
+    
+  
+   "facet":{
+         "field": "City/Measure",
+         "columns": 4,
+         "rows": 2,
+         "title":null,
+         "spacing":15
+       },
+
+   "height":100,
+    "width":150,
+    "padding":{
+      "top":0,
+      "bottom":0,
+      "right":0,
+      "left":0
+    },
+
+       
+       "spec": {
+
+"layer":[
+{
+"encoding": {
+  
+      "x": {
+        "field": "Time Period", 
+        "type": "quantitative",
+        "title":null},
+  
+      "y": {
+        "field": "Percentage", 
+        "type": "quantitative",
+        "title":null}
+    },
+ "mark": {
+      "type":"line",
+      "color":"rgb(0,67,167)"},
+  
+ 
+    "resolve": {"scale": {"y": "independent"}}
+
+},
+
+  {
+        "data": {
+          "values": [
+            {"y": "-4.5", "x": "0"},
+            {"y": "7", "x": "0"}
+            ]
+        },
+        "mark": {"type": "line", "fill":"black", "color":"black", "size":2, "stroke":"black"},
+        "encoding": {
+          "x": {"field": "x", "type": "quantitative"},
+          "y": {"field": "y", "type": "quantitative"}
+          
+        }
+      }
+
+]
+       }
+    
+},
+
+
+
+
+
+
+
+ {
+    "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/tram%20diff%20in%20diff%20neat%20long%20split2.csv",
+    "format":{
+      "type": "csv"
+    }
+    },
+  
+
+  
+      
+   "facet":{
+         "field": "City/Measure",
+         "columns": 4,
+         "rows": 2,
+         "title":null,
+         "spacing":15
+       },
+
+   "height":100,
+    "width":150,
+    "padding":{
+      "top":0,
+      "bottom":0,
+      "right":0,
+      "left":0
+    },
+
+       
+
+       "spec": {
+
+"layer":[
+{
+"encoding": {
+  
+      "x": {
+        "field": "Time Period", 
+        "type": "quantitative",
+        "title":null},
+  
+      "y": {
+        "field": "Percentage", 
+        "type": "quantitative",
+        "title":null}
+    },
+ "mark": {
+      "type":"line",
+      "color":"rgb(0,67,167)"},
+  
+ 
+    "resolve": {"scale": {"y": "independent"}}
+
+},
+
+  {
+        "data": {
+          "values": [
+            {"y": "0", "x": "0"},
+            {"y": "7", "x": "0"}
+            ]
+        },
+        "mark": {"type": "line", "fill":"black", "color":"black", "size":2, "stroke":"black"},
+        "encoding": {
+          "x": {"field": "x", "type": "quantitative"},
+          "y": {"field": "y", "type": "quantitative"}
+          
+        }
+      }
+
+]
+
+
+       }
+    
+}
+
+
+
+
+
+
+
+
+
+
+]
+    
+  }

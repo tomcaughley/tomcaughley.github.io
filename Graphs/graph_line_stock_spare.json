@@ -1,0 +1,120 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Difference Between Public Transport Stocks and Total Market Indices",
+      "subtitle": ["Normalised data from at close prices in the last 5 years, 5-Day Average, Source: Yahoo Finance","Above 0: Public Transport Stock performed better than the market"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#3f3f3f",
+      "subtitleColor": "#6e6e6e"
+    },
+    "config": {"background": "#f2f2f2", "view": {"stroke": "transparent"}},
+    "data": {
+      "url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/difference_stocks_long.csv"
+    },
+    "width": 600,
+    "height": 400,
+  
+  
+  
+  
+  
+  
+  "transform": [
+  {"window": [
+            {"field": "Value", 
+             "op": "mean",
+             "as": "ValueRollingMean"}],
+          "frame": [-5, 0]}
+  ],
+  
+  
+   
+  
+    "encoding": {
+      "x": {
+        "field": "Date Format",
+        "type": "temporal",
+        "title": null,
+        "axis": {
+          "grid": false,
+          "domainColor": "#B3B3B3",
+          "labelColor": "#3f3f3f",
+          "tickColor": "#B3B3B3",
+          "gridColor": "black"
+        }
+      },
+      "y": {
+        "field": "ValueRollingMean",
+        "type": "quantitative",
+        "title": "Difference between Normalised Transport and Home Full-Market Stocks",
+        "axis": {
+          "grid": false,
+          "domainColor": "#B3B3B3",
+          "labelColor": "#3f3f3f",
+          "tickColor": "#B3B3B3",
+          "gridColor": "black",
+          "titleColor": "#3f3f3f"
+        }
+      },
+      "color": {
+        
+          "field": "Stock Difference",
+          "type": "nominal",
+          "legend": null
+        
+        },
+  
+      "tooltip": [
+        {"field": "Stock Difference", "title": "Sponsor"},
+        {
+          "field": "ValueRollingMean",
+          "title": "Closing Price (US$)",
+          "type": "quantitative"
+        },
+        {"field": "Date Format", "type": "temporal"}
+      ]
+    },
+  
+  
+  
+    "layer": [
+     
+      {"mark": "line"},
+  
+       {
+          "data": {
+            "values": [
+              {"y": "0", "x": "2018"},
+              {"y": "0", "x": "2023"}
+              ]
+          },
+          "mark": {"type": "line", "fill":"black", "color":"black", "size":2.5, "stroke":"black"},
+          "encoding": {
+            "x": {"field": "x", "type": "temporal"},
+            "y": {"field": "y", "type": "quantitative"}
+            
+          }
+        },
+  
+         {
+          "data": {
+            "values": [
+              {"y": "-2.5", "x": "2020-03"},
+              {"y": "2", "x": "2020-03"}
+              ]
+          },
+          "mark": {"type": "line", "fill":"darkred", "color":"darkred", "size":2, "stroke":"darkred"},
+          "encoding": {
+            "x": {"field": "x", "type": "temporal"},
+            "y": {"field": "y", "type": "quantitative"}
+            
+          }
+        }
+      
+  
+    ]
+  
+  
+  }

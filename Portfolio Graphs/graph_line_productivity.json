@@ -1,0 +1,23 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Stock prices of 5 Tech Companies over Time.",
+    "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/Productivity2.csv"},
+    "mark": "line",
+    "width": 225,
+    "height": 300,
+  
+    "title": {
+        "text": "Productivity",
+        "subtitle":"Output per hour in UK, FR, DE, USA, (Dollars) Source: Our World in Data",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"},
+  
+    "encoding": {
+      "x": {"field": "Year", "type": "temporal"},
+      "y": {"field": "Productivity: output per hour worked", "type": "quantitative"},
+      "color": {"field": "Entity", "type": "nominal"}
+    }
+  }
+  

@@ -1,0 +1,58 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/tram%20diff%20in%20diff%20neat%20long.csv",
+    "format":{
+      "type": "csv"
+    }
+    },
+  
+    
+  
+      "title": {
+      "text": "Region Growth Rate post - Tram Introduction",
+      "subtitle":["GDP growth 7 years before and 9 years after the introduction of a tram system",""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black" 
+  
+    },
+  
+   
+  
+    "mark": {
+      "type":"line",
+      "color":"rgb(0,67,167)"},
+  
+    "height":100,
+    "width":150,
+    "padding":{
+      "top":0,
+      "bottom":0,
+      "right":0,
+      "left":0
+    },
+    
+    "resolve": {"scale": {"y": "independent"}},
+  
+    "encoding": {
+  
+      "x": {
+        "field": "Time Period", 
+        "type": "quantitative",
+        "title":null},
+  
+      "y": {
+        "field": "Percentage", 
+        "type": "quantitative",
+        "title":null},
+  
+       "facet":{
+         "field": "City/Measure",
+         "columns": 4,
+         "title":null,
+         "spacing":15
+       } 
+    }
+  }
