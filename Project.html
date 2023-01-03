@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+     <!-- Title for the page -->
+     <title>Portfolio</title>
+
+     <!-- Link to my style sheet -->
+     <link rel="stylesheet" href="Styles.css">
+ 
+     <!--The next three lines allow the Vega embed-->
+     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+</head>
+<body>
+
+
+    <!-- top banner -->
+    <div id="banner">
+        <div id="banner-content">
+            <p></p>
+        </div>
+      </div>
+      <div id="main-content">
+
+
+
+    <!-- Side navigation -->
+<div class="sidenav">
+    <a href="index.html">Home</a>
+    <p> </p>
+    <a href="Portfolio.html">Portfolio</a>
+    <p> </p>
+    <a href="Project.html">Project</a>
+    <p> </p>
+    <a href="https://github.com/tomcaughley/tomcaughley.github.io">Github</a>
+  </div>
+  
+  <!-- Page content -->
+  <div class="main">
+  
+
+
+
+
+
+    <div class="myWeek1">
+        <h1>Data Science Project</h1>
+        <h1>Tom Caughley</h1>
+        <h1>Does public transport have a direct effect on the economy?</h1>
+        </div>
+<p> </p>
+<p> </p>
+        <div class="myWeek1">
+            <h2>Graphs</h1>
+
+
+            <!-- SDG map -->
+                <div class="container1">
+                    <div class="chart" id="Chart1"> </div>
+                </div>
+                <p> </p>
+
+            <!-- Bubble rail vs growth -->
+                <div class="container1">
+                    <div class="chart" id="Chart2"> </div>
+                </div>
+                <div class="container1">
+                    <div class="chart" id="Chart2b"> </div>
+                </div>
+                <p> </p>
+
+
+
+
+            <!-- Europe social mobility -->
+            <div class="container5">   
+                      
+                <div id="container5">
+                <!-- <iframe src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/b2e1cdq5gr2tvvs/keplergl_k0eowat.json" height="400" width="600"></iframe> -->
+                <iframe src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/z9rw8ajxw2eo0hm/keplergl_l73d4pp.json" height="400" width="600"></iframe>
+                </div>    
+                <div id="Chart3">  </div>
+            </div> 
+            <p> </p>
+
+
+
+            <!-- Country inflation -->
+                <div class="container1">
+                    <div class="chart" id="Chart4"> </div>
+                
+                    <div class="chart" id="Chart5"> </div>
+                </div>
+                <p> </p>
+
+
+
+            <!-- city scatter -->
+                <div class="container1">
+                    <div class="chart" id="Chart6"> </div>
+                </div>
+                <p> </p>
+
+
+
+            <!-- tram trelis -->
+                <div class="container1">
+                    <div class="chart" id="Chart7"> </div>
+                </div>
+                <p> </p>
+
+
+
+            <!-- Stocks comparison -->
+                <div class="container1">
+                    <div class="chart" id="Chart8"> </div>
+                </div>
+                <p> </p>
+                <div class="container1">
+                    <div class="chart" id="Chart9"> </div>
+                </div>
+                <p> </p>
+                <div class="container1">
+                    <div class="chart" id="Chart10"> </div>
+                </div>
+                <p> </p>
+
+              
+
+
+            
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+</body>
+
+<script>
+    //Define charts:
+    var myChart1 = "Graphs/graph_map_SDG.json";
+    var myChart2 = "Graphs/graph_bubble_railvsgrowth.json";
+    var myChart2b = "Graphs/graph_bubble_busvsgrowth.json";
+    var myChart3 = "Graphs/bivariatescale.json";
+    var myChart4 = "Graphs/graph_line_inflation_UK.json";
+    var myChart5 = "Graphs/graph_line_inflation_FRED.json";
+    var myChart6 = "Graphs/graph_scatter_citycomp de-timed.json";
+    var myChart7 = "Graphs/graph_trelis_cutwlines.json";
+    var myChart8 = "Graphs/graph_line_stock.json";
+    var myChart9 = "Graphs/graph_line_stock_spare.json";
+    var myChart10 = "Graphs/graph_line_stock_spare2.json";
+
+
+    // Embed charts:
+    vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart2b', myChart2b);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8', myChart8);
+    vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#chart10', myChart10);
+    vegaEmbed('#chart11', myChart11);
+
+
+
+    
+
+</script>
+
+
+
+
+</html>
