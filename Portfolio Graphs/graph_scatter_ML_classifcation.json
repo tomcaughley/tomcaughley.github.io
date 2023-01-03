@@ -1,0 +1,36 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
+    "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/ML%20predicted%20classification.csv"},
+    "mark": "point",
+  
+  "height":250,
+  "width":300,
+  
+    
+    "encoding": {
+      "x": {"field": "Rail KM per capita", "type": "quantitative"},
+  
+      "y": {"field": "Bus KM per capita", "type": "quantitative"},
+  
+      "size":{"field": "Rail Investment per capita", "type": "quantitative", "legend": {"orient": "bottom", "direction": "horizontal"}},
+  
+      "color":{"field": "Satisfaction", "type": "quantitative","title":"Satisfaction - Border" ,"legend": {"orient": "right", "direction": "horizontal"},
+        "scale": {"scheme": "redyellowgreen"}},
+  
+        "fill":{"field": "Predicted Satisfaction", "type": "quantitative","title":"Predicted Satisfaction - Fill", "legend": {"orient": "right", "direction": "horizontal"},
+        "scale": {"scheme": "redyellowgreen"}},
+  
+  
+        "tooltip":[
+          {"field":"Country", "type": "nominal", "title":"Country"},
+          {"field":"Satisfaction", "type": "quantitative", "title":"Actual Satisfaction"},
+          {"field":"Predicted Satisfaction", "type": "quantitative", "title":"Predicted Satisfaction", "format":".0f"}]
+          
+        
+    }
+  
+  
+    
+  }
+  
