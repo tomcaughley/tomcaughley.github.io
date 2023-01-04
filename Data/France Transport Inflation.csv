@@ -1,1293 +1,970 @@
 ,Month,Measure,Inflation Index
 0,2022-11,Train,105.61
-1,2022-11,Transport Services,116.35
+1,2022-11,All Items,114.26
 2,2022-11,Transport,122.18
-3,2022-11,All Items,114.26
-4,2022-10,Train,107.29
-5,2022-10,Transport Services,116.24
-6,2022-10,Transport,121.32
-7,2022-10,All Items,113.9
-8,2022-09,Train,104.8
-9,2022-09,Transport Services,112.06
-10,2022-09,Transport,118.37
-11,2022-09,All Items,112.74
-12,2022-08,Train,110.79
-13,2022-08,Transport Services,128.51
-14,2022-08,Transport,123.42
-15,2022-08,All Items,113.38
-16,2022-07,Train,116.35
-17,2022-07,Transport Services,133.08
-18,2022-07,Transport,126.4
-19,2022-07,All Items,112.87
-20,2022-06,Train,109.48
-21,2022-06,Transport Services,117.53
-22,2022-06,Transport,125.55
-23,2022-06,All Items,112.55
-24,2022-05,Train,107.19
-25,2022-05,Transport Services,113.18
-26,2022-05,Transport,121.16
-27,2022-05,All Items,111.72
-28,2022-04,Train,106.46
-29,2022-04,Transport Services,114.26
-30,2022-04,Transport,119.7
-31,2022-04,All Items,110.97
-32,2022-03,Train,99.47
-33,2022-03,Transport Services,103.78
-34,2022-03,Transport,120.77
-35,2022-03,All Items,110.49
-36,2022-02,Train,98.57
-37,2022-02,Transport Services,104.79
-38,2022-02,Transport,116.14
-39,2022-02,All Items,108.94
-40,2022-01,Train,92.36
-41,2022-01,Transport Services,100.7
-42,2022-01,Transport,113.66
-43,2022-01,All Items,108.12
-44,2021-12,Train,104.41
-45,2021-12,Transport Services,109.96
-46,2021-12,Transport,112.82
-47,2021-12,All Items,107.85
-48,2021-11,Train,99.34
-49,2021-11,Transport Services,106.2
-50,2021-11,Transport,112.86
-51,2021-11,All Items,107.64
-52,2021-10,Train,98.54
-53,2021-10,Transport Services,104.29
-54,2021-10,Transport,112.15
-55,2021-10,All Items,107.25
-56,2021-09,Train,95.35
-57,2021-09,Transport Services,102.2
-58,2021-09,Transport,110.5
-59,2021-09,All Items,106.81
-60,2021-08,Train,103.57
-61,2021-08,Transport Services,110.45
-62,2021-08,Transport,110.97
-63,2021-08,All Items,107.05
-64,2021-07,Train,103.71
-65,2021-07,Transport Services,111.48
-66,2021-07,Transport,111.33
-67,2021-07,All Items,106.4
-68,2021-06,Train,95.27
-69,2021-06,Transport Services,103.13
-70,2021-06,Transport,109.62
-71,2021-06,All Items,106.34
-72,2021-05,Train,95.6
-73,2021-05,Transport Services,103.37
-74,2021-05,Transport,108.96
-75,2021-05,All Items,106.2
-76,2021-04,Train,92.87
-77,2021-04,Transport Services,98.39
-78,2021-04,Transport,108.18
-79,2021-04,All Items,105.86
-80,2021-03,Train,87.38
-81,2021-03,Transport Services,97.55
-82,2021-03,Transport,108.17
-83,2021-03,All Items,105.75
-84,2021-02,Train,88.24
-85,2021-02,Transport Services,98.51
-86,2021-02,Transport,107.39
-87,2021-02,All Items,105.12
-88,2021-01,Train,85.46
-89,2021-01,Transport Services,96.64
-90,2021-01,Transport,106.34
-91,2021-01,All Items,105.12
-92,2020-12,Train,92.61
-93,2020-12,Transport Services,103.18
-94,2020-12,Transport,106.05
-95,2020-12,All Items,104.96
-96,2020-11,Train,89.07
-97,2020-11,Transport Services,94.71
-98,2020-11,Transport,103.9
-99,2020-11,All Items,104.73
-100,2020-10,Train,91.02
-101,2020-10,Transport Services,95.63
-102,2020-10,Transport,103.94
-103,2020-10,All Items,104.51
-104,2020-09,Train,89.24
-105,2020-09,Transport Services,95.26
-106,2020-09,Transport,103.88
-107,2020-09,All Items,104.55
-108,2020-08,Train,95.32
-109,2020-08,Transport Services,105.91
-110,2020-08,Transport,105.96
-111,2020-08,All Items,105.09
-112,2020-07,Train,96.94
-113,2020-07,Transport Services,109.69
-114,2020-07,Transport,106.65
-115,2020-07,All Items,105.19
-116,2020-06,Train,95.68
-117,2020-06,Transport Services,104.63
-118,2020-06,Transport,105.25
-119,2020-06,All Items,104.79
-120,2020-05,Train,96.7
-121,2020-05,Transport Services,99.15
-122,2020-05,Transport,103.37
-123,2020-05,All Items,104.71
-124,2020-04,Train,96.6
-125,2020-04,Transport Services,96.7
-126,2020-04,Transport,103.41
-127,2020-04,All Items,104.56
-128,2020-03,Train,95.34
-129,2020-03,Transport Services,95.84
-130,2020-03,Transport,104.93
-131,2020-03,All Items,104.59
-132,2020-02,Train,96.13
-133,2020-02,Transport Services,99.49
-134,2020-02,Transport,107.4
-135,2020-02,All Items,104.53
-136,2020-01,Train,90.5
-137,2020-01,Transport Services,96.58
-138,2020-01,Transport,107.71
-139,2020-01,All Items,104.54
-140,2019-12,Train,99.89
-141,2019-12,Transport Services,104.99
-142,2019-12,Transport,108.98
-143,2019-12,All Items,104.98
-144,2019-11,Train,99.83
-145,2019-11,Transport Services,98.73
-146,2019-11,Transport,107.21
-147,2019-11,All Items,104.52
-148,2019-10,Train,99.74
-149,2019-10,Transport Services,101.77
-150,2019-10,Transport,107.66
-151,2019-10,All Items,104.46
-152,2019-09,Train,99.74
-153,2019-09,Transport Services,98.63
-154,2019-09,Transport,106.8
-155,2019-09,All Items,104.5
-156,2019-08,Train,99.73
-157,2019-08,Transport Services,111.32
-158,2019-08,Transport,108.76
-159,2019-08,All Items,104.86
-160,2019-07,Train,99.73
-161,2019-07,Transport Services,110.82
-162,2019-07,Transport,108.84
-163,2019-07,All Items,104.38
-164,2019-06,Train,99.72
-165,2019-06,Transport Services,101.88
-166,2019-06,Transport,107.55
-167,2019-06,All Items,104.58
-168,2019-05,Train,98.77
-169,2019-05,Transport Services,98.28
-170,2019-05,Transport,107.76
-171,2019-05,All Items,104.33
-172,2019-04,Train,100.27
-173,2019-04,Transport Services,103.31
-174,2019-04,Transport,108.2
-175,2019-04,All Items,104.22
-176,2019-03,Train,100.27
-177,2019-03,Transport Services,97.19
-178,2019-03,Transport,106.52
-179,2019-03,All Items,103.89
-180,2019-02,Train,100.26
-181,2019-02,Transport Services,97.86
-182,2019-02,Transport,106.11
-183,2019-02,All Items,103.06
-184,2019-01,Train,100.27
-185,2019-01,Transport Services,96.43
-186,2019-01,Transport,105.14
-187,2019-01,All Items,103.01
-188,2018-12,Train,100.27
-189,2018-12,Transport Services,102.46
-190,2018-12,Transport,106.42
-191,2018-12,All Items,103.47
-192,2018-11,Train,100.34
-193,2018-11,Transport Services,96.7
-194,2018-11,Transport,106.26
-195,2018-11,All Items,103.45
-196,2018-10,Train,100.34
-197,2018-10,Transport Services,100.05
-198,2018-10,Transport,107.72
-199,2018-10,All Items,103.67
-200,2018-09,Train,100.34
-201,2018-09,Transport Services,97.93
-202,2018-09,Transport,106.61
-203,2018-09,All Items,103.56
-204,2018-08,Train,100.33
-205,2018-08,Transport Services,109.82
-206,2018-08,Transport,108.45
-207,2018-08,All Items,103.78
-208,2018-07,Train,100.33
-209,2018-07,Transport Services,109.88
-210,2018-07,Transport,108.3
-211,2018-07,All Items,103.28
-212,2018-06,Train,99.5
-213,2018-06,Transport Services,100.39
-214,2018-06,Transport,106.74
-215,2018-06,All Items,103.37
-216,2018-05,Train,99.85
-217,2018-05,Transport Services,100.0
-218,2018-05,Transport,106.47
-219,2018-05,All Items,103.36
-220,2018-04,Train,100.34
-221,2018-04,Transport Services,102.79
-222,2018-04,Transport,105.91
-223,2018-04,All Items,102.92
-224,2018-03,Train,100.34
-225,2018-03,Transport Services,98.31
-226,2018-03,Transport,104.51
-227,2018-03,All Items,102.75
-228,2018-02,Train,100.33
-229,2018-02,Transport Services,98.58
-230,2018-02,Transport,104.72
-231,2018-02,All Items,101.72
-232,2018-01,Train,100.34
-233,2018-01,Transport Services,96.7
-234,2018-01,Transport,104.27
-235,2018-01,All Items,101.75
-236,2017-12,Train,100.34
-237,2017-12,Transport Services,102.01
-238,2017-12,Transport,103.31
-239,2017-12,All Items,101.85
-240,2017-11,Train,100.34
-241,2017-11,Transport Services,96.5
-242,2017-11,Transport,102.16
-243,2017-11,All Items,101.53
-244,2017-10,Train,100.34
-245,2017-10,Transport Services,99.65
-246,2017-10,Transport,102.06
-247,2017-10,All Items,101.43
-248,2017-09,Train,100.34
-249,2017-09,Transport Services,98.48
-250,2017-09,Transport,101.56
-251,2017-09,All Items,101.33
-252,2017-08,Train,100.31
-253,2017-08,Transport Services,107.82
-254,2017-08,Transport,102.73
-255,2017-08,All Items,101.49
-256,2017-07,Train,100.07
-257,2017-07,Transport Services,108.42
-258,2017-07,Transport,102.44
-259,2017-07,All Items,100.97
-260,2017-06,Train,100.07
-261,2017-06,Transport Services,99.8
-262,2017-06,Transport,101.15
-263,2017-06,All Items,101.32
-264,2017-05,Train,99.27
-265,2017-05,Transport Services,97.58
-266,2017-05,Transport,101.19
-267,2017-05,All Items,101.31
-268,2017-04,Train,100.07
-269,2017-04,Transport Services,101.64
-270,2017-04,Transport,102.4
-271,2017-04,All Items,101.26
-272,2017-03,Train,100.07
-273,2017-03,Transport Services,97.22
-274,2017-03,Transport,101.51
-275,2017-03,All Items,101.17
-276,2017-02,Train,100.07
-277,2017-02,Transport Services,98.12
-278,2017-02,Transport,102.05
-279,2017-02,All Items,100.53
-280,2017-01,Train,100.06
-281,2017-01,Transport Services,96.97
-282,2017-01,Transport,101.67
-283,2017-01,All Items,100.41
-284,2016-12,Train,99.64
-285,2016-12,Transport Services,100.89
-286,2016-12,Transport,100.44
-287,2016-12,All Items,100.65
-288,2016-11,Train,99.11
-289,2016-11,Transport Services,95.5
-290,2016-11,Transport,99.28
-291,2016-11,All Items,100.35
-292,2016-10,Train,99.11
-293,2016-10,Transport Services,98.1
-294,2016-10,Transport,99.46
-295,2016-10,All Items,100.37
-296,2016-09,Train,99.81
-297,2016-09,Transport Services,96.72
-298,2016-09,Transport,98.79
-299,2016-09,All Items,100.34
-300,2016-08,Train,100.03
-301,2016-08,Transport Services,104.43
-302,2016-08,Transport,99.69
-303,2016-08,All Items,100.58
-304,2016-07,Train,99.77
-305,2016-07,Transport Services,105.61
-306,2016-07,Transport,100.72
-307,2016-07,All Items,100.25
-308,2016-06,Train,99.41
-309,2016-06,Transport Services,97.74
-310,2016-06,Transport,99.91
-311,2016-06,All Items,100.63
-312,2016-05,Train,99.7
-313,2016-05,Transport Services,96.04
-314,2016-05,Transport,98.58
-315,2016-05,All Items,100.5
-316,2016-04,Train,100.16
-317,2016-04,Transport Services,97.2
-318,2016-04,Transport,98.01
-319,2016-04,All Items,100.09
-320,2016-03,Train,100.16
-321,2016-03,Transport Services,95.92
-322,2016-03,Transport,97.68
-323,2016-03,All Items,100.02
-324,2016-02,Train,100.16
-325,2016-02,Transport Services,96.47
-326,2016-02,Transport,97.29
-327,2016-02,All Items,99.33
-328,2016-01,Train,100.16
-329,2016-01,Transport Services,95.91
-330,2016-01,Transport,97.5
-331,2016-01,All Items,99.08
-332,2015-12,Train,100.08
-333,2015-12,Transport Services,99.97
-334,2015-12,Transport,98.68
-335,2015-12,All Items,100.04
-336,2015-11,Train,100.08
-337,2015-11,Transport Services,95.48
-338,2015-11,Transport,98.25
-339,2015-11,All Items,99.82
-340,2015-10,Train,100.08
-341,2015-10,Transport Services,98.77
-342,2015-10,Transport,99.07
-343,2015-10,All Items,100.01
-344,2015-09,Train,100.08
-345,2015-09,Transport Services,97.6
-346,2015-09,Transport,98.7
-347,2015-09,All Items,99.95
-348,2015-08,Train,100.08
-349,2015-08,Transport Services,107.51
-350,2015-08,Transport,101.01
-351,2015-08,All Items,100.35
-352,2015-07,Train,100.08
-353,2015-07,Transport Services,108.12
-354,2015-07,Transport,102.48
-355,2015-07,All Items,100.03
-356,2015-06,Train,99.15
-357,2015-06,Transport Services,99.89
-358,2015-06,Transport,101.28
-359,2015-06,All Items,100.44
-360,2015-05,Train,100.08
-361,2015-05,Transport Services,99.36
-362,2015-05,Transport,101.22
-363,2015-05,All Items,100.52
-364,2015-04,Train,100.08
-365,2015-04,Transport Services,100.47
-366,2015-04,Transport,100.88
-367,2015-04,All Items,100.28
-368,2015-03,Train,100.08
-369,2015-03,Transport Services,97.2
-370,2015-03,Transport,100.31
-371,2015-03,All Items,100.17
-372,2015-02,Train,100.02
-373,2015-02,Transport Services,98.15
-374,2015-02,Transport,99.68
-375,2015-02,All Items,99.52
-376,2015-01,Train,100.08
-377,2015-01,Transport Services,97.47
-378,2015-01,Transport,98.43
-379,2015-01,All Items,98.86
-380,2014-12,Train,97.8
-381,2014-12,Transport Services,101.17
-382,2014-12,Transport,99.87
-383,2014-12,All Items,99.86
-384,2014-11,Train,97.8
-385,2014-11,Transport Services,96.52
-386,2014-11,Transport,100.1
-387,2014-11,All Items,99.78
-388,2014-10,Train,97.8
-389,2014-10,Transport Services,98.53
-390,2014-10,Transport,101.42
-391,2014-10,All Items,99.95
-392,2014-09,Train,97.8
-393,2014-09,Transport Services,97.83
-394,2014-09,Transport,101.65
-395,2014-09,All Items,99.92
-396,2014-08,Train,97.8
-397,2014-08,Transport Services,106.45
-398,2014-08,Transport,103.02
-399,2014-08,All Items,100.3
-400,2014-07,Train,96.51
-401,2014-07,Transport Services,105.27
-402,2014-07,Transport,103.27
-403,2014-07,All Items,99.86
-404,2014-06,Train,97.8
-405,2014-06,Transport Services,99.67
-406,2014-06,Transport,102.08
-407,2014-06,All Items,100.18
-408,2014-05,Train,97.8
-409,2014-05,Transport Services,97.84
-410,2014-05,Transport,101.7
-411,2014-05,All Items,100.22
-412,2014-04,Train,97.8
-413,2014-04,Transport Services,99.85
-414,2014-04,Transport,102.19
-415,2014-04,All Items,100.2
-416,2014-03,Train,95.13
-417,2014-03,Transport Services,95.18
-418,2014-03,Transport,101.25
-419,2014-03,All Items,100.24
-420,2014-02,Train,95.13
-421,2014-02,Transport Services,96.1
-422,2014-02,Transport,101.86
-423,2014-02,All Items,99.79
-424,2014-01,Train,95.13
-425,2014-01,Transport Services,95.63
-426,2014-01,Transport,101.52
-427,2014-01,All Items,99.24
-428,2013-12,Train,95.13
-429,2013-12,Transport Services,99.06
-430,2013-12,Transport,101.37
-431,2013-12,All Items,99.8
-432,2013-11,Train,95.13
-433,2013-11,Transport Services,94.33
-434,2013-11,Transport,100.22
-435,2013-11,All Items,99.46
-436,2013-10,Train,93.99
-437,2013-10,Transport Services,96.82
-438,2013-10,Transport,100.88
-439,2013-10,All Items,99.5
-440,2013-09,Train,95.21
-441,2013-09,Transport Services,95.79
-442,2013-09,Transport,101.33
-443,2013-09,All Items,99.63
-444,2013-08,Train,95.21
-445,2013-08,Transport Services,103.99
-446,2013-08,Transport,102.43
-447,2013-08,All Items,99.86
-448,2013-07,Train,95.21
-449,2013-07,Transport Services,103.68
-450,2013-07,Transport,102.29
-451,2013-07,All Items,99.4
-452,2013-06,Train,95.21
-453,2013-06,Transport Services,97.73
-454,2013-06,Transport,100.96
-455,2013-06,All Items,99.7
-456,2013-05,Train,95.21
-457,2013-05,Transport Services,97.16
-458,2013-05,Transport,100.83
-459,2013-05,All Items,99.54
-460,2013-04,Train,95.21
-461,2013-04,Transport Services,96.96
-462,2013-04,Transport,101.75
-463,2013-04,All Items,99.48
-464,2013-03,Train,95.28
-465,2013-03,Transport Services,96.03
-466,2013-03,Transport,101.97
-467,2013-03,All Items,99.63
-468,2013-02,Train,95.28
-469,2013-02,Transport Services,94.26
-470,2013-02,Transport,101.67
-471,2013-02,All Items,98.88
-472,2013-01,Train,95.28
-473,2013-01,Transport Services,95.21
-474,2013-01,Transport,100.99
-475,2013-01,All Items,98.6
-476,2012-12,Train,93.19
-477,2012-12,Transport Services,98.83
-478,2012-12,Transport,100.77
-479,2012-12,All Items,99.1
-480,2012-11,Train,93.19
-481,2012-11,Transport Services,94.38
-482,2012-11,Transport,99.93
-483,2012-11,All Items,98.79
-484,2012-10,Train,93.19
-485,2012-10,Transport Services,96.27
-486,2012-10,Transport,100.9
-487,2012-10,All Items,98.94
-488,2012-09,Train,93.19
-489,2012-09,Transport Services,95.38
-490,2012-09,Transport,101.31
-491,2012-09,All Items,98.76
-492,2012-08,Train,93.19
-493,2012-08,Transport Services,102.99
-494,2012-08,Transport,102.56
-495,2012-08,All Items,99.0
-496,2012-07,Train,92.63
-497,2012-07,Transport Services,102.76
-498,2012-07,Transport,101.29
-499,2012-07,All Items,98.35
-500,2012-06,Train,92.63
-501,2012-06,Transport Services,97.35
-502,2012-06,Transport,100.39
-503,2012-06,All Items,98.78
-504,2012-05,Train,92.63
-505,2012-05,Transport Services,95.18
-506,2012-05,Transport,100.8
-507,2012-05,All Items,98.75
-508,2012-04,Train,92.63
-509,2012-04,Transport Services,97.02
-510,2012-04,Transport,101.67
-511,2012-04,All Items,98.8
-512,2012-03,Train,92.41
-513,2012-03,Transport Services,94.09
-514,2012-03,Transport,100.89
-515,2012-03,All Items,98.67
-516,2012-02,Train,91.97
-517,2012-02,Transport Services,93.94
-518,2012-02,Transport,100.12
-519,2012-02,All Items,97.86
-520,2012-01,Train,91.97
-521,2012-01,Transport Services,93.38
-522,2012-01,Transport,99.86
-523,2012-01,All Items,97.46
-524,2011-12,Train,89.71
-525,2011-12,Transport Services,96.17
-526,2011-12,Transport,99.09
-527,2011-12,All Items,97.8
-528,2011-11,Train,89.71
-529,2011-11,Transport Services,94.89
-530,2011-11,Transport,98.52
-531,2011-11,All Items,97.41
-532,2011-10,Train,89.71
-533,2011-10,Transport Services,95.25
-534,2011-10,Transport,98.56
-535,2011-10,All Items,97.14
-536,2011-09,Train,89.71
-537,2011-09,Transport Services,95.09
-538,2011-09,Transport,98.43
-539,2011-09,All Items,96.91
-540,2011-08,Train,89.71
-541,2011-08,Transport Services,98.49
-542,2011-08,Transport,98.34
-543,2011-08,All Items,96.98
-544,2011-07,Train,89.71
-545,2011-07,Transport Services,97.53
-546,2011-07,Transport,98.45
-547,2011-07,All Items,96.48
-548,2011-06,Train,88.89
-549,2011-06,Transport Services,94.08
-550,2011-06,Transport,98.0
-551,2011-06,All Items,96.91
-552,2011-05,Train,88.89
-553,2011-05,Transport Services,94.36
-554,2011-05,Transport,98.03
-555,2011-05,All Items,96.83
-556,2011-04,Train,88.89
-557,2011-04,Transport Services,95.16
-558,2011-04,Transport,98.72
-559,2011-04,All Items,96.78
-560,2011-03,Train,88.89
-561,2011-03,Transport Services,93.08
-562,2011-03,Transport,97.91
-563,2011-03,All Items,96.45
-564,2011-02,Train,88.89
-565,2011-02,Transport Services,93.55
-566,2011-02,Transport,97.21
-567,2011-02,All Items,95.67
-568,2011-01,Train,87.57
-569,2011-01,Transport Services,92.43
-570,2011-01,Transport,96.48
-571,2011-01,All Items,95.22
-572,2010-12,Train,87.48
-573,2010-12,Transport Services,94.44
-574,2010-12,Transport,95.31
-575,2010-12,All Items,95.45
-576,2010-11,Train,87.48
-577,2010-11,Transport Services,92.22
-578,2010-11,Transport,94.16
-579,2010-11,All Items,95.02
-580,2010-10,Train,87.48
-581,2010-10,Transport Services,92.98
-582,2010-10,Transport,93.97
-583,2010-10,All Items,94.91
-584,2010-09,Train,87.48
-585,2010-09,Transport Services,92.77
-586,2010-09,Transport,93.83
-587,2010-09,All Items,94.79
-588,2010-08,Train,87.48
-589,2010-08,Transport Services,96.6
-590,2010-08,Transport,94.04
-591,2010-08,All Items,94.86
-592,2010-07,Train,87.48
-593,2010-07,Transport Services,96.36
-594,2010-07,Transport,94.47
-595,2010-07,All Items,94.64
-596,2010-06,Train,86.81
-597,2010-06,Transport Services,92.25
-598,2010-06,Transport,93.6
-599,2010-06,All Items,94.91
-600,2010-05,Train,86.81
-601,2010-05,Transport Services,92.11
-602,2010-05,Transport,93.78
-603,2010-05,All Items,94.92
-604,2010-04,Train,86.81
-605,2010-04,Transport Services,92.76
-606,2010-04,Transport,93.68
-607,2010-04,All Items,94.81
-608,2010-03,Train,86.81
-609,2010-03,Transport Services,93.66
-610,2010-03,Transport,93.46
-611,2010-03,All Items,94.57
-612,2010-02,Train,86.81
-613,2010-02,Transport Services,94.22
-614,2010-02,Transport,92.52
-615,2010-02,All Items,94.11
-616,2010-01,Train,86.81
-617,2010-01,Transport Services,95.34
-618,2010-01,Transport,92.66
-619,2010-01,All Items,93.59
-620,2009-12,Train,85.88
-621,2009-12,Transport Services,94.45
-622,2009-12,Transport,91.53
-623,2009-12,All Items,93.8
-624,2009-11,Train,85.75
-625,2009-11,Transport Services,92.49
-626,2009-11,Transport,91.13
-627,2009-11,All Items,93.55
-628,2009-10,Train,85.75
-629,2009-10,Transport Services,94.0
-630,2009-10,Transport,90.79
-631,2009-10,All Items,93.42
-632,2009-09,Train,85.75
-633,2009-09,Transport Services,92.48
-634,2009-09,Transport,90.62
-635,2009-09,All Items,93.33
-636,2009-08,Train,85.75
-637,2009-08,Transport Services,96.69
-638,2009-08,Transport,91.71
-639,2009-08,All Items,93.56
-640,2009-07,Train,85.75
-641,2009-07,Transport Services,96.45
-642,2009-07,Transport,91.25
-643,2009-07,All Items,93.08
-644,2009-06,Train,84.9
-645,2009-06,Transport Services,93.53
-646,2009-06,Transport,91.11
-647,2009-06,All Items,93.5
-648,2009-05,Train,84.9
-649,2009-05,Transport Services,94.13
-650,2009-05,Transport,89.98
-651,2009-05,All Items,93.38
-652,2009-04,Train,84.9
-653,2009-04,Transport Services,96.08
-654,2009-04,Transport,89.89
-655,2009-04,All Items,93.24
-656,2009-03,Train,84.9
-657,2009-03,Transport Services,93.67
-658,2009-03,Transport,89.09
-659,2009-03,All Items,93.09
-660,2009-02,Train,84.9
-661,2009-02,Transport Services,95.68
-662,2009-02,Transport,89.4
-663,2009-02,All Items,92.92
-664,2009-01,Train,84.9
-665,2009-01,Transport Services,94.35
-666,2009-01,Transport,88.85
-667,2009-01,All Items,92.57
-668,2008-12,Train,83.31
-669,2008-12,Transport Services,93.74
-670,2008-12,Transport,89.52
-671,2008-12,All Items,92.95
-672,2008-11,Train,83.31
-673,2008-11,Transport Services,92.09
-674,2008-11,Transport,90.97
-675,2008-11,All Items,93.18
-676,2008-10,Train,83.31
-677,2008-10,Transport Services,92.76
-678,2008-10,Transport,92.8
-679,2008-10,All Items,93.62
-680,2008-09,Train,83.31
-681,2008-09,Transport Services,91.9
-682,2008-09,Transport,93.9
-683,2008-09,All Items,93.67
-684,2008-08,Train,83.11
-685,2008-08,Transport Services,95.21
-686,2008-08,Transport,94.39
-687,2008-08,All Items,93.73
-688,2008-07,Train,83.11
-689,2008-07,Transport Services,95.91
-690,2008-07,Transport,95.57
-691,2008-07,All Items,93.76
-692,2008-06,Train,82.47
-693,2008-06,Transport Services,90.76
-694,2008-06,Transport,94.73
-695,2008-06,All Items,93.96
-696,2008-05,Train,82.47
-697,2008-05,Transport Services,90.55
-698,2008-05,Transport,93.3
-699,2008-05,All Items,93.62
-700,2008-04,Train,82.47
-701,2008-04,Transport Services,91.18
-702,2008-04,Transport,92.3
-703,2008-04,All Items,93.12
-704,2008-03,Train,82.47
-705,2008-03,Transport Services,89.42
-706,2008-03,Transport,91.72
-707,2008-03,All Items,92.81
-708,2008-02,Train,82.47
-709,2008-02,Transport Services,89.62
-710,2008-02,Transport,90.8
-711,2008-02,All Items,92.12
-712,2008-01,Train,81.56
-713,2008-01,Transport Services,88.57
-714,2008-01,Transport,90.63
-715,2008-01,All Items,91.92
-716,2007-12,Train,81.56
-717,2007-12,Transport Services,90.5
-718,2007-12,Transport,90.59
-719,2007-12,All Items,92.03
-720,2007-11,Train,81.56
-721,2007-11,Transport Services,88.71
-722,2007-11,Transport,89.86
-723,2007-11,All Items,91.69
-724,2007-10,Train,81.56
-725,2007-10,Transport Services,88.82
-726,2007-10,Transport,88.47
-727,2007-10,All Items,91.19
-728,2007-09,Train,81.56
-729,2007-09,Transport Services,89.0
-730,2007-09,Transport,88.13
-731,2007-09,All Items,90.96
-732,2007-08,Train,81.56
-733,2007-08,Transport Services,91.73
-734,2007-08,Transport,88.6
-735,2007-08,All Items,90.86
-736,2007-07,Train,81.56
-737,2007-07,Transport Services,92.33
-738,2007-07,Transport,88.79
-739,2007-07,All Items,90.49
-740,2007-06,Train,80.87
-741,2007-06,Transport Services,88.23
-742,2007-06,Transport,87.94
-743,2007-06,All Items,90.72
-744,2007-05,Train,80.65
-745,2007-05,Transport Services,88.05
-746,2007-05,Transport,87.97
-747,2007-05,All Items,90.61
-748,2007-04,Train,80.65
-749,2007-04,Transport Services,88.86
-750,2007-04,Transport,87.44
-751,2007-04,All Items,90.39
-752,2007-03,Train,80.65
-753,2007-03,Transport Services,87.87
-754,2007-03,Transport,86.44
-755,2007-03,All Items,89.95
-756,2007-02,Train,80.65
-757,2007-02,Transport Services,88.15
-758,2007-02,Transport,85.9
-759,2007-02,All Items,89.57
-760,2007-01,Train,79.86
-761,2007-01,Transport Services,87.64
-762,2007-01,Transport,85.5
-763,2007-01,All Items,89.4
-764,2006-12,Train,79.54
-765,2006-12,Transport Services,88.46
-766,2006-12,Transport,85.43
-767,2006-12,All Items,89.71
-768,2006-11,Train,79.54
-769,2006-11,Transport Services,87.04
-770,2006-11,Transport,85.11
-771,2006-11,All Items,89.5
-772,2006-10,Train,79.54
-773,2006-10,Transport Services,87.66
-774,2006-10,Transport,85.12
-775,2006-10,All Items,89.4
-776,2006-09,Train,79.54
-777,2006-09,Transport Services,87.38
-778,2006-09,Transport,86.15
-779,2006-09,All Items,89.6
-780,2006-08,Train,79.54
-781,2006-08,Transport Services,92.16
-782,2006-08,Transport,87.76
-783,2006-08,All Items,89.8
-784,2006-07,Train,79.54
-785,2006-07,Transport Services,92.11
-786,2006-07,Transport,87.49
-787,2006-07,All Items,89.5
-788,2006-06,Train,78.9
-789,2006-06,Transport Services,87.91
-790,2006-06,Transport,86.54
-791,2006-06,All Items,89.65
-792,2006-05,Train,78.9
-793,2006-05,Transport Services,85.69
-794,2006-05,Transport,86.59
-795,2006-05,All Items,89.65
-796,2006-04,Train,78.91
-797,2006-04,Transport Services,86.94
-798,2006-04,Transport,86.09
-799,2006-04,All Items,89.27
-800,2006-03,Train,79.15
-801,2006-03,Transport Services,86.14
-802,2006-03,Transport,84.98
-803,2006-03,All Items,88.89
-804,2006-02,Train,79.15
-805,2006-02,Transport Services,86.25
-806,2006-02,Transport,85.1
-807,2006-02,All Items,88.64
-808,2006-01,Train,77.51
-809,2006-01,Transport Services,85.97
-810,2006-01,Transport,84.79
-811,2006-01,All Items,88.3
-812,2005-12,Train,77.63
-813,2005-12,Transport Services,88.5
-814,2005-12,Transport,84.1
-815,2005-12,All Items,88.39
-816,2005-11,Train,77.64
-817,2005-11,Transport Services,87.3
-818,2005-11,Transport,84.5
-819,2005-11,All Items,88.28
-820,2005-10,Train,77.64
-821,2005-10,Transport Services,87.3
-822,2005-10,Transport,85.7
-823,2005-10,All Items,88.46
-824,2005-09,Train,77.64
-825,2005-09,Transport Services,87.1
-826,2005-09,Transport,85.6
-827,2005-09,All Items,88.48
-828,2005-08,Train,77.64
-829,2005-08,Transport Services,89.0
-830,2005-08,Transport,84.8
-831,2005-08,All Items,88.14
-832,2005-07,Train,77.64
-833,2005-07,Transport Services,87.7
-834,2005-07,Transport,84.1
-835,2005-07,All Items,87.8
-836,2005-06,Train,77.04
-837,2005-06,Transport Services,84.6
-838,2005-06,Transport,82.9
-839,2005-06,All Items,87.93
-840,2005-05,Train,77.04
-841,2005-05,Transport Services,84.0
-842,2005-05,Transport,82.5
-843,2005-05,All Items,87.83
-844,2005-04,Train,77.04
-845,2005-04,Transport Services,84.8
-846,2005-04,Transport,82.9
-847,2005-04,All Items,87.77
-848,2005-03,Train,77.04
-849,2005-03,Transport Services,85.1
-850,2005-03,Transport,82.0
-851,2005-03,All Items,87.6
-852,2005-02,Train,77.04
-853,2005-02,Transport Services,85.4
-854,2005-02,Transport,81.5
-855,2005-02,All Items,87.05
-856,2005-01,Train,75.76
-857,2005-01,Transport Services,84.4
-858,2005-01,Transport,80.5
-859,2005-01,All Items,86.52
-860,2004-12,Train,75.44
-861,2004-12,Transport Services,85.3
-862,2004-12,Transport,81.2
-863,2004-12,All Items,87.0
-864,2004-11,Train,75.64
-865,2004-11,Transport Services,85.2
-866,2004-11,Transport,81.4
-867,2004-11,All Items,86.9
-868,2004-10,Train,75.78
-869,2004-10,Transport Services,85.1
-870,2004-10,Transport,81.4
-871,2004-10,All Items,86.85
-872,2004-09,Train,75.78
-873,2004-09,Transport Services,85.5
-874,2004-09,Transport,80.6
-875,2004-09,All Items,86.63
-876,2004-08,Train,75.78
-877,2004-08,Transport Services,88.4
-878,2004-08,Transport,80.8
-879,2004-08,All Items,86.55
-880,2004-07,Train,75.78
-881,2004-07,Transport Services,88.5
-882,2004-07,Transport,80.2
-883,2004-07,All Items,86.36
-884,2004-06,Train,75.09
-885,2004-06,Transport Services,84.4
-886,2004-06,Transport,79.7
-887,2004-06,All Items,86.5
-888,2004-05,Train,75.09
-889,2004-05,Transport Services,84.1
-890,2004-05,Transport,79.9
-891,2004-05,All Items,86.47
-892,2004-04,Train,74.62
-893,2004-04,Transport Services,84.4
-894,2004-04,Transport,79.1
-895,2004-04,All Items,86.15
-896,2004-03,Train,74.09
-897,2004-03,Transport Services,83.8
-898,2004-03,Transport,78.5
-899,2004-03,All Items,85.93
-900,2004-02,Train,74.09
-901,2004-02,Transport Services,84.1
-902,2004-02,Transport,78.2
-903,2004-02,All Items,85.59
-904,2004-01,Train,74.09
-905,2004-01,Transport Services,83.6
-906,2004-01,Transport,78.0
-907,2004-01,All Items,85.23
-908,2003-12,Train,74.09
-909,2003-12,Transport Services,84.6
-910,2003-12,Transport,77.6
-911,2003-12,All Items,85.23
-912,2003-11,Train,73.76
-913,2003-11,Transport Services,83.7
-914,2003-11,Transport,77.4
-915,2003-11,All Items,85.14
-916,2003-10,Train,74.1
-917,2003-10,Transport Services,84.4
-918,2003-10,Transport,77.5
-919,2003-10,All Items,85.04
-920,2003-09,Train,74.1
-921,2003-09,Transport Services,85.3
-922,2003-09,Transport,77.3
-923,2003-09,All Items,84.86
-924,2003-08,Train,74.06
-925,2003-08,Transport Services,87.3
-926,2003-08,Transport,77.6
-927,2003-08,All Items,84.54
-928,2003-07,Train,74.06
-929,2003-07,Transport Services,86.8
-930,2003-07,Transport,77.3
-931,2003-07,All Items,84.34
-932,2003-06,Train,72.87
-933,2003-06,Transport Services,84.0
-934,2003-06,Transport,76.5
-935,2003-06,All Items,84.43
-936,2003-05,Train,72.22
-937,2003-05,Transport Services,83.2
-938,2003-05,Transport,76.7
-939,2003-05,All Items,84.27
-940,2003-04,Train,72.22
-941,2003-04,Transport Services,83.4
-942,2003-04,Transport,77.3
-943,2003-04,All Items,84.37
-944,2003-03,Train,72.2
-945,2003-03,Transport Services,83.1
-946,2003-03,Transport,77.9
-947,2003-03,All Items,84.49
-948,2003-02,Train,72.19
-949,2003-02,Transport Services,83.4
-950,2003-02,Transport,77.6
-951,2003-02,All Items,84.15
-952,2003-01,Train,72.19
-953,2003-01,Transport Services,82.7
-954,2003-01,Transport,76.9
-955,2003-01,All Items,83.57
-956,2002-12,Train,71.98
-957,2002-12,Transport Services,82.5
-958,2002-12,Transport,76.1
-959,2002-12,All Items,83.41
-960,2002-11,Train,71.74
-961,2002-11,Transport Services,82.4
-962,2002-11,Transport,76.1
-963,2002-11,All Items,83.27
-964,2002-10,Train,71.74
-965,2002-10,Transport Services,82.1
-966,2002-10,Transport,76.4
-967,2002-10,All Items,83.27
-968,2002-09,Train,71.73
-969,2002-09,Transport Services,82.2
-970,2002-09,Transport,76.1
-971,2002-09,All Items,83.14
-972,2002-08,Train,71.65
-973,2002-08,Transport Services,84.8
-974,2002-08,Transport,76.2
-975,2002-08,All Items,82.99
-976,2002-07,Train,70.26
-977,2002-07,Transport Services,85.2
-978,2002-07,Transport,75.9
-979,2002-07,All Items,82.8
-980,2002-06,Train,69.94
-981,2002-06,Transport Services,80.2
-982,2002-06,Transport,75.2
-983,2002-06,All Items,82.8
-984,2002-05,Train,69.63
-985,2002-05,Transport Services,80.0
-986,2002-05,Transport,75.6
-987,2002-05,All Items,82.81
-988,2002-04,Train,69.63
-989,2002-04,Transport Services,80.1
-990,2002-04,Transport,75.4
-991,2002-04,All Items,82.71
-992,2002-03,Train,69.63
-993,2002-03,Transport Services,79.5
-994,2002-03,Transport,74.6
-995,2002-03,All Items,82.4
-996,2002-02,Train,69.63
-997,2002-02,Transport Services,79.6
-998,2002-02,Transport,74.4
-999,2002-02,All Items,82.04
-1000,2002-01,Train,69.63
-1001,2002-01,Transport Services,79.4
-1002,2002-01,Transport,74.2
-1003,2002-01,All Items,81.94
-1004,2001-12,Train,69.83
-1005,2001-12,Transport Services,81.5
-1006,2001-12,Transport,74.2
-1007,2001-12,All Items,81.56
-1008,2001-11,Train,69.83
-1009,2001-11,Transport Services,80.0
-1010,2001-11,Transport,74.2
-1011,2001-11,All Items,81.46
-1012,2001-10,Train,69.81
-1013,2001-10,Transport Services,80.3
-1014,2001-10,Transport,74.7
-1015,2001-10,All Items,81.68
-1016,2001-09,Train,69.7
-1017,2001-09,Transport Services,80.1
-1018,2001-09,Transport,74.9
-1019,2001-09,All Items,81.63
-1020,2001-08,Train,68.51
-1021,2001-08,Transport Services,81.7
-1022,2001-08,Transport,75.0
-1023,2001-08,All Items,81.48
-1024,2001-07,Train,68.51
-1025,2001-07,Transport Services,82.7
-1026,2001-07,Transport,75.5
-1027,2001-07,All Items,81.48
-1028,2001-06,Train,68.5
-1029,2001-06,Transport Services,78.6
-1030,2001-06,Transport,75.5
-1031,2001-06,All Items,81.65
-1032,2001-05,Train,68.45
-1033,2001-05,Transport Services,78.4
-1034,2001-05,Transport,75.6
-1035,2001-05,All Items,81.6
-1036,2001-04,Train,68.45
-1037,2001-04,Transport Services,78.7
-1038,2001-04,Transport,74.8
-1039,2001-04,All Items,81.1
-1040,2001-03,Train,68.4
-1041,2001-03,Transport Services,77.5
-1042,2001-03,Transport,74.2
-1043,2001-03,All Items,80.71
-1044,2001-02,Train,68.38
-1045,2001-02,Transport Services,78.2
-1046,2001-02,Transport,74.3
-1047,2001-02,All Items,80.35
-1048,2001-01,Train,67.27
-1049,2001-01,Transport Services,77.3
-1050,2001-01,Transport,74.0
-1051,2001-01,All Items,80.13
-1052,2000-12,Train,67.12
-1053,2000-12,Transport Services,78.0
-1054,2000-12,Transport,75.1
-1055,2000-12,All Items,80.47
-1056,2000-11,Train,67.03
-1057,2000-11,Transport Services,77.4
-1058,2000-11,Transport,75.4
-1059,2000-11,All Items,80.51
-1060,2000-10,Train,67.03
-1061,2000-10,Transport Services,77.2
-1062,2000-10,Transport,75.2
-1063,2000-10,All Items,80.33
-1064,2000-09,Train,67.03
-1065,2000-09,Transport Services,77.6
-1066,2000-09,Transport,75.6
-1067,2000-09,All Items,80.43
-1068,2000-08,Train,67.03
-1069,2000-08,Transport Services,78.3
-1070,2000-08,Transport,74.7
-1071,2000-08,All Items,80.02
-1072,2000-07,Train,67.03
-1073,2000-07,Transport Services,80.0
-1074,2000-07,Transport,75.2
-1075,2000-07,All Items,79.87
-1076,2000-06,Train,67.03
-1077,2000-06,Transport Services,77.8
-1078,2000-06,Transport,74.7
-1079,2000-06,All Items,80.0
-1080,2000-05,Train,67.41
-1081,2000-05,Transport Services,76.6
-1082,2000-05,Transport,73.9
-1083,2000-05,All Items,79.8
-1084,2000-04,Train,67.45
-1085,2000-04,Transport Services,76.7
-1086,2000-04,Transport,73.8
-1087,2000-04,All Items,79.64
-1088,2000-03,Train,67.45
-1089,2000-03,Transport Services,75.7
-1090,2000-03,Transport,74.0
-1091,2000-03,All Items,79.64
-1092,2000-02,Train,67.45
-1093,2000-02,Transport Services,75.7
-1094,2000-02,Transport,73.6
-1095,2000-02,All Items,79.27
-1096,2000-01,Train,66.65
-1097,2000-01,Transport Services,75.4
-1098,2000-01,Transport,73.3
-1099,2000-01,All Items,79.17
-1100,1999-12,Train,66.32
-1101,1999-12,Transport Services,76.6
-1102,1999-12,Transport,73.0
-1103,1999-12,All Items,79.17
-1104,1999-11,Train,66.32
-1105,1999-11,Transport Services,75.8
-1106,1999-11,Transport,72.1
-1107,1999-11,All Items,78.82
-1108,1999-10,Train,66.32
-1109,1999-10,Transport Services,76.4
-1110,1999-10,Transport,72.1
-1111,1999-10,All Items,78.79
-1112,1999-09,Train,66.32
-1113,1999-09,Transport Services,76.6
-1114,1999-09,Transport,71.9
-1115,1999-09,All Items,78.74
-1116,1999-08,Train,66.32
-1117,1999-08,Transport Services,78.1
-1118,1999-08,Transport,71.8
-1119,1999-08,All Items,78.61
-1120,1999-07,Train,66.32
-1121,1999-07,Transport Services,78.8
-1122,1999-07,Transport,71.6
-1123,1999-07,All Items,78.48
-1124,1999-06,Train,66.32
-1125,1999-06,Transport Services,76.3
-1126,1999-06,Transport,71.0
-1127,1999-06,All Items,78.69
-1128,1999-05,Train,66.25
-1129,1999-05,Transport Services,76.0
-1130,1999-05,Transport,70.9
-1131,1999-05,All Items,78.7
-1132,1999-04,Train,66.25
-1133,1999-04,Transport Services,76.2
-1134,1999-04,Transport,70.8
-1135,1999-04,All Items,78.69
-1136,1999-03,Train,66.25
-1137,1999-03,Transport Services,75.5
-1138,1999-03,Transport,70.3
-1139,1999-03,All Items,78.47
-1140,1999-02,Train,66.25
-1141,1999-02,Transport Services,75.6
-1142,1999-02,Transport,70.2
-1143,1999-02,All Items,78.21
-1144,1999-01,Train,65.56
-1145,1999-01,Transport Services,75.5
-1146,1999-01,Transport,70.1
-1147,1999-01,All Items,77.97
-1148,1998-12,Train,65.43
-1149,1998-12,Transport Services,75.8
-1150,1998-12,Transport,70.1
-1151,1998-12,All Items,78.19
-1152,1998-11,Train,65.31
-1153,1998-11,Transport Services,75.3
-1154,1998-11,Transport,70.2
-1155,1998-11,All Items,78.11
-1156,1998-10,Train,65.31
-1157,1998-10,Transport Services,76.0
-1158,1998-10,Transport,70.3
-1159,1998-10,All Items,78.16
-1160,1998-09,Train,65.31
-1161,1998-09,Transport Services,76.2
-1162,1998-09,Transport,70.4
-1163,1998-09,All Items,78.2
-1164,1998-08,Train,65.31
-1165,1998-08,Transport Services,77.5
-1166,1998-08,Transport,70.7
-1167,1998-08,All Items,78.23
-1168,1998-07,Train,65.31
-1169,1998-07,Transport Services,78.0
-1170,1998-07,Transport,70.9
-1171,1998-07,All Items,78.18
-1172,1998-06,Train,65.31
-1173,1998-06,Transport Services,75.8
-1174,1998-06,Transport,70.5
-1175,1998-06,All Items,78.44
-1176,1998-05,Train,65.01
-1177,1998-05,Transport Services,75.3
-1178,1998-05,Transport,70.7
-1179,1998-05,All Items,78.38
-1180,1998-04,Train,66.4
-1181,1998-04,Transport Services,75.8
-1182,1998-04,Transport,70.9
-1183,1998-04,All Items,78.36
-1184,1998-03,Train,66.53
-1185,1998-03,Transport Services,75.2
-1186,1998-03,Transport,70.8
-1187,1998-03,All Items,78.2
-1188,1998-02,Train,66.53
-1189,1998-02,Transport Services,75.4
-1190,1998-02,Transport,71.1
-1191,1998-02,All Items,78.07
-1192,1998-01,Train,65.89
-1193,1998-01,Transport Services,75.3
-1194,1998-01,Transport,70.7
-1195,1998-01,All Items,77.78
-1196,1997-12,Train,65.7
-1197,1997-12,Transport Services,75.2
-1198,1997-12,Transport,70.7
-1199,1997-12,All Items,78.02
-1200,1997-11,Train,65.7
-1201,1997-11,Transport Services,74.6
-1202,1997-11,Transport,70.6
-1203,1997-11,All Items,77.98
-1204,1997-10,Train,65.7
-1205,1997-10,Transport Services,74.8
-1206,1997-10,Transport,70.7
-1207,1997-10,All Items,77.85
-1208,1997-09,Train,65.72
-1209,1997-09,Transport Services,75.3
-1210,1997-09,Transport,70.8
-1211,1997-09,All Items,77.89
-1212,1997-08,Train,65.58
-1213,1997-08,Transport Services,76.3
-1214,1997-08,Transport,70.8
-1215,1997-08,All Items,77.75
-1216,1997-07,Train,65.62
-1217,1997-07,Transport Services,76.2
-1218,1997-07,Transport,70.5
-1219,1997-07,All Items,77.55
-1220,1997-06,Train,65.72
-1221,1997-06,Transport Services,74.4
-1222,1997-06,Transport,70.3
-1223,1997-06,All Items,77.65
-1224,1997-05,Train,65.93
-1225,1997-05,Transport Services,74.3
-1226,1997-05,Transport,70.4
-1227,1997-05,All Items,77.67
-1228,1997-04,Train,65.93
-1229,1997-04,Transport Services,74.3
-1230,1997-04,Transport,70.6
-1231,1997-04,All Items,77.56
-1232,1997-03,Train,65.93
-1233,1997-03,Transport Services,73.4
-1234,1997-03,Transport,70.6
-1235,1997-03,All Items,77.53
-1236,1997-02,Train,65.93
-1237,1997-02,Transport Services,73.4
-1238,1997-02,Transport,70.6
-1239,1997-02,All Items,77.47
-1240,1997-01,Train,65.1
-1241,1997-01,Transport Services,73.2
-1242,1997-01,Transport,70.5
-1243,1997-01,All Items,77.31
-1244,1996-12,Train,64.9
-1245,1996-12,Transport Services,73.3
-1246,1996-12,Transport,70.3
-1247,1996-12,All Items,77.14
-1248,1996-11,Train,65.32
-1249,1996-11,Transport Services,72.7
-1250,1996-11,Transport,70.1
-1251,1996-11,All Items,76.98
-1252,1996-10,Train,65.32
-1253,1996-10,Transport Services,73.4
-1254,1996-10,Transport,70.7
-1255,1996-10,All Items,77.05
-1256,1996-09,Train,65.6
-1257,1996-09,Transport Services,73.6
-1258,1996-09,Transport,70.1
-1259,1996-09,All Items,76.85
-1260,1996-08,Train,65.31
-1261,1996-08,Transport Services,73.7
-1262,1996-08,Transport,69.9
-1263,1996-08,All Items,76.62
-1264,1996-07,Train,65.31
-1265,1996-07,Transport Services,74.5
-1266,1996-07,Transport,70.2
-1267,1996-07,All Items,76.77
-1268,1996-06,Train,65.62
-1269,1996-06,Transport Services,72.7
-1270,1996-06,Transport,70.0
-1271,1996-06,All Items,76.91
-1272,1996-05,Train,65.65
-1273,1996-05,Transport Services,72.3
-1274,1996-05,Transport,70.0
-1275,1996-05,All Items,77.0
-1276,1996-04,Train,65.65
-1277,1996-04,Transport Services,72.4
-1278,1996-04,Transport,69.8
-1279,1996-04,All Items,76.84
-1280,1996-03,Train,65.65
-1281,1996-03,Transport Services,72.2
-1282,1996-03,Transport,69.6
-1283,1996-03,All Items,76.75
-1284,1996-02,Train,65.65
-1285,1996-02,Transport Services,72.3
-1286,1996-02,Transport,69.1
-1287,1996-02,All Items,76.26
-1288,1996-01,Train,64.63
-1289,1996-01,Transport Services,71.6
-1290,1996-01,Transport,68.8
-1291,1996-01,All Items,75.97
+3,2022-10,Train,107.29
+4,2022-10,All Items,113.9
+5,2022-10,Transport,121.32
+6,2022-09,Train,104.8
+7,2022-09,All Items,112.74
+8,2022-09,Transport,118.37
+9,2022-08,Train,110.79
+10,2022-08,All Items,113.38
+11,2022-08,Transport,123.42
+12,2022-07,Train,116.35
+13,2022-07,All Items,112.87
+14,2022-07,Transport,126.4
+15,2022-06,Train,109.48
+16,2022-06,All Items,112.55
+17,2022-06,Transport,125.55
+18,2022-05,Train,107.19
+19,2022-05,All Items,111.72
+20,2022-05,Transport,121.16
+21,2022-04,Train,106.46
+22,2022-04,All Items,110.97
+23,2022-04,Transport,119.7
+24,2022-03,Train,99.47
+25,2022-03,All Items,110.49
+26,2022-03,Transport,120.77
+27,2022-02,Train,98.57
+28,2022-02,All Items,108.94
+29,2022-02,Transport,116.14
+30,2022-01,Train,92.36
+31,2022-01,All Items,108.12
+32,2022-01,Transport,113.66
+33,2021-12,Train,104.41
+34,2021-12,All Items,107.85
+35,2021-12,Transport,112.82
+36,2021-11,Train,99.34
+37,2021-11,All Items,107.64
+38,2021-11,Transport,112.86
+39,2021-10,Train,98.54
+40,2021-10,All Items,107.25
+41,2021-10,Transport,112.15
+42,2021-09,Train,95.35
+43,2021-09,All Items,106.81
+44,2021-09,Transport,110.5
+45,2021-08,Train,103.57
+46,2021-08,All Items,107.05
+47,2021-08,Transport,110.97
+48,2021-07,Train,103.71
+49,2021-07,All Items,106.4
+50,2021-07,Transport,111.33
+51,2021-06,Train,95.27
+52,2021-06,All Items,106.34
+53,2021-06,Transport,109.62
+54,2021-05,Train,95.6
+55,2021-05,All Items,106.2
+56,2021-05,Transport,108.96
+57,2021-04,Train,92.87
+58,2021-04,All Items,105.86
+59,2021-04,Transport,108.18
+60,2021-03,Train,87.38
+61,2021-03,All Items,105.75
+62,2021-03,Transport,108.17
+63,2021-02,Train,88.24
+64,2021-02,All Items,105.12
+65,2021-02,Transport,107.39
+66,2021-01,Train,85.46
+67,2021-01,All Items,105.12
+68,2021-01,Transport,106.34
+69,2020-12,Train,92.61
+70,2020-12,All Items,104.96
+71,2020-12,Transport,106.05
+72,2020-11,Train,89.07
+73,2020-11,All Items,104.73
+74,2020-11,Transport,103.9
+75,2020-10,Train,91.02
+76,2020-10,All Items,104.51
+77,2020-10,Transport,103.94
+78,2020-09,Train,89.24
+79,2020-09,All Items,104.55
+80,2020-09,Transport,103.88
+81,2020-08,Train,95.32
+82,2020-08,All Items,105.09
+83,2020-08,Transport,105.96
+84,2020-07,Train,96.94
+85,2020-07,All Items,105.19
+86,2020-07,Transport,106.65
+87,2020-06,Train,95.68
+88,2020-06,All Items,104.79
+89,2020-06,Transport,105.25
+90,2020-05,Train,96.7
+91,2020-05,All Items,104.71
+92,2020-05,Transport,103.37
+93,2020-04,Train,96.6
+94,2020-04,All Items,104.56
+95,2020-04,Transport,103.41
+96,2020-03,Train,95.34
+97,2020-03,All Items,104.59
+98,2020-03,Transport,104.93
+99,2020-02,Train,96.13
+100,2020-02,All Items,104.53
+101,2020-02,Transport,107.4
+102,2020-01,Train,90.5
+103,2020-01,All Items,104.54
+104,2020-01,Transport,107.71
+105,2019-12,Train,99.89
+106,2019-12,All Items,104.98
+107,2019-12,Transport,108.98
+108,2019-11,Train,99.83
+109,2019-11,All Items,104.52
+110,2019-11,Transport,107.21
+111,2019-10,Train,99.74
+112,2019-10,All Items,104.46
+113,2019-10,Transport,107.66
+114,2019-09,Train,99.74
+115,2019-09,All Items,104.5
+116,2019-09,Transport,106.8
+117,2019-08,Train,99.73
+118,2019-08,All Items,104.86
+119,2019-08,Transport,108.76
+120,2019-07,Train,99.73
+121,2019-07,All Items,104.38
+122,2019-07,Transport,108.84
+123,2019-06,Train,99.72
+124,2019-06,All Items,104.58
+125,2019-06,Transport,107.55
+126,2019-05,Train,98.77
+127,2019-05,All Items,104.33
+128,2019-05,Transport,107.76
+129,2019-04,Train,100.27
+130,2019-04,All Items,104.22
+131,2019-04,Transport,108.2
+132,2019-03,Train,100.27
+133,2019-03,All Items,103.89
+134,2019-03,Transport,106.52
+135,2019-02,Train,100.26
+136,2019-02,All Items,103.06
+137,2019-02,Transport,106.11
+138,2019-01,Train,100.27
+139,2019-01,All Items,103.01
+140,2019-01,Transport,105.14
+141,2018-12,Train,100.27
+142,2018-12,All Items,103.47
+143,2018-12,Transport,106.42
+144,2018-11,Train,100.34
+145,2018-11,All Items,103.45
+146,2018-11,Transport,106.26
+147,2018-10,Train,100.34
+148,2018-10,All Items,103.67
+149,2018-10,Transport,107.72
+150,2018-09,Train,100.34
+151,2018-09,All Items,103.56
+152,2018-09,Transport,106.61
+153,2018-08,Train,100.33
+154,2018-08,All Items,103.78
+155,2018-08,Transport,108.45
+156,2018-07,Train,100.33
+157,2018-07,All Items,103.28
+158,2018-07,Transport,108.3
+159,2018-06,Train,99.5
+160,2018-06,All Items,103.37
+161,2018-06,Transport,106.74
+162,2018-05,Train,99.85
+163,2018-05,All Items,103.36
+164,2018-05,Transport,106.47
+165,2018-04,Train,100.34
+166,2018-04,All Items,102.92
+167,2018-04,Transport,105.91
+168,2018-03,Train,100.34
+169,2018-03,All Items,102.75
+170,2018-03,Transport,104.51
+171,2018-02,Train,100.33
+172,2018-02,All Items,101.72
+173,2018-02,Transport,104.72
+174,2018-01,Train,100.34
+175,2018-01,All Items,101.75
+176,2018-01,Transport,104.27
+177,2017-12,Train,100.34
+178,2017-12,All Items,101.85
+179,2017-12,Transport,103.31
+180,2017-11,Train,100.34
+181,2017-11,All Items,101.53
+182,2017-11,Transport,102.16
+183,2017-10,Train,100.34
+184,2017-10,All Items,101.43
+185,2017-10,Transport,102.06
+186,2017-09,Train,100.34
+187,2017-09,All Items,101.33
+188,2017-09,Transport,101.56
+189,2017-08,Train,100.31
+190,2017-08,All Items,101.49
+191,2017-08,Transport,102.73
+192,2017-07,Train,100.07
+193,2017-07,All Items,100.97
+194,2017-07,Transport,102.44
+195,2017-06,Train,100.07
+196,2017-06,All Items,101.32
+197,2017-06,Transport,101.15
+198,2017-05,Train,99.27
+199,2017-05,All Items,101.31
+200,2017-05,Transport,101.19
+201,2017-04,Train,100.07
+202,2017-04,All Items,101.26
+203,2017-04,Transport,102.4
+204,2017-03,Train,100.07
+205,2017-03,All Items,101.17
+206,2017-03,Transport,101.51
+207,2017-02,Train,100.07
+208,2017-02,All Items,100.53
+209,2017-02,Transport,102.05
+210,2017-01,Train,100.06
+211,2017-01,All Items,100.41
+212,2017-01,Transport,101.67
+213,2016-12,Train,99.64
+214,2016-12,All Items,100.65
+215,2016-12,Transport,100.44
+216,2016-11,Train,99.11
+217,2016-11,All Items,100.35
+218,2016-11,Transport,99.28
+219,2016-10,Train,99.11
+220,2016-10,All Items,100.37
+221,2016-10,Transport,99.46
+222,2016-09,Train,99.81
+223,2016-09,All Items,100.34
+224,2016-09,Transport,98.79
+225,2016-08,Train,100.03
+226,2016-08,All Items,100.58
+227,2016-08,Transport,99.69
+228,2016-07,Train,99.77
+229,2016-07,All Items,100.25
+230,2016-07,Transport,100.72
+231,2016-06,Train,99.41
+232,2016-06,All Items,100.63
+233,2016-06,Transport,99.91
+234,2016-05,Train,99.7
+235,2016-05,All Items,100.5
+236,2016-05,Transport,98.58
+237,2016-04,Train,100.16
+238,2016-04,All Items,100.09
+239,2016-04,Transport,98.01
+240,2016-03,Train,100.16
+241,2016-03,All Items,100.02
+242,2016-03,Transport,97.68
+243,2016-02,Train,100.16
+244,2016-02,All Items,99.33
+245,2016-02,Transport,97.29
+246,2016-01,Train,100.16
+247,2016-01,All Items,99.08
+248,2016-01,Transport,97.5
+249,2015-12,Train,100.08
+250,2015-12,All Items,100.04
+251,2015-12,Transport,98.68
+252,2015-11,Train,100.08
+253,2015-11,All Items,99.82
+254,2015-11,Transport,98.25
+255,2015-10,Train,100.08
+256,2015-10,All Items,100.01
+257,2015-10,Transport,99.07
+258,2015-09,Train,100.08
+259,2015-09,All Items,99.95
+260,2015-09,Transport,98.7
+261,2015-08,Train,100.08
+262,2015-08,All Items,100.35
+263,2015-08,Transport,101.01
+264,2015-07,Train,100.08
+265,2015-07,All Items,100.03
+266,2015-07,Transport,102.48
+267,2015-06,Train,99.15
+268,2015-06,All Items,100.44
+269,2015-06,Transport,101.28
+270,2015-05,Train,100.08
+271,2015-05,All Items,100.52
+272,2015-05,Transport,101.22
+273,2015-04,Train,100.08
+274,2015-04,All Items,100.28
+275,2015-04,Transport,100.88
+276,2015-03,Train,100.08
+277,2015-03,All Items,100.17
+278,2015-03,Transport,100.31
+279,2015-02,Train,100.02
+280,2015-02,All Items,99.52
+281,2015-02,Transport,99.68
+282,2015-01,Train,100.08
+283,2015-01,All Items,98.86
+284,2015-01,Transport,98.43
+285,2014-12,Train,97.8
+286,2014-12,All Items,99.86
+287,2014-12,Transport,99.87
+288,2014-11,Train,97.8
+289,2014-11,All Items,99.78
+290,2014-11,Transport,100.1
+291,2014-10,Train,97.8
+292,2014-10,All Items,99.95
+293,2014-10,Transport,101.42
+294,2014-09,Train,97.8
+295,2014-09,All Items,99.92
+296,2014-09,Transport,101.65
+297,2014-08,Train,97.8
+298,2014-08,All Items,100.3
+299,2014-08,Transport,103.02
+300,2014-07,Train,96.51
+301,2014-07,All Items,99.86
+302,2014-07,Transport,103.27
+303,2014-06,Train,97.8
+304,2014-06,All Items,100.18
+305,2014-06,Transport,102.08
+306,2014-05,Train,97.8
+307,2014-05,All Items,100.22
+308,2014-05,Transport,101.7
+309,2014-04,Train,97.8
+310,2014-04,All Items,100.2
+311,2014-04,Transport,102.19
+312,2014-03,Train,95.13
+313,2014-03,All Items,100.24
+314,2014-03,Transport,101.25
+315,2014-02,Train,95.13
+316,2014-02,All Items,99.79
+317,2014-02,Transport,101.86
+318,2014-01,Train,95.13
+319,2014-01,All Items,99.24
+320,2014-01,Transport,101.52
+321,2013-12,Train,95.13
+322,2013-12,All Items,99.8
+323,2013-12,Transport,101.37
+324,2013-11,Train,95.13
+325,2013-11,All Items,99.46
+326,2013-11,Transport,100.22
+327,2013-10,Train,93.99
+328,2013-10,All Items,99.5
+329,2013-10,Transport,100.88
+330,2013-09,Train,95.21
+331,2013-09,All Items,99.63
+332,2013-09,Transport,101.33
+333,2013-08,Train,95.21
+334,2013-08,All Items,99.86
+335,2013-08,Transport,102.43
+336,2013-07,Train,95.21
+337,2013-07,All Items,99.4
+338,2013-07,Transport,102.29
+339,2013-06,Train,95.21
+340,2013-06,All Items,99.7
+341,2013-06,Transport,100.96
+342,2013-05,Train,95.21
+343,2013-05,All Items,99.54
+344,2013-05,Transport,100.83
+345,2013-04,Train,95.21
+346,2013-04,All Items,99.48
+347,2013-04,Transport,101.75
+348,2013-03,Train,95.28
+349,2013-03,All Items,99.63
+350,2013-03,Transport,101.97
+351,2013-02,Train,95.28
+352,2013-02,All Items,98.88
+353,2013-02,Transport,101.67
+354,2013-01,Train,95.28
+355,2013-01,All Items,98.6
+356,2013-01,Transport,100.99
+357,2012-12,Train,93.19
+358,2012-12,All Items,99.1
+359,2012-12,Transport,100.77
+360,2012-11,Train,93.19
+361,2012-11,All Items,98.79
+362,2012-11,Transport,99.93
+363,2012-10,Train,93.19
+364,2012-10,All Items,98.94
+365,2012-10,Transport,100.9
+366,2012-09,Train,93.19
+367,2012-09,All Items,98.76
+368,2012-09,Transport,101.31
+369,2012-08,Train,93.19
+370,2012-08,All Items,99.0
+371,2012-08,Transport,102.56
+372,2012-07,Train,92.63
+373,2012-07,All Items,98.35
+374,2012-07,Transport,101.29
+375,2012-06,Train,92.63
+376,2012-06,All Items,98.78
+377,2012-06,Transport,100.39
+378,2012-05,Train,92.63
+379,2012-05,All Items,98.75
+380,2012-05,Transport,100.8
+381,2012-04,Train,92.63
+382,2012-04,All Items,98.8
+383,2012-04,Transport,101.67
+384,2012-03,Train,92.41
+385,2012-03,All Items,98.67
+386,2012-03,Transport,100.89
+387,2012-02,Train,91.97
+388,2012-02,All Items,97.86
+389,2012-02,Transport,100.12
+390,2012-01,Train,91.97
+391,2012-01,All Items,97.46
+392,2012-01,Transport,99.86
+393,2011-12,Train,89.71
+394,2011-12,All Items,97.8
+395,2011-12,Transport,99.09
+396,2011-11,Train,89.71
+397,2011-11,All Items,97.41
+398,2011-11,Transport,98.52
+399,2011-10,Train,89.71
+400,2011-10,All Items,97.14
+401,2011-10,Transport,98.56
+402,2011-09,Train,89.71
+403,2011-09,All Items,96.91
+404,2011-09,Transport,98.43
+405,2011-08,Train,89.71
+406,2011-08,All Items,96.98
+407,2011-08,Transport,98.34
+408,2011-07,Train,89.71
+409,2011-07,All Items,96.48
+410,2011-07,Transport,98.45
+411,2011-06,Train,88.89
+412,2011-06,All Items,96.91
+413,2011-06,Transport,98.0
+414,2011-05,Train,88.89
+415,2011-05,All Items,96.83
+416,2011-05,Transport,98.03
+417,2011-04,Train,88.89
+418,2011-04,All Items,96.78
+419,2011-04,Transport,98.72
+420,2011-03,Train,88.89
+421,2011-03,All Items,96.45
+422,2011-03,Transport,97.91
+423,2011-02,Train,88.89
+424,2011-02,All Items,95.67
+425,2011-02,Transport,97.21
+426,2011-01,Train,87.57
+427,2011-01,All Items,95.22
+428,2011-01,Transport,96.48
+429,2010-12,Train,87.48
+430,2010-12,All Items,95.45
+431,2010-12,Transport,95.31
+432,2010-11,Train,87.48
+433,2010-11,All Items,95.02
+434,2010-11,Transport,94.16
+435,2010-10,Train,87.48
+436,2010-10,All Items,94.91
+437,2010-10,Transport,93.97
+438,2010-09,Train,87.48
+439,2010-09,All Items,94.79
+440,2010-09,Transport,93.83
+441,2010-08,Train,87.48
+442,2010-08,All Items,94.86
+443,2010-08,Transport,94.04
+444,2010-07,Train,87.48
+445,2010-07,All Items,94.64
+446,2010-07,Transport,94.47
+447,2010-06,Train,86.81
+448,2010-06,All Items,94.91
+449,2010-06,Transport,93.6
+450,2010-05,Train,86.81
+451,2010-05,All Items,94.92
+452,2010-05,Transport,93.78
+453,2010-04,Train,86.81
+454,2010-04,All Items,94.81
+455,2010-04,Transport,93.68
+456,2010-03,Train,86.81
+457,2010-03,All Items,94.57
+458,2010-03,Transport,93.46
+459,2010-02,Train,86.81
+460,2010-02,All Items,94.11
+461,2010-02,Transport,92.52
+462,2010-01,Train,86.81
+463,2010-01,All Items,93.59
+464,2010-01,Transport,92.66
+465,2009-12,Train,85.88
+466,2009-12,All Items,93.8
+467,2009-12,Transport,91.53
+468,2009-11,Train,85.75
+469,2009-11,All Items,93.55
+470,2009-11,Transport,91.13
+471,2009-10,Train,85.75
+472,2009-10,All Items,93.42
+473,2009-10,Transport,90.79
+474,2009-09,Train,85.75
+475,2009-09,All Items,93.33
+476,2009-09,Transport,90.62
+477,2009-08,Train,85.75
+478,2009-08,All Items,93.56
+479,2009-08,Transport,91.71
+480,2009-07,Train,85.75
+481,2009-07,All Items,93.08
+482,2009-07,Transport,91.25
+483,2009-06,Train,84.9
+484,2009-06,All Items,93.5
+485,2009-06,Transport,91.11
+486,2009-05,Train,84.9
+487,2009-05,All Items,93.38
+488,2009-05,Transport,89.98
+489,2009-04,Train,84.9
+490,2009-04,All Items,93.24
+491,2009-04,Transport,89.89
+492,2009-03,Train,84.9
+493,2009-03,All Items,93.09
+494,2009-03,Transport,89.09
+495,2009-02,Train,84.9
+496,2009-02,All Items,92.92
+497,2009-02,Transport,89.4
+498,2009-01,Train,84.9
+499,2009-01,All Items,92.57
+500,2009-01,Transport,88.85
+501,2008-12,Train,83.31
+502,2008-12,All Items,92.95
+503,2008-12,Transport,89.52
+504,2008-11,Train,83.31
+505,2008-11,All Items,93.18
+506,2008-11,Transport,90.97
+507,2008-10,Train,83.31
+508,2008-10,All Items,93.62
+509,2008-10,Transport,92.8
+510,2008-09,Train,83.31
+511,2008-09,All Items,93.67
+512,2008-09,Transport,93.9
+513,2008-08,Train,83.11
+514,2008-08,All Items,93.73
+515,2008-08,Transport,94.39
+516,2008-07,Train,83.11
+517,2008-07,All Items,93.76
+518,2008-07,Transport,95.57
+519,2008-06,Train,82.47
+520,2008-06,All Items,93.96
+521,2008-06,Transport,94.73
+522,2008-05,Train,82.47
+523,2008-05,All Items,93.62
+524,2008-05,Transport,93.3
+525,2008-04,Train,82.47
+526,2008-04,All Items,93.12
+527,2008-04,Transport,92.3
+528,2008-03,Train,82.47
+529,2008-03,All Items,92.81
+530,2008-03,Transport,91.72
+531,2008-02,Train,82.47
+532,2008-02,All Items,92.12
+533,2008-02,Transport,90.8
+534,2008-01,Train,81.56
+535,2008-01,All Items,91.92
+536,2008-01,Transport,90.63
+537,2007-12,Train,81.56
+538,2007-12,All Items,92.03
+539,2007-12,Transport,90.59
+540,2007-11,Train,81.56
+541,2007-11,All Items,91.69
+542,2007-11,Transport,89.86
+543,2007-10,Train,81.56
+544,2007-10,All Items,91.19
+545,2007-10,Transport,88.47
+546,2007-09,Train,81.56
+547,2007-09,All Items,90.96
+548,2007-09,Transport,88.13
+549,2007-08,Train,81.56
+550,2007-08,All Items,90.86
+551,2007-08,Transport,88.6
+552,2007-07,Train,81.56
+553,2007-07,All Items,90.49
+554,2007-07,Transport,88.79
+555,2007-06,Train,80.87
+556,2007-06,All Items,90.72
+557,2007-06,Transport,87.94
+558,2007-05,Train,80.65
+559,2007-05,All Items,90.61
+560,2007-05,Transport,87.97
+561,2007-04,Train,80.65
+562,2007-04,All Items,90.39
+563,2007-04,Transport,87.44
+564,2007-03,Train,80.65
+565,2007-03,All Items,89.95
+566,2007-03,Transport,86.44
+567,2007-02,Train,80.65
+568,2007-02,All Items,89.57
+569,2007-02,Transport,85.9
+570,2007-01,Train,79.86
+571,2007-01,All Items,89.4
+572,2007-01,Transport,85.5
+573,2006-12,Train,79.54
+574,2006-12,All Items,89.71
+575,2006-12,Transport,85.43
+576,2006-11,Train,79.54
+577,2006-11,All Items,89.5
+578,2006-11,Transport,85.11
+579,2006-10,Train,79.54
+580,2006-10,All Items,89.4
+581,2006-10,Transport,85.12
+582,2006-09,Train,79.54
+583,2006-09,All Items,89.6
+584,2006-09,Transport,86.15
+585,2006-08,Train,79.54
+586,2006-08,All Items,89.8
+587,2006-08,Transport,87.76
+588,2006-07,Train,79.54
+589,2006-07,All Items,89.5
+590,2006-07,Transport,87.49
+591,2006-06,Train,78.9
+592,2006-06,All Items,89.65
+593,2006-06,Transport,86.54
+594,2006-05,Train,78.9
+595,2006-05,All Items,89.65
+596,2006-05,Transport,86.59
+597,2006-04,Train,78.91
+598,2006-04,All Items,89.27
+599,2006-04,Transport,86.09
+600,2006-03,Train,79.15
+601,2006-03,All Items,88.89
+602,2006-03,Transport,84.98
+603,2006-02,Train,79.15
+604,2006-02,All Items,88.64
+605,2006-02,Transport,85.1
+606,2006-01,Train,77.51
+607,2006-01,All Items,88.3
+608,2006-01,Transport,84.79
+609,2005-12,Train,77.63
+610,2005-12,All Items,88.39
+611,2005-12,Transport,84.1
+612,2005-11,Train,77.64
+613,2005-11,All Items,88.28
+614,2005-11,Transport,84.5
+615,2005-10,Train,77.64
+616,2005-10,All Items,88.46
+617,2005-10,Transport,85.7
+618,2005-09,Train,77.64
+619,2005-09,All Items,88.48
+620,2005-09,Transport,85.6
+621,2005-08,Train,77.64
+622,2005-08,All Items,88.14
+623,2005-08,Transport,84.8
+624,2005-07,Train,77.64
+625,2005-07,All Items,87.8
+626,2005-07,Transport,84.1
+627,2005-06,Train,77.04
+628,2005-06,All Items,87.93
+629,2005-06,Transport,82.9
+630,2005-05,Train,77.04
+631,2005-05,All Items,87.83
+632,2005-05,Transport,82.5
+633,2005-04,Train,77.04
+634,2005-04,All Items,87.77
+635,2005-04,Transport,82.9
+636,2005-03,Train,77.04
+637,2005-03,All Items,87.6
+638,2005-03,Transport,82.0
+639,2005-02,Train,77.04
+640,2005-02,All Items,87.05
+641,2005-02,Transport,81.5
+642,2005-01,Train,75.76
+643,2005-01,All Items,86.52
+644,2005-01,Transport,80.5
+645,2004-12,Train,75.44
+646,2004-12,All Items,87.0
+647,2004-12,Transport,81.2
+648,2004-11,Train,75.64
+649,2004-11,All Items,86.9
+650,2004-11,Transport,81.4
+651,2004-10,Train,75.78
+652,2004-10,All Items,86.85
+653,2004-10,Transport,81.4
+654,2004-09,Train,75.78
+655,2004-09,All Items,86.63
+656,2004-09,Transport,80.6
+657,2004-08,Train,75.78
+658,2004-08,All Items,86.55
+659,2004-08,Transport,80.8
+660,2004-07,Train,75.78
+661,2004-07,All Items,86.36
+662,2004-07,Transport,80.2
+663,2004-06,Train,75.09
+664,2004-06,All Items,86.5
+665,2004-06,Transport,79.7
+666,2004-05,Train,75.09
+667,2004-05,All Items,86.47
+668,2004-05,Transport,79.9
+669,2004-04,Train,74.62
+670,2004-04,All Items,86.15
+671,2004-04,Transport,79.1
+672,2004-03,Train,74.09
+673,2004-03,All Items,85.93
+674,2004-03,Transport,78.5
+675,2004-02,Train,74.09
+676,2004-02,All Items,85.59
+677,2004-02,Transport,78.2
+678,2004-01,Train,74.09
+679,2004-01,All Items,85.23
+680,2004-01,Transport,78.0
+681,2003-12,Train,74.09
+682,2003-12,All Items,85.23
+683,2003-12,Transport,77.6
+684,2003-11,Train,73.76
+685,2003-11,All Items,85.14
+686,2003-11,Transport,77.4
+687,2003-10,Train,74.1
+688,2003-10,All Items,85.04
+689,2003-10,Transport,77.5
+690,2003-09,Train,74.1
+691,2003-09,All Items,84.86
+692,2003-09,Transport,77.3
+693,2003-08,Train,74.06
+694,2003-08,All Items,84.54
+695,2003-08,Transport,77.6
+696,2003-07,Train,74.06
+697,2003-07,All Items,84.34
+698,2003-07,Transport,77.3
+699,2003-06,Train,72.87
+700,2003-06,All Items,84.43
+701,2003-06,Transport,76.5
+702,2003-05,Train,72.22
+703,2003-05,All Items,84.27
+704,2003-05,Transport,76.7
+705,2003-04,Train,72.22
+706,2003-04,All Items,84.37
+707,2003-04,Transport,77.3
+708,2003-03,Train,72.2
+709,2003-03,All Items,84.49
+710,2003-03,Transport,77.9
+711,2003-02,Train,72.19
+712,2003-02,All Items,84.15
+713,2003-02,Transport,77.6
+714,2003-01,Train,72.19
+715,2003-01,All Items,83.57
+716,2003-01,Transport,76.9
+717,2002-12,Train,71.98
+718,2002-12,All Items,83.41
+719,2002-12,Transport,76.1
+720,2002-11,Train,71.74
+721,2002-11,All Items,83.27
+722,2002-11,Transport,76.1
+723,2002-10,Train,71.74
+724,2002-10,All Items,83.27
+725,2002-10,Transport,76.4
+726,2002-09,Train,71.73
+727,2002-09,All Items,83.14
+728,2002-09,Transport,76.1
+729,2002-08,Train,71.65
+730,2002-08,All Items,82.99
+731,2002-08,Transport,76.2
+732,2002-07,Train,70.26
+733,2002-07,All Items,82.8
+734,2002-07,Transport,75.9
+735,2002-06,Train,69.94
+736,2002-06,All Items,82.8
+737,2002-06,Transport,75.2
+738,2002-05,Train,69.63
+739,2002-05,All Items,82.81
+740,2002-05,Transport,75.6
+741,2002-04,Train,69.63
+742,2002-04,All Items,82.71
+743,2002-04,Transport,75.4
+744,2002-03,Train,69.63
+745,2002-03,All Items,82.4
+746,2002-03,Transport,74.6
+747,2002-02,Train,69.63
+748,2002-02,All Items,82.04
+749,2002-02,Transport,74.4
+750,2002-01,Train,69.63
+751,2002-01,All Items,81.94
+752,2002-01,Transport,74.2
+753,2001-12,Train,69.83
+754,2001-12,All Items,81.56
+755,2001-12,Transport,74.2
+756,2001-11,Train,69.83
+757,2001-11,All Items,81.46
+758,2001-11,Transport,74.2
+759,2001-10,Train,69.81
+760,2001-10,All Items,81.68
+761,2001-10,Transport,74.7
+762,2001-09,Train,69.7
+763,2001-09,All Items,81.63
+764,2001-09,Transport,74.9
+765,2001-08,Train,68.51
+766,2001-08,All Items,81.48
+767,2001-08,Transport,75.0
+768,2001-07,Train,68.51
+769,2001-07,All Items,81.48
+770,2001-07,Transport,75.5
+771,2001-06,Train,68.5
+772,2001-06,All Items,81.65
+773,2001-06,Transport,75.5
+774,2001-05,Train,68.45
+775,2001-05,All Items,81.6
+776,2001-05,Transport,75.6
+777,2001-04,Train,68.45
+778,2001-04,All Items,81.1
+779,2001-04,Transport,74.8
+780,2001-03,Train,68.4
+781,2001-03,All Items,80.71
+782,2001-03,Transport,74.2
+783,2001-02,Train,68.38
+784,2001-02,All Items,80.35
+785,2001-02,Transport,74.3
+786,2001-01,Train,67.27
+787,2001-01,All Items,80.13
+788,2001-01,Transport,74.0
+789,2000-12,Train,67.12
+790,2000-12,All Items,80.47
+791,2000-12,Transport,75.1
+792,2000-11,Train,67.03
+793,2000-11,All Items,80.51
+794,2000-11,Transport,75.4
+795,2000-10,Train,67.03
+796,2000-10,All Items,80.33
+797,2000-10,Transport,75.2
+798,2000-09,Train,67.03
+799,2000-09,All Items,80.43
+800,2000-09,Transport,75.6
+801,2000-08,Train,67.03
+802,2000-08,All Items,80.02
+803,2000-08,Transport,74.7
+804,2000-07,Train,67.03
+805,2000-07,All Items,79.87
+806,2000-07,Transport,75.2
+807,2000-06,Train,67.03
+808,2000-06,All Items,80.0
+809,2000-06,Transport,74.7
+810,2000-05,Train,67.41
+811,2000-05,All Items,79.8
+812,2000-05,Transport,73.9
+813,2000-04,Train,67.45
+814,2000-04,All Items,79.64
+815,2000-04,Transport,73.8
+816,2000-03,Train,67.45
+817,2000-03,All Items,79.64
+818,2000-03,Transport,74.0
+819,2000-02,Train,67.45
+820,2000-02,All Items,79.27
+821,2000-02,Transport,73.6
+822,2000-01,Train,66.65
+823,2000-01,All Items,79.17
+824,2000-01,Transport,73.3
+825,1999-12,Train,66.32
+826,1999-12,All Items,79.17
+827,1999-12,Transport,73.0
+828,1999-11,Train,66.32
+829,1999-11,All Items,78.82
+830,1999-11,Transport,72.1
+831,1999-10,Train,66.32
+832,1999-10,All Items,78.79
+833,1999-10,Transport,72.1
+834,1999-09,Train,66.32
+835,1999-09,All Items,78.74
+836,1999-09,Transport,71.9
+837,1999-08,Train,66.32
+838,1999-08,All Items,78.61
+839,1999-08,Transport,71.8
+840,1999-07,Train,66.32
+841,1999-07,All Items,78.48
+842,1999-07,Transport,71.6
+843,1999-06,Train,66.32
+844,1999-06,All Items,78.69
+845,1999-06,Transport,71.0
+846,1999-05,Train,66.25
+847,1999-05,All Items,78.7
+848,1999-05,Transport,70.9
+849,1999-04,Train,66.25
+850,1999-04,All Items,78.69
+851,1999-04,Transport,70.8
+852,1999-03,Train,66.25
+853,1999-03,All Items,78.47
+854,1999-03,Transport,70.3
+855,1999-02,Train,66.25
+856,1999-02,All Items,78.21
+857,1999-02,Transport,70.2
+858,1999-01,Train,65.56
+859,1999-01,All Items,77.97
+860,1999-01,Transport,70.1
+861,1998-12,Train,65.43
+862,1998-12,All Items,78.19
+863,1998-12,Transport,70.1
+864,1998-11,Train,65.31
+865,1998-11,All Items,78.11
+866,1998-11,Transport,70.2
+867,1998-10,Train,65.31
+868,1998-10,All Items,78.16
+869,1998-10,Transport,70.3
+870,1998-09,Train,65.31
+871,1998-09,All Items,78.2
+872,1998-09,Transport,70.4
+873,1998-08,Train,65.31
+874,1998-08,All Items,78.23
+875,1998-08,Transport,70.7
+876,1998-07,Train,65.31
+877,1998-07,All Items,78.18
+878,1998-07,Transport,70.9
+879,1998-06,Train,65.31
+880,1998-06,All Items,78.44
+881,1998-06,Transport,70.5
+882,1998-05,Train,65.01
+883,1998-05,All Items,78.38
+884,1998-05,Transport,70.7
+885,1998-04,Train,66.4
+886,1998-04,All Items,78.36
+887,1998-04,Transport,70.9
+888,1998-03,Train,66.53
+889,1998-03,All Items,78.2
+890,1998-03,Transport,70.8
+891,1998-02,Train,66.53
+892,1998-02,All Items,78.07
+893,1998-02,Transport,71.1
+894,1998-01,Train,65.89
+895,1998-01,All Items,77.78
+896,1998-01,Transport,70.7
+897,1997-12,Train,65.7
+898,1997-12,All Items,78.02
+899,1997-12,Transport,70.7
+900,1997-11,Train,65.7
+901,1997-11,All Items,77.98
+902,1997-11,Transport,70.6
+903,1997-10,Train,65.7
+904,1997-10,All Items,77.85
+905,1997-10,Transport,70.7
+906,1997-09,Train,65.72
+907,1997-09,All Items,77.89
+908,1997-09,Transport,70.8
+909,1997-08,Train,65.58
+910,1997-08,All Items,77.75
+911,1997-08,Transport,70.8
+912,1997-07,Train,65.62
+913,1997-07,All Items,77.55
+914,1997-07,Transport,70.5
+915,1997-06,Train,65.72
+916,1997-06,All Items,77.65
+917,1997-06,Transport,70.3
+918,1997-05,Train,65.93
+919,1997-05,All Items,77.67
+920,1997-05,Transport,70.4
+921,1997-04,Train,65.93
+922,1997-04,All Items,77.56
+923,1997-04,Transport,70.6
+924,1997-03,Train,65.93
+925,1997-03,All Items,77.53
+926,1997-03,Transport,70.6
+927,1997-02,Train,65.93
+928,1997-02,All Items,77.47
+929,1997-02,Transport,70.6
+930,1997-01,Train,65.1
+931,1997-01,All Items,77.31
+932,1997-01,Transport,70.5
+933,1996-12,Train,64.9
+934,1996-12,All Items,77.14
+935,1996-12,Transport,70.3
+936,1996-11,Train,65.32
+937,1996-11,All Items,76.98
+938,1996-11,Transport,70.1
+939,1996-10,Train,65.32
+940,1996-10,All Items,77.05
+941,1996-10,Transport,70.7
+942,1996-09,Train,65.6
+943,1996-09,All Items,76.85
+944,1996-09,Transport,70.1
+945,1996-08,Train,65.31
+946,1996-08,All Items,76.62
+947,1996-08,Transport,69.9
+948,1996-07,Train,65.31
+949,1996-07,All Items,76.77
+950,1996-07,Transport,70.2
+951,1996-06,Train,65.62
+952,1996-06,All Items,76.91
+953,1996-06,Transport,70.0
+954,1996-05,Train,65.65
+955,1996-05,All Items,77.0
+956,1996-05,Transport,70.0
+957,1996-04,Train,65.65
+958,1996-04,All Items,76.84
+959,1996-04,Transport,69.8
+960,1996-03,Train,65.65
+961,1996-03,All Items,76.75
+962,1996-03,Transport,69.6
+963,1996-02,Train,65.65
+964,1996-02,All Items,76.26
+965,1996-02,Transport,69.1
+966,1996-01,Train,64.63
+967,1996-01,All Items,75.97
+968,1996-01,Transport,68.8
