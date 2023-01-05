@@ -1,265 +1,353 @@
 ,Month,Measure,Inflation Index
-0,2015-01,Aggregate Inflation,98.5
-1,2015-01,Local Train Ride,99.8
-2,2015-01,Passenger Transport Index,99.6
-3,2015-02,Aggregate Inflation,99.2
-4,2015-02,Local Train Ride,99.9
-5,2015-02,Passenger Transport Index,99.8
-6,2015-03,Aggregate Inflation,99.7
-7,2015-03,Local Train Ride,99.9
-8,2015-03,Passenger Transport Index,99.8
-9,2015-04,Aggregate Inflation,100.2
-10,2015-04,Local Train Ride,99.9
-11,2015-04,Passenger Transport Index,99.8
-12,2015-05,Aggregate Inflation,100.4
-13,2015-05,Local Train Ride,99.9
-14,2015-05,Passenger Transport Index,99.8
-15,2015-06,Aggregate Inflation,100.4
-16,2015-06,Local Train Ride,99.9
-17,2015-06,Passenger Transport Index,99.8
-18,2015-07,Aggregate Inflation,100.6
-19,2015-07,Local Train Ride,99.9
-20,2015-07,Passenger Transport Index,99.8
-21,2015-08,Aggregate Inflation,100.6
-22,2015-08,Local Train Ride,99.9
-23,2015-08,Passenger Transport Index,100.2
-24,2015-09,Aggregate Inflation,100.4
-25,2015-09,Local Train Ride,99.9
-26,2015-09,Passenger Transport Index,100.2
-27,2015-10,Aggregate Inflation,100.4
-28,2015-10,Local Train Ride,99.9
-29,2015-10,Passenger Transport Index,100.3
-30,2015-11,Aggregate Inflation,99.7
-31,2015-11,Local Train Ride,99.9
-32,2015-11,Passenger Transport Index,100.3
-33,2015-12,Aggregate Inflation,99.7
-34,2015-12,Local Train Ride,100.7
-35,2015-12,Passenger Transport Index,100.5
-36,2016-01,Aggregate Inflation,99
-37,2016-01,Local Train Ride,101.4
-38,2016-01,Passenger Transport Index,102.3
-39,2016-02,Aggregate Inflation,99.3
-40,2016-02,Local Train Ride,101.5
-41,2016-02,Passenger Transport Index,102.4
-42,2016-03,Aggregate Inflation,100
-43,2016-03,Local Train Ride,101.5
-44,2016-03,Passenger Transport Index,102.4
-45,2016-04,Aggregate Inflation,100.1
-46,2016-04,Local Train Ride,101.5
-47,2016-04,Passenger Transport Index,102.4
-48,2016-05,Aggregate Inflation,100.6
-49,2016-05,Local Train Ride,101.5
-50,2016-05,Passenger Transport Index,102.4
-51,2016-06,Aggregate Inflation,100.7
-52,2016-06,Local Train Ride,101.5
-53,2016-06,Passenger Transport Index,102.4
-54,2016-07,Aggregate Inflation,101.1
-55,2016-07,Local Train Ride,101.5
-56,2016-07,Passenger Transport Index,102.4
-57,2016-08,Aggregate Inflation,101
-58,2016-08,Local Train Ride,101.5
-59,2016-08,Passenger Transport Index,102.8
-60,2016-09,Aggregate Inflation,101
-61,2016-09,Local Train Ride,101.5
-62,2016-09,Passenger Transport Index,102.8
-63,2016-10,Aggregate Inflation,101.2
-64,2016-10,Local Train Ride,101.5
-65,2016-10,Passenger Transport Index,102.8
-66,2016-11,Aggregate Inflation,100.5
-67,2016-11,Local Train Ride,101.5
-68,2016-11,Passenger Transport Index,102.9
-69,2016-12,Aggregate Inflation,101.2
-70,2016-12,Local Train Ride,104
-71,2016-12,Passenger Transport Index,103.1
-72,2017-01,Aggregate Inflation,100.6
-73,2017-01,Local Train Ride,105.4
-74,2017-01,Passenger Transport Index,104.1
-75,2017-02,Aggregate Inflation,101.2
-76,2017-02,Local Train Ride,105.4
-77,2017-02,Passenger Transport Index,104.1
-78,2017-03,Aggregate Inflation,101.4
-79,2017-03,Local Train Ride,105.4
-80,2017-03,Passenger Transport Index,104.1
-81,2017-04,Aggregate Inflation,101.8
-82,2017-04,Local Train Ride,105.4
-83,2017-04,Passenger Transport Index,104.1
-84,2017-05,Aggregate Inflation,101.8
-85,2017-05,Local Train Ride,105.4
-86,2017-05,Passenger Transport Index,104.1
-87,2017-06,Aggregate Inflation,102.1
-88,2017-06,Local Train Ride,105.4
-89,2017-06,Passenger Transport Index,104.1
-90,2017-07,Aggregate Inflation,102.5
-91,2017-07,Local Train Ride,105.4
-92,2017-07,Passenger Transport Index,104.2
-93,2017-08,Aggregate Inflation,102.6
-94,2017-08,Local Train Ride,105.4
-95,2017-08,Passenger Transport Index,104.5
-96,2017-09,Aggregate Inflation,102.7
-97,2017-09,Local Train Ride,105.4
-98,2017-09,Passenger Transport Index,104.5
-99,2017-10,Aggregate Inflation,102.5
-100,2017-10,Local Train Ride,105.4
-101,2017-10,Passenger Transport Index,104.6
-102,2017-11,Aggregate Inflation,102.1
-103,2017-11,Local Train Ride,105.4
-104,2017-11,Passenger Transport Index,104.6
-105,2017-12,Aggregate Inflation,102.6
-106,2017-12,Local Train Ride,108.5
-107,2017-12,Passenger Transport Index,104.8
-108,2018-01,Aggregate Inflation,102
-109,2018-01,Local Train Ride,110
-110,2018-01,Passenger Transport Index,105.8
-111,2018-02,Aggregate Inflation,102.3
-112,2018-02,Local Train Ride,110
-113,2018-02,Passenger Transport Index,105.8
-114,2018-03,Aggregate Inflation,102.9
-115,2018-03,Local Train Ride,110
-116,2018-03,Passenger Transport Index,105.8
-117,2018-04,Aggregate Inflation,103.1
-118,2018-04,Local Train Ride,110
-119,2018-04,Passenger Transport Index,105.9
-120,2018-05,Aggregate Inflation,103.9
-121,2018-05,Local Train Ride,110
-122,2018-05,Passenger Transport Index,105.9
-123,2018-06,Aggregate Inflation,104
-124,2018-06,Local Train Ride,110
-125,2018-06,Passenger Transport Index,105.9
-126,2018-07,Aggregate Inflation,104.4
-127,2018-07,Local Train Ride,110
-128,2018-07,Passenger Transport Index,106
-129,2018-08,Aggregate Inflation,104.5
-130,2018-08,Local Train Ride,110
-131,2018-08,Passenger Transport Index,106.2
-132,2018-09,Aggregate Inflation,104.7
-133,2018-09,Local Train Ride,110
-134,2018-09,Passenger Transport Index,106.2
-135,2018-10,Aggregate Inflation,104.9
-136,2018-10,Local Train Ride,110
-137,2018-10,Passenger Transport Index,106.3
-138,2018-11,Aggregate Inflation,104.2
-139,2018-11,Local Train Ride,110
-140,2018-11,Passenger Transport Index,106.3
-141,2018-12,Aggregate Inflation,104.2
-142,2018-12,Local Train Ride,112.4
-143,2018-12,Passenger Transport Index,106.3
-144,2019-01,Aggregate Inflation,103.4
-145,2019-01,Local Train Ride,113.5
-146,2019-01,Passenger Transport Index,107.7
-147,2019-02,Aggregate Inflation,103.8
-148,2019-02,Local Train Ride,113.5
-149,2019-02,Passenger Transport Index,107.7
-150,2019-03,Aggregate Inflation,104.2
-151,2019-03,Local Train Ride,113.5
-152,2019-03,Passenger Transport Index,107.8
-153,2019-04,Aggregate Inflation,105.2
-154,2019-04,Local Train Ride,113.5
-155,2019-04,Passenger Transport Index,107.8
-156,2019-05,Aggregate Inflation,105.4
-157,2019-05,Local Train Ride,113.5
-158,2019-05,Passenger Transport Index,107.8
-159,2019-06,Aggregate Inflation,105.7
-160,2019-06,Local Train Ride,113.5
-161,2019-06,Passenger Transport Index,107.8
-162,2019-07,Aggregate Inflation,106.2
-163,2019-07,Local Train Ride,113.9
-164,2019-07,Passenger Transport Index,107.8
-165,2019-08,Aggregate Inflation,106
-166,2019-08,Local Train Ride,113.9
-167,2019-08,Passenger Transport Index,108.3
-168,2019-09,Aggregate Inflation,106
-169,2019-09,Local Train Ride,113.9
-170,2019-09,Passenger Transport Index,108.3
-171,2019-10,Aggregate Inflation,106.1
-172,2019-10,Local Train Ride,113.9
-173,2019-10,Passenger Transport Index,108.4
-174,2019-11,Aggregate Inflation,105.3
-175,2019-11,Local Train Ride,113.9
-176,2019-11,Passenger Transport Index,108.4
-177,2019-12,Aggregate Inflation,105.8
-178,2019-12,Local Train Ride,115.9
-179,2019-12,Passenger Transport Index,108.5
-180,2020-01,Aggregate Inflation,105.2
-181,2020-01,Local Train Ride,118
-182,2020-01,Passenger Transport Index,109.7
-183,2020-02,Aggregate Inflation,105.6
-184,2020-02,Local Train Ride,118
-185,2020-02,Passenger Transport Index,109.7
-186,2020-03,Aggregate Inflation,105.7
-187,2020-03,Local Train Ride,118
-188,2020-03,Passenger Transport Index,109.7
-189,2020-04,Aggregate Inflation,106.1
-190,2020-04,Local Train Ride,118
-191,2020-04,Passenger Transport Index,109.7
-192,2020-05,Aggregate Inflation,106
-193,2020-05,Local Train Ride,118
-194,2020-05,Passenger Transport Index,109.7
-195,2020-06,Aggregate Inflation,106.6
-196,2020-06,Local Train Ride,115.7
-197,2020-06,Passenger Transport Index,109.7
-198,2020-07,Aggregate Inflation,106.1
-199,2020-07,Local Train Ride,113.9
-200,2020-07,Passenger Transport Index,109.6
-201,2020-08,Aggregate Inflation,106
-202,2020-08,Local Train Ride,113.8
-203,2020-08,Passenger Transport Index,109.7
-204,2020-09,Aggregate Inflation,105.8
-205,2020-09,Local Train Ride,113.8
-206,2020-09,Passenger Transport Index,109.6
-207,2020-10,Aggregate Inflation,105.9
-208,2020-10,Local Train Ride,113.8
-209,2020-10,Passenger Transport Index,109.4
-210,2020-11,Aggregate Inflation,105
-211,2020-11,Local Train Ride,113.8
-212,2020-11,Passenger Transport Index,109.4
-213,2020-12,Aggregate Inflation,105.5
-214,2020-12,Local Train Ride,115.3
-215,2020-12,Passenger Transport Index,109.6
-216,2021-01,Aggregate Inflation,106.3
-217,2021-01,Local Train Ride,116.2
-218,2021-01,Passenger Transport Index,110.6
-219,2021-02,Aggregate Inflation,107
-220,2021-02,Local Train Ride,116
-221,2021-02,Passenger Transport Index,111
-222,2021-03,Aggregate Inflation,107.5
-223,2021-03,Local Train Ride,116
-224,2021-03,Passenger Transport Index,111
-225,2021-04,Aggregate Inflation,108.2
-226,2021-04,Local Train Ride,116
-227,2021-04,Passenger Transport Index,111.1
-228,2021-05,Aggregate Inflation,108.7
-229,2021-05,Local Train Ride,116
-230,2021-05,Passenger Transport Index,111.1
-231,2021-06,Aggregate Inflation,109.1
-232,2021-06,Local Train Ride,116.3
-233,2021-06,Passenger Transport Index,111.1
-234,2021-07,Aggregate Inflation,110.1
-235,2021-07,Local Train Ride,116.3
-236,2021-07,Passenger Transport Index,111.3
-237,2021-08,Aggregate Inflation,110.1
-238,2021-08,Local Train Ride,116.3
-239,2021-08,Passenger Transport Index,111.5
-240,2021-09,Aggregate Inflation,110.1
-241,2021-09,Local Train Ride,116.4
-242,2021-09,Passenger Transport Index,111.6
-243,2021-10,Aggregate Inflation,110.7
-244,2021-10,Local Train Ride,116.4
-245,2021-10,Passenger Transport Index,111.7
-246,2021-11,Aggregate Inflation,110.5
-247,2021-11,Local Train Ride,116.4
-248,2021-11,Passenger Transport Index,111.7
-249,2021-12,Aggregate Inflation,111.1
-250,2021-12,Local Train Ride,118.1
-251,2021-12,Passenger Transport Index,111.8
-252,2022-01,Aggregate Inflation,111.5
-253,2022-01,Local Train Ride,119
-254,2022-01,Passenger Transport Index,112.9
-255,2022-02,Aggregate Inflation,112.5
-256,2022-02,Local Train Ride,119
-257,2022-02,Passenger Transport Index,112.9
-258,2022-03,Aggregate Inflation,115.3
-259,2022-03,Local Train Ride,119
-260,2022-03,Passenger Transport Index,113
-261,2022-04,Aggregate Inflation,116.2
-262,2022-04,Local Train Ride,119
-263,2022-04,Passenger Transport Index,113
+0,2015-01,1. All Items Index,98.5
+1,2015-01,Aggregate Inflation,98.5
+2,2015-01,3. Train Fares,99.8
+3,2015-01,2. Transport Fares Index,99.6
+4,2015-02,1. All Items Index,99.2
+5,2015-02,Aggregate Inflation,99.2
+6,2015-02,3. Train Fares,99.9
+7,2015-02,2. Transport Fares Index,99.8
+8,2015-03,1. All Items Index,99.7
+9,2015-03,Aggregate Inflation,99.7
+10,2015-03,3. Train Fares,99.9
+11,2015-03,2. Transport Fares Index,99.8
+12,2015-04,1. All Items Index,100.2
+13,2015-04,Aggregate Inflation,100.2
+14,2015-04,3. Train Fares,99.9
+15,2015-04,2. Transport Fares Index,99.8
+16,2015-05,1. All Items Index,100.4
+17,2015-05,Aggregate Inflation,100.4
+18,2015-05,3. Train Fares,99.9
+19,2015-05,2. Transport Fares Index,99.8
+20,2015-06,1. All Items Index,100.4
+21,2015-06,Aggregate Inflation,100.4
+22,2015-06,3. Train Fares,99.9
+23,2015-06,2. Transport Fares Index,99.8
+24,2015-07,1. All Items Index,100.6
+25,2015-07,Aggregate Inflation,100.6
+26,2015-07,3. Train Fares,99.9
+27,2015-07,2. Transport Fares Index,99.8
+28,2015-08,1. All Items Index,100.6
+29,2015-08,Aggregate Inflation,100.6
+30,2015-08,3. Train Fares,99.9
+31,2015-08,2. Transport Fares Index,100.2
+32,2015-09,1. All Items Index,100.4
+33,2015-09,Aggregate Inflation,100.4
+34,2015-09,3. Train Fares,99.9
+35,2015-09,2. Transport Fares Index,100.2
+36,2015-10,1. All Items Index,100.4
+37,2015-10,Aggregate Inflation,100.4
+38,2015-10,3. Train Fares,99.9
+39,2015-10,2. Transport Fares Index,100.3
+40,2015-11,1. All Items Index,99.7
+41,2015-11,Aggregate Inflation,99.7
+42,2015-11,3. Train Fares,99.9
+43,2015-11,2. Transport Fares Index,100.3
+44,2015-12,1. All Items Index,99.7
+45,2015-12,Aggregate Inflation,99.7
+46,2015-12,3. Train Fares,100.7
+47,2015-12,2. Transport Fares Index,100.5
+48,2016-01,1. All Items Index,99
+49,2016-01,Aggregate Inflation,99
+50,2016-01,3. Train Fares,101.4
+51,2016-01,2. Transport Fares Index,102.3
+52,2016-02,1. All Items Index,99.3
+53,2016-02,Aggregate Inflation,99.3
+54,2016-02,3. Train Fares,101.5
+55,2016-02,2. Transport Fares Index,102.4
+56,2016-03,1. All Items Index,100
+57,2016-03,Aggregate Inflation,100
+58,2016-03,3. Train Fares,101.5
+59,2016-03,2. Transport Fares Index,102.4
+60,2016-04,1. All Items Index,100.1
+61,2016-04,Aggregate Inflation,100.1
+62,2016-04,3. Train Fares,101.5
+63,2016-04,2. Transport Fares Index,102.4
+64,2016-05,1. All Items Index,100.6
+65,2016-05,Aggregate Inflation,100.6
+66,2016-05,3. Train Fares,101.5
+67,2016-05,2. Transport Fares Index,102.4
+68,2016-06,1. All Items Index,100.7
+69,2016-06,Aggregate Inflation,100.7
+70,2016-06,3. Train Fares,101.5
+71,2016-06,2. Transport Fares Index,102.4
+72,2016-07,1. All Items Index,101.1
+73,2016-07,Aggregate Inflation,101.1
+74,2016-07,3. Train Fares,101.5
+75,2016-07,2. Transport Fares Index,102.4
+76,2016-08,1. All Items Index,101
+77,2016-08,Aggregate Inflation,101
+78,2016-08,3. Train Fares,101.5
+79,2016-08,2. Transport Fares Index,102.8
+80,2016-09,1. All Items Index,101
+81,2016-09,Aggregate Inflation,101
+82,2016-09,3. Train Fares,101.5
+83,2016-09,2. Transport Fares Index,102.8
+84,2016-10,1. All Items Index,101.2
+85,2016-10,Aggregate Inflation,101.2
+86,2016-10,3. Train Fares,101.5
+87,2016-10,2. Transport Fares Index,102.8
+88,2016-11,1. All Items Index,100.5
+89,2016-11,Aggregate Inflation,100.5
+90,2016-11,3. Train Fares,101.5
+91,2016-11,2. Transport Fares Index,102.9
+92,2016-12,1. All Items Index,101.2
+93,2016-12,Aggregate Inflation,101.2
+94,2016-12,3. Train Fares,104
+95,2016-12,2. Transport Fares Index,103.1
+96,2017-01,1. All Items Index,100.6
+97,2017-01,Aggregate Inflation,100.6
+98,2017-01,3. Train Fares,105.4
+99,2017-01,2. Transport Fares Index,104.1
+100,2017-02,1. All Items Index,101.2
+101,2017-02,Aggregate Inflation,101.2
+102,2017-02,3. Train Fares,105.4
+103,2017-02,2. Transport Fares Index,104.1
+104,2017-03,1. All Items Index,101.4
+105,2017-03,Aggregate Inflation,101.4
+106,2017-03,3. Train Fares,105.4
+107,2017-03,2. Transport Fares Index,104.1
+108,2017-04,1. All Items Index,101.8
+109,2017-04,Aggregate Inflation,101.8
+110,2017-04,3. Train Fares,105.4
+111,2017-04,2. Transport Fares Index,104.1
+112,2017-05,1. All Items Index,101.8
+113,2017-05,Aggregate Inflation,101.8
+114,2017-05,3. Train Fares,105.4
+115,2017-05,2. Transport Fares Index,104.1
+116,2017-06,1. All Items Index,102.1
+117,2017-06,Aggregate Inflation,102.1
+118,2017-06,3. Train Fares,105.4
+119,2017-06,2. Transport Fares Index,104.1
+120,2017-07,1. All Items Index,102.5
+121,2017-07,Aggregate Inflation,102.5
+122,2017-07,3. Train Fares,105.4
+123,2017-07,2. Transport Fares Index,104.2
+124,2017-08,1. All Items Index,102.6
+125,2017-08,Aggregate Inflation,102.6
+126,2017-08,3. Train Fares,105.4
+127,2017-08,2. Transport Fares Index,104.5
+128,2017-09,1. All Items Index,102.7
+129,2017-09,Aggregate Inflation,102.7
+130,2017-09,3. Train Fares,105.4
+131,2017-09,2. Transport Fares Index,104.5
+132,2017-10,1. All Items Index,102.5
+133,2017-10,Aggregate Inflation,102.5
+134,2017-10,3. Train Fares,105.4
+135,2017-10,2. Transport Fares Index,104.6
+136,2017-11,1. All Items Index,102.1
+137,2017-11,Aggregate Inflation,102.1
+138,2017-11,3. Train Fares,105.4
+139,2017-11,2. Transport Fares Index,104.6
+140,2017-12,1. All Items Index,102.6
+141,2017-12,Aggregate Inflation,102.6
+142,2017-12,3. Train Fares,108.5
+143,2017-12,2. Transport Fares Index,104.8
+144,2018-01,1. All Items Index,102
+145,2018-01,Aggregate Inflation,102
+146,2018-01,3. Train Fares,110
+147,2018-01,2. Transport Fares Index,105.8
+148,2018-02,1. All Items Index,102.3
+149,2018-02,Aggregate Inflation,102.3
+150,2018-02,3. Train Fares,110
+151,2018-02,2. Transport Fares Index,105.8
+152,2018-03,1. All Items Index,102.9
+153,2018-03,Aggregate Inflation,102.9
+154,2018-03,3. Train Fares,110
+155,2018-03,2. Transport Fares Index,105.8
+156,2018-04,1. All Items Index,103.1
+157,2018-04,Aggregate Inflation,103.1
+158,2018-04,3. Train Fares,110
+159,2018-04,2. Transport Fares Index,105.9
+160,2018-05,1. All Items Index,103.9
+161,2018-05,Aggregate Inflation,103.9
+162,2018-05,3. Train Fares,110
+163,2018-05,2. Transport Fares Index,105.9
+164,2018-06,1. All Items Index,104
+165,2018-06,Aggregate Inflation,104
+166,2018-06,3. Train Fares,110
+167,2018-06,2. Transport Fares Index,105.9
+168,2018-07,1. All Items Index,104.4
+169,2018-07,Aggregate Inflation,104.4
+170,2018-07,3. Train Fares,110
+171,2018-07,2. Transport Fares Index,106
+172,2018-08,1. All Items Index,104.5
+173,2018-08,Aggregate Inflation,104.5
+174,2018-08,3. Train Fares,110
+175,2018-08,2. Transport Fares Index,106.2
+176,2018-09,1. All Items Index,104.7
+177,2018-09,Aggregate Inflation,104.7
+178,2018-09,3. Train Fares,110
+179,2018-09,2. Transport Fares Index,106.2
+180,2018-10,1. All Items Index,104.9
+181,2018-10,Aggregate Inflation,104.9
+182,2018-10,3. Train Fares,110
+183,2018-10,2. Transport Fares Index,106.3
+184,2018-11,1. All Items Index,104.2
+185,2018-11,Aggregate Inflation,104.2
+186,2018-11,3. Train Fares,110
+187,2018-11,2. Transport Fares Index,106.3
+188,2018-12,1. All Items Index,104.2
+189,2018-12,Aggregate Inflation,104.2
+190,2018-12,3. Train Fares,112.4
+191,2018-12,2. Transport Fares Index,106.3
+192,2019-01,1. All Items Index,103.4
+193,2019-01,Aggregate Inflation,103.4
+194,2019-01,3. Train Fares,113.5
+195,2019-01,2. Transport Fares Index,107.7
+196,2019-02,1. All Items Index,103.8
+197,2019-02,Aggregate Inflation,103.8
+198,2019-02,3. Train Fares,113.5
+199,2019-02,2. Transport Fares Index,107.7
+200,2019-03,1. All Items Index,104.2
+201,2019-03,Aggregate Inflation,104.2
+202,2019-03,3. Train Fares,113.5
+203,2019-03,2. Transport Fares Index,107.8
+204,2019-04,1. All Items Index,105.2
+205,2019-04,Aggregate Inflation,105.2
+206,2019-04,3. Train Fares,113.5
+207,2019-04,2. Transport Fares Index,107.8
+208,2019-05,1. All Items Index,105.4
+209,2019-05,Aggregate Inflation,105.4
+210,2019-05,3. Train Fares,113.5
+211,2019-05,2. Transport Fares Index,107.8
+212,2019-06,1. All Items Index,105.7
+213,2019-06,Aggregate Inflation,105.7
+214,2019-06,3. Train Fares,113.5
+215,2019-06,2. Transport Fares Index,107.8
+216,2019-07,1. All Items Index,106.2
+217,2019-07,Aggregate Inflation,106.2
+218,2019-07,3. Train Fares,113.9
+219,2019-07,2. Transport Fares Index,107.8
+220,2019-08,1. All Items Index,106
+221,2019-08,Aggregate Inflation,106
+222,2019-08,3. Train Fares,113.9
+223,2019-08,2. Transport Fares Index,108.3
+224,2019-09,1. All Items Index,106
+225,2019-09,Aggregate Inflation,106
+226,2019-09,3. Train Fares,113.9
+227,2019-09,2. Transport Fares Index,108.3
+228,2019-10,1. All Items Index,106.1
+229,2019-10,Aggregate Inflation,106.1
+230,2019-10,3. Train Fares,113.9
+231,2019-10,2. Transport Fares Index,108.4
+232,2019-11,1. All Items Index,105.3
+233,2019-11,Aggregate Inflation,105.3
+234,2019-11,3. Train Fares,113.9
+235,2019-11,2. Transport Fares Index,108.4
+236,2019-12,1. All Items Index,105.8
+237,2019-12,Aggregate Inflation,105.8
+238,2019-12,3. Train Fares,115.9
+239,2019-12,2. Transport Fares Index,108.5
+240,2020-01,1. All Items Index,105.2
+241,2020-01,Aggregate Inflation,105.2
+242,2020-01,3. Train Fares,118
+243,2020-01,2. Transport Fares Index,109.7
+244,2020-02,1. All Items Index,105.6
+245,2020-02,Aggregate Inflation,105.6
+246,2020-02,3. Train Fares,118
+247,2020-02,2. Transport Fares Index,109.7
+248,2020-03,1. All Items Index,105.7
+249,2020-03,Aggregate Inflation,105.7
+250,2020-03,3. Train Fares,118
+251,2020-03,2. Transport Fares Index,109.7
+252,2020-04,1. All Items Index,106.1
+253,2020-04,Aggregate Inflation,106.1
+254,2020-04,3. Train Fares,118
+255,2020-04,2. Transport Fares Index,109.7
+256,2020-05,1. All Items Index,106
+257,2020-05,Aggregate Inflation,106
+258,2020-05,3. Train Fares,118
+259,2020-05,2. Transport Fares Index,109.7
+260,2020-06,1. All Items Index,106.6
+261,2020-06,Aggregate Inflation,106.6
+262,2020-06,3. Train Fares,115.7
+263,2020-06,2. Transport Fares Index,109.7
+264,2020-07,1. All Items Index,106.1
+265,2020-07,Aggregate Inflation,106.1
+266,2020-07,3. Train Fares,113.9
+267,2020-07,2. Transport Fares Index,109.6
+268,2020-08,1. All Items Index,106
+269,2020-08,Aggregate Inflation,106
+270,2020-08,3. Train Fares,113.8
+271,2020-08,2. Transport Fares Index,109.7
+272,2020-09,1. All Items Index,105.8
+273,2020-09,Aggregate Inflation,105.8
+274,2020-09,3. Train Fares,113.8
+275,2020-09,2. Transport Fares Index,109.6
+276,2020-10,1. All Items Index,105.9
+277,2020-10,Aggregate Inflation,105.9
+278,2020-10,3. Train Fares,113.8
+279,2020-10,2. Transport Fares Index,109.4
+280,2020-11,1. All Items Index,105
+281,2020-11,Aggregate Inflation,105
+282,2020-11,3. Train Fares,113.8
+283,2020-11,2. Transport Fares Index,109.4
+284,2020-12,1. All Items Index,105.5
+285,2020-12,Aggregate Inflation,105.5
+286,2020-12,3. Train Fares,115.3
+287,2020-12,2. Transport Fares Index,109.6
+288,2021-01,1. All Items Index,106.3
+289,2021-01,Aggregate Inflation,106.3
+290,2021-01,3. Train Fares,116.2
+291,2021-01,2. Transport Fares Index,110.6
+292,2021-02,1. All Items Index,107
+293,2021-02,Aggregate Inflation,107
+294,2021-02,3. Train Fares,116
+295,2021-02,2. Transport Fares Index,111
+296,2021-03,1. All Items Index,107.5
+297,2021-03,Aggregate Inflation,107.5
+298,2021-03,3. Train Fares,116
+299,2021-03,2. Transport Fares Index,111
+300,2021-04,1. All Items Index,108.2
+301,2021-04,Aggregate Inflation,108.2
+302,2021-04,3. Train Fares,116
+303,2021-04,2. Transport Fares Index,111.1
+304,2021-05,1. All Items Index,108.7
+305,2021-05,Aggregate Inflation,108.7
+306,2021-05,3. Train Fares,116
+307,2021-05,2. Transport Fares Index,111.1
+308,2021-06,1. All Items Index,109.1
+309,2021-06,Aggregate Inflation,109.1
+310,2021-06,3. Train Fares,116.3
+311,2021-06,2. Transport Fares Index,111.1
+312,2021-07,1. All Items Index,110.1
+313,2021-07,Aggregate Inflation,110.1
+314,2021-07,3. Train Fares,116.3
+315,2021-07,2. Transport Fares Index,111.3
+316,2021-08,1. All Items Index,110.1
+317,2021-08,Aggregate Inflation,110.1
+318,2021-08,3. Train Fares,116.3
+319,2021-08,2. Transport Fares Index,111.5
+320,2021-09,1. All Items Index,110.1
+321,2021-09,Aggregate Inflation,110.1
+322,2021-09,3. Train Fares,116.4
+323,2021-09,2. Transport Fares Index,111.6
+324,2021-10,1. All Items Index,110.7
+325,2021-10,Aggregate Inflation,110.7
+326,2021-10,3. Train Fares,116.4
+327,2021-10,2. Transport Fares Index,111.7
+328,2021-11,1. All Items Index,110.5
+329,2021-11,Aggregate Inflation,110.5
+330,2021-11,3. Train Fares,116.4
+331,2021-11,2. Transport Fares Index,111.7
+332,2021-12,1. All Items Index,111.1
+333,2021-12,Aggregate Inflation,111.1
+334,2021-12,3. Train Fares,118.1
+335,2021-12,2. Transport Fares Index,111.8
+336,2022-01,1. All Items Index,111.5
+337,2022-01,Aggregate Inflation,111.5
+338,2022-01,3. Train Fares,119
+339,2022-01,2. Transport Fares Index,112.9
+340,2022-02,1. All Items Index,112.5
+341,2022-02,Aggregate Inflation,112.5
+342,2022-02,3. Train Fares,119
+343,2022-02,2. Transport Fares Index,112.9
+344,2022-03,1. All Items Index,115.3
+345,2022-03,Aggregate Inflation,115.3
+346,2022-03,3. Train Fares,119
+347,2022-03,2. Transport Fares Index,113
+348,2022-04,1. All Items Index,116.2
+349,2022-04,Aggregate Inflation,116.2
+350,2022-04,3. Train Fares,119
+351,2022-04,2. Transport Fares Index,113
