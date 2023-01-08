@@ -30,7 +30,7 @@
     "color": {
       "field": "Country",
       "title": null,
-      "legend": {"orient": "top-left"},
+      "legend": {"orient": "bottom", "columns":2},
       "type": "nominal",
       "sort": [],
       "scale": {"scheme": "yellowgreenblue"}
