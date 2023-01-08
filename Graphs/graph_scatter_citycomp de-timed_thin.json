@@ -19,8 +19,8 @@
   
   "mark": "point",
   "encoding": {
-    "x": {"field": "Turnover de-time", "type": "quantitative", "title": "Local Transport Company Revenue De-Timed (£mil)"},
-    "y": {"field": "GDP per capita de-time", "type": "quantitative", "title": "GDP per capita de-timed"},
+    "x": {"field": "Turnover de-time", "type": "quantitative", "title": "Local Transport Company Revenue Detrended (£mil)"},
+    "y": {"field": "GDP per capita de-time", "type": "quantitative", "title": "GDP per capita Detrended"},
     "color":{"field":"City", "legend":{"orient": "bottom"}}
   }
 
