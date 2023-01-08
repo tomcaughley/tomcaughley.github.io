@@ -1,0 +1,26 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Stock prices of 5 Tech Companies over Time.",
+  "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/Figure_2__Both_real_total_and_regular_pay_fell_on_the_year.csv"},
+  "mark": "line",
+  "height":300,
+  "width":250,
+
+"title": {
+        "text": "Real Wage Growth",
+        "subtitle":"Average UK weekly earnings annual growth rates,(%) Source: ONS",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"},
+         
+         
+
+  "encoding": {
+    "x": {"field": "Period", "type": "temporal", "title": "3-Month Period"},
+    "y": {"field": "Regular pay (real)", "type": "quantitative", "title": "Wage Growth (%)"},
+    "strokeDash": {"field": "Before 2008?", "type": "nominal", "legend":{"orient": "bottom"}}
+    
+  }
+}
+ 

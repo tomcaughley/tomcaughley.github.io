@@ -2,18 +2,19 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
   "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/ML%20predicted%20classification.csv"},
-  "title": {
-      "text": "Testing the classification ML technique",
-      "subtitle":["Source: OECD",""],
-      "subtitleFontStyle":"italic",
-      "subtitleFontSize":10,
-      "anchor": "start",
-      "color": "black"},
+
+"title": {
+        "text": "Testing the classification ML technique",
+        "subtitle":["Actual Satisfaction - Outline, Predicted Satisfaction - Fill","Source: OECD"],
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"},
 
   "mark": "point",
 
-"height":250,
-"width":300,
+"height":175,
+"width":200,
 
   
   "encoding": {
@@ -21,12 +22,12 @@
 
     "y": {"field": "Bus KM per capita", "type": "quantitative"},
 
-    "size":{"field": "Rail Investment per capita", "type": "quantitative", "legend": {"orient": "bottom", "direction": "horizontal"}},
+    "size":{"field": "Rail Investment per capita", "type": "quantitative", "legend": {"orient": "top", "direction": "horizontal"}},
 
-    "color":{"field": "Satisfaction", "type": "quantitative","title":"Satisfaction - Outline" ,"legend": {"orient": "right", "direction": "horizontal"},
+    "color":{"field": "Satisfaction", "type": "quantitative","title":["Satisfaction", "- Outline"] ,"legend": {"orient": "bottom", "direction": "vertical"},
       "scale": {"scheme": "redyellowgreen"}},
 
-      "fill":{"field": "Predicted Satisfaction", "type": "quantitative","title":"Predicted Satisfaction - Fill", "legend": {"orient": "right", "direction": "horizontal"},
+      "fill":{"field": "Predicted Satisfaction", "type": "quantitative","title":["Predicted Satisfaction", "- Fill"], "legend": {"orient": "bottom", "direction": "vertical"},
       "scale": {"scheme": "redyellowgreen"}},
 
 

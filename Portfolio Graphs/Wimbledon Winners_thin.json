@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A scatterplot showing body mass and flipper lengths of penguins.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Wimbledon%20Winners.csv"
+  },
+
+"title": {
+      "text": "Scraped data showing Wimbledon Winners",
+      "subtitle":[
+        "Winners by country, 1968-2022 (excluding the cancelled 2020).",
+        "Source: Wikipeadia. Hover for names.",
+        ""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+      
+      },
+
+
+
+  "width": 200,
+  "height": 200,
+
+
+  "mark": "point",
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "scale": {"zero": false}
+    },
+    "y": {
+      "field": "Country",
+      "type": "nominal",
+      "scale": {"zero": false}
+    },
+    "color": {"field": "Country", "type": "nominal", "legend":{"orient": "bottom", "columns":4}},
+    "tooltip":[
+          {"field":"Champion", "type": "nominal", "title":"Champion"}
+          
+          ]
+  }
+}
