@@ -18,6 +18,9 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+    <!-- Favicon from veecteezy.com -->
+    <link rel="icon" href="vecteezy_modern-and-elegant-tc-letter-initial-logo-design_.jpg">
 </head>
 
 
@@ -32,21 +35,27 @@
             <p></p>
         </div>
       </div>
-      <div id="main-content">
+
+
+  <!-- top navigation -->
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="Portfolio.html">Portfolio</a>
+        <a href="Project.html">Project</a>
+        <a href="https://github.com/tomcaughley/tomcaughley.github.io" target="_blank">Github</a>
+        <a href="https://rapidcharts.io/datascience" target="_blank">Course</a>
+      </div>    
+  <div id="main-content">
 
 
 
     
-     <!-- Side navigation -->
+       
+    <!-- Side navigation -->
 <div class="sidenav">
-    <a href="index.html">Home</a>
     <p> </p>
-    <a href="Portfolio.html">Portfolio</a>
-    <p> </p>
-    <a href="Project.html">Project</a>
-    <p> </p>
-    <a href="https://github.com/tomcaughley/tomcaughley.github.io">Github</a>
   </div>
+  
   
   <!-- Page content -->
   <div class="main">
@@ -64,39 +73,38 @@
         
         </div>
 <p> </p>
+<hr class="long">
 <!-- Week 1 -->
 
 <div class="myWeek1">
 <h2>Week 1</h2>        
 
-<div class="container2">
+ 
+
     
-        
-
-        <div class="container4">
-        <h3>Ageing Populations</h3>
-        <p>The first chart tracks the share of population aged over 65</p>
-        
-            <div class="container1">
-        <div class="chart" id="Chart01"></div>
-        </div>
-        </div>
-
-        <div class="container4">
-        <h3>Climate Crisis</h3>
-        <p>My second chart looks at the GDP loss in different global warming scenarios</p>
-        
-        <div class="container1">
-        <div class="chart" id="Chart02"> </div>
-    </div>
-    </div>
+   
+    <h3>Emissions</h3>
+    <div class="container1">
+    <div class="chart" id="Chart1"> </div>
 </div>
+    <p>The first chart looks at CO2 emissions per capita</p>
+
+        
+
+        <h3>Palm Oil</h3>
+        <div class="container1">
+        <div class="chart2" id="Chart2"> </div> </div>
+        <p>My second chart looks at how much land is dedicated to palm oil in different countries</p>
+        
+    
+
 <p> </p>
 </div>
 
     <p> </p>
     <p> </p>
     
+    <hr class="long">
     <!-- Week 2 -->
     <div class="myWeek1">
         
@@ -127,6 +135,8 @@
     <p> </p>
     <p> </p>
 
+    <hr class="long">
+
 <!-- Week 3 -->
 <div class="myWeek1">
     <h2>Week 3</h2>
@@ -143,11 +153,14 @@
   
     
 <p>This week we encoded data inline into VegaLite rather than linking it to a an uploaded spreadsheet. We did this through python by importing the CSV, then extracting the raw data in a way suitable for use in VegaLite. </p>
-<p>The graphs shows the unemployment rate for the USA vs for African Americans. The black population experienced higher unemployment rates in all time periods.</p>
+<p>The first graph implies the unemployment rates are stackable, whereas they are comparable in percentages only. The second graph shows a true analysis.</p>
 
 </div>
     <p> </p>
     <p> </p>
+
+    <hr class="long">
+
 
 <!-- Week 4 -->
 <div class="myWeek1">
@@ -160,34 +173,33 @@
 <p> </p>
 
 <p>My code for my python programming can be accessed using <a href="https://colab.research.google.com/drive/1VXiqOaVBO_1pyquNcR5s77VKlr1w2tLa?usp=sharing" target="_blank">this link</a>.</p>
-<p>I chose Wikipedia for the good data I could scrape and clean. I also found the specific table out of 11 options rather than one.  </p>
+<p>I chose Wikipedia because I wanted to see the time variations in the success of different countries in Tennis. </p>
 
 </div>
 
     <p> </p>
     <p> </p>
+
+    <hr class="long">
+
 
 <!-- Week 5 -->
 <div class="myWeek1">
     <h2>Week 5</h2>
     <h3>Loops Dashboard</h3>
 <!-- graphs -->
-<div class="container1">
-    <div class="chart" id="Chart8"> </div>
-    <div class="chart" id="Chart9"> </div>
-    <div class="chart" id="Chart10"> </div>
-</div>
-<p> </p>
-<div class="container1">
-    <div class="chart" id="Chart11"> </div>
-    <div class="chart" id="Chart12"> </div>
-    <div class="chart" id="Chart13"> </div>
-</div>
-<p> </p>
-<div class="container1">
-    <div class="chart" id="Chart14"> </div>
-    <div class="chart" id="Chart15"> </div>
-    <div class="chart" id="Chart16"> </div>
+<div class="container3">
+    <div class="chart2" id="Chart8"> </div>
+    <div class="chart2" id="Chart9"> </div>
+    <div class="chart2" id="Chart10"> </div>
+
+    <div class="chart2" id="Chart11"> </div>
+    <div class="chart2" id="Chart12"> </div>
+    <div class="chart2" id="Chart13"> </div>
+
+    <div class="chart2" id="Chart14"> </div>
+    <div class="chart2" id="Chart15"> </div>
+    <div class="chart2" id="Chart16"> </div>
 </div>
 <p> </p>
 
@@ -198,6 +210,9 @@
 
 <p> </p>
 
+<hr class="long">
+
+
 <!-- Week 6 -->
 <div class="myWeek1">
     <h2>Week 6</h2>
@@ -205,6 +220,9 @@
 <p> </p>
 </div>
 <p> </p>
+
+<hr class="long">
+
 
 
 <!-- Week 7 -->
@@ -218,18 +236,20 @@
     
 </div>
 <p> </p>
-
+<hr class="short">
 <h3>Choropleth Map of the world with public transport satisfaction across time</h3>
 
 <!-- graph -->
 <div class="container1">
     <div class="chart" id="Chart18"> </div>
-    
 </div>
-<p> </p>
+<p>This map shows how satisfied the citizens are with their public transport over time.</p>
 
 </div>
 <p> </p>
+
+<hr class="long">
+
 
 
 <!-- Week 8 -->
@@ -246,27 +266,31 @@
  <h3>Evidence</h3>
 <!-- graphs -->
 
-<div class="container2">
 
-        <div class="container4">
+     
             <div class="container1">
-                <div class="chart" id="Chart19"></div>
+                <div class="chart2" id="Chart19"></div>
             </div>
             <p>Productivity grew by ~$4 in the UK and Germany, but by ~$8 in the USA and France</p>
-        </div>
+    
 
-        <div class="container4">
+       
             <div class="container1">
-                <div class="chart" id="Chart20"> </div>
+                <div class="chart2" id="Chart20"> </div>
             </div>
             <p>Real wages have mostly slowed/declined since 2008</p>
-        </div>
-</div>
+      
+
+
+
 
 <p> </p>
 
 </div>
 <p> </p>
+
+
+<hr class="long">
 
 
 
@@ -285,6 +309,7 @@
 <div class="container1">
     <div class="chart" id="Chart21"> </div>
 </div>
+<hr class="short">
 <p> </p>
 <h3>Detrended Scatter Graph with Univariate Regression</h3>
 <div class="container1">
@@ -299,6 +324,9 @@
 
 
 
+<hr class="long">
+
+
 
 <!-- Week 10 -->
 <div class="myWeek1">
@@ -309,26 +337,51 @@
 
 <!-- graphs -->
 <h3>Time Series Hierarchical Clustering</h3>
+<p>Which difference between transport stocks and market indices are most similar? </p>
+<p>(Bottom of  <a href="https://colab.research.google.com/drive/1X4Hd17YuHsAyIPKanVnNYTWN8yxdLD_X?usp=sharing" target="_blank">this code</a>)</p>
 <div class="container1">
-    <img src="stock_comparison.png">
+    <img id="picture" src="stock comp dendo.png" height="200" width="200"> </img>
 </div>
+<div class="container1">
+    <img id="picture2" src="stock comp.png" height="400" width="200" > </img>
+</div>
+<p>Both had Japan/USA, France/UK pairs; Dendrogram had China/Germany; DTW had China/Germany </p>
+<p>For graph clarity on mobiles, I cut China, USA, UK</p>
+<h1> </h1>
+<p> </p>
+
+<hr class="short">
+
+
+<h3> </h3>
+<h3>Machine Learning Classification</h3>
+<p>I wanted to see if rail investment and rail/bus usage could accrutely predict satisfaction with public transport? </p>
+
+<div class="container1">
+    <div class="chart" id="Chart23"></div>
+</div>
+<p>You can see my python code using <a href="https://colab.research.google.com/drive/1E0fJFLSGarWeREC7GBvwtygmmAknS2Ow?usp=sharing" target="_blank">this link</a>.</p>
+<p>The classification was partially successful but had large outlier errors</p>
+
 <p> </p>
 
 
-<p> </p>
-
-
 
 
 
 </div>
 
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<button onclick="topFunction()" id="myBtn" title="Go to bottom">Bottom</button>
 
 
   </div>
   </div>
+
+  <footer>
+    <p>Tom Caughley</p>
+    <p>fi19319@bristol.ac.uk</p>
+  </footer>
 </body>
 
 
@@ -339,13 +392,6 @@
 
 <script>
     //Define charts:
-    var myChart1 = "Portfolio Graphs/chartextreme1.json";
-    var myChart2 = "Portfolio Graphs/chartENV15.json";
-    var myChart3 = "Portfolio Graphs/imflending.json";
-    var myChart4 = "Portfolio Graphs/imflending2.json";
-    var myChart5 = "Portfolio Graphs/UNRATE1.json";
-    var myChart6 = "Portfolio Graphs/UNRATE2.json";
-    var myChart7 = "Portfolio Graphs/Wimbledon Winners.json";
     var myChart8 = "Week 5 Graphs/graph_ONS_CHAW.json";
     var myChart9 = "Week 5 Graphs/graph_ONS_CHAY.json";
     var myChart10 = "Week 5 Graphs/graph_ONS_CHAZ.json";
@@ -355,21 +401,9 @@
     var myChart14 = "Week 5 Graphs/graph_ONS_CHBI.json";
     var myChart15 = "Week 5 Graphs/graph_ONS_CHBM.json";
     var myChart16 = "Week 5 Graphs/graph_ONS_CHBR.json";
-    var myChart17 = "Portfolio Graphs/graph_map_DE.json";
-    var myChart18 = "Portfolio Graphs/Graphs/graph_map_SDG.json";
-    var myChart19 = "Portfolio Graphs/graph_line_productivity.json";
-    var myChart20 = "Portfolio Graphs/graph_line_wagegrowth.json";
-    var myChart21 = "Graphs/graph_bubble_railvsgrowth.json";
-    var myChart22 = "Graphs/graph_scatter_citycomp de-timed.json";
+    
 
     // Embed charts:
-    vegaEmbed('#Chart01', myChart1);
-    vegaEmbed('#Chart02', myChart2);
-    vegaEmbed('#Chart3', myChart3);
-    vegaEmbed('#Chart4', myChart4);
-    vegaEmbed('#Chart5', myChart5);
-    vegaEmbed('#Chart6', myChart6);
-    vegaEmbed('#Chart7', myChart7);
     vegaEmbed('#Chart8', myChart8);
     vegaEmbed('#Chart9', myChart9);
     vegaEmbed('#Chart10', myChart10);
@@ -379,12 +413,81 @@
     vegaEmbed('#Chart14', myChart14);
     vegaEmbed('#Chart15', myChart15);
     vegaEmbed('#Chart16', myChart16);
-    vegaEmbed('#Chart17', myChart17);
-    vegaEmbed('#Chart18', myChart18);
-    vegaEmbed('#Chart19', myChart19);
-    vegaEmbed('#Chart20', myChart20);
-    vegaEmbed('#Chart21', myChart21);
-    vegaEmbed('#Chart22', myChart22);
+
+
+
+
+
+
+
+
+    <!-- CONDITIONAL SCRIPT TO EMBED BASED ON SCREEN WIDTH -->
+
+
+// Find the current screen width:
+let width = screen.width;
+
+// Use an if function to pick the approprite visualisation:
+
+
+if (width > 710) {
+    var myChart1 = "Portfolio Graphs/chartENV1.json";
+    var myChart2 = "Portfolio Graphs/chartENV3.json";
+    var myChart3 = "Portfolio Graphs/imflending.json";
+    var myChart4 = "Portfolio Graphs/imflending2.json";
+    var myChart5 = "Portfolio Graphs/UNRATE1.json";
+    var myChart6 = "Portfolio Graphs/UNRATE2.json";
+    var myChart7 = "Portfolio Graphs/Wimbledon Winners.json";
+    var myChart17 = "Portfolio Graphs/graph_map_DE.json";
+    var myChart18 = "Graphs/graph_map_SDG.json";
+    var myChart19 = "Portfolio Graphs/graph_line_productivity.json";    
+    var myChart20 = "Portfolio Graphs/graph_line_wagegrowth.json";
+    var myChart21 = "Graphs/graph_bubble_railvsgrowth.json";
+    var myChart22 = "Graphs/graph_scatter_citycomp de-timed.json";
+    var myChart23 = "Portfolio Graphs/graph_scatter_ML_classifcation.json";
+
+
+} else {
+    var myChart1 = "Portfolio Graphs/chartENV1_thin.json";
+    var myChart2 = "Portfolio Graphs/chartENV3_thin.json";
+    var myChart3 = "Portfolio Graphs/imflending_thin.json";
+    var myChart4 = "Portfolio Graphs/imflending2_thin.json";
+    var myChart5 = "Portfolio Graphs/UNRATE1_thin.json";
+    var myChart6 = "Portfolio Graphs/UNRATE2_thin.json";
+    var myChart7 = "Portfolio Graphs/Wimbledon Winners_thin.json";
+    var myChart17 = "Portfolio Graphs/graph_map_DE_thin.json";
+    var myChart18 = "Graphs/graph_map_SDG_thin.json";
+    var myChart19 = "Portfolio Graphs/graph_line_productivity_thin.json";
+    var myChart20 = "Portfolio Graphs/graph_line_wagegrowth_thin.json";
+    var myChart21 = "Graphs/graph_bubble_railvsgrowth_thin.json";
+    var myChart22 = "Graphs/graph_scatter_citycomp de-timed_thin.json";
+    var myChart23 = "Portfolio Graphs/graph_scatter_ML_classifcation_thin.json";
+
+}
+
+// Now embed the chart, which will vary based on screen width:
+    vegaEmbed('#Chart1', myChart1, {"actions": false});
+    vegaEmbed('#Chart2', myChart2, {"actions": false});
+    vegaEmbed('#Chart3', myChart3, {"actions": false});
+    vegaEmbed('#Chart4', myChart4, {"actions": false});
+    vegaEmbed('#Chart5', myChart5, {"actions": false});
+    vegaEmbed('#Chart6', myChart6, {"actions": false});
+    vegaEmbed('#Chart7', myChart7, {"actions": false});
+    vegaEmbed('#Chart17', myChart17, {"actions": false});
+    vegaEmbed('#Chart18', myChart18, {"actions": false});
+    vegaEmbed('#Chart19', myChart19, {"actions": false});
+    vegaEmbed('#Chart20', myChart20, {"actions": false});
+    vegaEmbed('#Chart21', myChart21, {"actions": false});
+    vegaEmbed('#Chart22', myChart22, {"actions": false});
+    vegaEmbed('#Chart23', myChart23, {"actions": false});
+    
+
+
+
+
+
+
+
 
 
 
@@ -392,26 +495,26 @@
 
 
 ///////////////////////////////////////////////
-//Code for the scroll to the top button
+//Code for the scroll to the bottom button
 
     // Get the button:
 let mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down 20px from the bottom of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// When the user clicks on the button, scroll to the bottom of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 10000000; // For Safari
+  document.documentElement.scrollTop = 1000000; // For Chrome, Firefox, IE and Opera
 }
 
 

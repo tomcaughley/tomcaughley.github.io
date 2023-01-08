@@ -13,11 +13,15 @@
      <link rel="stylesheet" href="Styles.css">
  
      <!--The next three lines allow the Vega embed-->
-     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
-     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+     <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+
+    <!-- Favicon from veecteezy.com -->
+    <link rel="icon" href="vecteezy_modern-and-elegant-tc-letter-initial-logo-design_.jpg">
 </head>
 <body>
+
 
 
     <!-- top banner -->
@@ -26,25 +30,30 @@
             <p></p>
         </div>
       </div>
+      
+      <!-- top navigation -->
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a class="active" href="Project.html">Project</a>
+            <a href="https://github.com/tomcaughley/tomcaughley.github.io" target="_blank">Github</a>
+            <a href="https://rapidcharts.io/datascience" target="_blank">Course</a>
+          </div>
       <div id="main-content">
 
 
+       
 
+          
     <!-- Side navigation -->
 <div class="sidenav">
-    <a href="index.html">Home</a>
     <p> </p>
-    <a href="Portfolio.html">Portfolio</a>
-    <p> </p>
-    <a href="Project.html">Project</a>
-    <p> </p>
-    <a href="https://github.com/tomcaughley/tomcaughley.github.io">Github</a>
   </div>
   
   <!-- Page content -->
   <div class="main">
   
-
+    <!-- <img id="image" src="trainbus.png" alt=""> -->
 
 
 
@@ -52,12 +61,27 @@
     <div class="myWeek1">
         <h1>Data Science Project</h1>
         <h1>Tom Caughley</h1>
-        <h1>Does public transport have a direct effect on the economy?</h1>
+        <h1>Is public transport worth it?</h1>
+        
         </div>
 <p> </p>
+<hr class="long">
 <p> </p>
         <div class="myWeek1">
-            <h2>Graphs</h1>
+<h1> </h1>
+            <h2>Introduction</h2>
+            <p>Public transport is an integral part of life for many. Its positive environmental effects and ease of life advantages are clear to see, but what other effects does it have? 
+            </p>
+                 <p>The aim of this project is to see the economic consequences of public transport. This will be done by starting out on a global macroeconomic scale and becoming increasingly focused.
+                </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<h2> </h2>
+<hr class="long">
+<h1> </h1>
+
+            <h2>Context</h2>
 
 
             <!-- SDG map -->
@@ -65,76 +89,168 @@
                     <div class="chart" id="Chart1"> </div>
                 </div>
                 <p> </p>
+                <p>This graph was made with data from the sustainable development report to highlight the importance of good quality public transport, part of SDG goal 11 from the UN.
+                    <p>I used 
+                    <a href="https://colab.research.google.com/drive/1_A7QU9MMJ_TmWQTyE9AmbxLJVY2McJ_Q?usp=sharing" target="_blank">this code</a> 
+                    to match the country names in my data set to the topojson. I had an issue aligning the data to the map. The surprising solution was to convert the data from long to wide, using 
+                    <a href="https://colab.research.google.com/drive/1h9XhRpQER6vk7guwLKUttg3bJf6JrYXl?usp=sharing" target="_blank">this code</a>.</p>
+                <p> </p>
+<p><a id="source" href="Sources/Graph 1.html" target="_blank" >Sources</a></p>
+
+                <hr class="long">
+
 
             <!-- Bubble rail vs growth -->
+            <h3>Global Scale</h3>
                 <div class="container1">
                     <div class="chart" id="Chart2"> </div>
                 </div>
-                <div class="container1">
-                    <div class="chart" id="Chart2b"> </div>
-                </div>
+                
                 <p> </p>
+                <p>This graph didn’t show any direct effect of public transport use and GDP growth. There are likely other stronger determinants for this growth.</p>
+                <p>The data came from the OECD API, which I accessed, merged, and cleaned using 
+                    <a href="https://colab.research.google.com/drive/1aD45FXYrUEBAsBErxHRLqpuURYhfQjD6?usp=sharing" target="_blank">this code</a>. 
+                    I initially had trouble accessing the OECD API, as I found their instructions confusing and unclear, but through researching on stackoverflow I found a simpler process.</p>
+                
+<p><a id="source" href="Sources/Graph 2.html" target="_blank" >Sources</a></p>
+<p> </p>
+
+
+                <hr class="short">
 
 
 
 
             <!-- Europe social mobility -->
+            <h3>OECD Countries</h3>
+
             <div class="container5">   
                       
                 <div id="container5">
-                <!-- <iframe src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/b2e1cdq5gr2tvvs/keplergl_k0eowat.json" height="400" width="600"></iframe> -->
-                <iframe src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/z9rw8ajxw2eo0hm/keplergl_l73d4pp.json" height="400" width="600"></iframe>
+                              
+                <iframe id="kepler" src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/j6zztx0eyqvsn2l/keplergl_ztsnd6f.json" height="300" width="400"></iframe>
                 </div>    
                 <div id="Chart3">  </div>
             </div> 
             <p> </p>
+            <p>There is a positive relationship between rail investment per capita and social mobility. This however likely comes from GDP differences, because the correlation for rail investment as a percentage of GDP is more diverse.</p>
+            <p>The graph used
+                <a href="https://colab.research.google.com/drive/1oWuevMS7olfNtbfvioOhHw20A6XcVgOM?usp=sharing" target="_blank">this code</a> 
+                to process OECD API data, and 
+                 <a href="https://colab.research.google.com/drive/1CQ_U6BUFUtkiVrvDbgYCL_95GSLxzYH7?usp=sharing" target="_blank">this code</a>
+                 to scrape social mobility data from Wikipedia. One issue was that the social mobility data only had country names, whilst the OECD only had country codes. To remedy this, 
+                 <a href="https://colab.research.google.com/drive/18CJg7Gp5egpt8wmCgE6uM9TFu-fuhk1i?usp=sharing" target="_blank">I scraped a table</a> 
+                 with both, then used 
+                 <a href="https://colab.research.google.com/drive/1p9C2a4kSPqBGnvnt6Auq__r1KrcnUdJX?usp=sharing" target="_blank">this code</a> 
+                 to merge them together, then to calculate the colour classifications. I did the same steps for rail investment as a percentage of GDP to see the difference between the measures, done using 
+                 <a href="https://colab.research.google.com/drive/13SdyOYaO1DwZYnBoX-qwl2rsbw2-AtpA?usp=sharing" target="_blank">this code</a>. 
+                 This forms interactive layers on the map.</p>
+                 <p><a id="source" href="Sources/Graph 3.html" target="_blank" >Sources</a></p>
+                <p> </p>
+
+
+                <hr class="short">
 
 
 
             <!-- Country inflation -->
+            <h3>Western Countries</h3>
+
                 <div class="container1">
                     <div class="chart" id="Chart4"> </div>
                 
-                    <div class="chart" id="Chart5"> </div>
                 </div>
-                <p> </p>
+                
+                <p>Public transport was a driver behind inflation in the UK, Germany, and the US pre-2013. The opposite has been historically true for France, although this has been reversing recently.</p>
+
+                <p>The UK and US data came from the ONS and FRED APIs which I accessed via loops using
+                    <a href="https://colab.research.google.com/drive/11ZB44RWYC0GpMIn3JWSYRc-7jkuG6au_?usp=sharing" target="_blank">this code</a>. 
+                    Unfortunately, I discovered FRED only had public transport inflation data until 1943. To remedy this, I scraped data for US train fares, then extracted, through a loop, and reindexed the FRED data (for comparability) using 
+                    <a href="https://colab.research.google.com/drive/1bxU0PEUtJWIOdvoC7TORwDI_iMTcTZLa?usp=sharing" target="_blank">this code</a>.</p> 
+                    <p>The Bundesbank API also didn’t have specific 
+                    public transport inflation data, so I used other data from the Statistisches Bundesamt and cleaned it 
+                    <a href="https://colab.research.google.com/drive/1t96MDAr4uu19TTptpFLW4KwWFF7J4Q07?usp=sharing" target="_blank">here</a>. 
+                    The French data was from Insee,which I cleaned using 
+                    <a href="https://colab.research.google.com/drive/150QqSLQ1UmuguTbDcKiLO9iVT0VKos8A?usp=sharing" target="_blank">this code</a>.</p>
+                    
+<p><a id="source" href="Sources/Graph 4.html" target="_blank" >Sources</a></p>
+                    <p> </p>
+
+
+                    <hr class="short">
 
 
 
             <!-- city scatter -->
+            <h3>Western European Cities</h3>
+
                 <div class="container1">
-                    <div class="chart" id="Chart6"> </div>
+                    <div class="chart" id="Chart5"> </div>
                 </div>
                 <p> </p>
+                <p>On a city level, the positive relationship between transport revenue and GDP per capita indicates well-used and successful transport is good for local economies.</p>
+                <p>This data came from a wide variety of sources as there was little comprehensive data. I scraped data for First Bus’ turnover using their tax returns, using 
+                <a href="https://colab.research.google.com/drive/1NCzQMCzcZ_a13U7SKQcTYm_RBf_HjeOw?usp=sharing" target="_blank">this code</a>. 
+                The data initially had a negative relationship, ikely from a time bias. I detrended the data using 
+                <a href="https://colab.research.google.com/drive/1by8Dd7zAkG0O1pZ1VRHllUnR6TidrGqT?usp=sharing" target="_blank">this code</a>
+                and 
+                <a href="https://www.dropbox.com/s/tfixpa1em0bz8kx/de-time%20trend.do?dl=0" target="_blank">this stata do-file</a>, 
+                which gave a positive relationship and a higher R^2. 
+                </p>
+                    
+<p><a id="source" href="Sources/Graph 5.html" target="_blank" >Sources</a></p>
+                    <p> </p>
+
+
+                    <hr class="short">
+
 
 
 
             <!-- tram trelis -->
+            <h3>UK Cities</h3>
+
                 <div class="container1">
-                    <div class="chart" id="Chart7"> </div>
+                    <div class="chart" id="Chart6"> </div>
                 </div>
                 <p> </p>
+                <p>This data came from the ONS but was split into two different sources. In 1997 the data was reclassified into updated regions and included cities. The data for 1997 was also missing, which the ONS couldn’t provide upon request. I converted the data into the tidy format using 
+                <a href="https://colab.research.google.com/drive/10107ct0VoIuC3mp7EFZQrbRYC_VxtQ7s?usp=sharing " target="_blank">this code</a>.</p>
+                <p> </p>
+                <p><a id="source" href="Sources/Graph 6.html" target="_blank" >Sources</a></p>
+
+
+                <hr class="short">
+
 
 
 
             <!-- Stocks comparison -->
-                <div class="container1">
-                    <div class="chart" id="Chart8"> </div>
-                </div>
+            <h3>Stocks</h3>
+
+            <div class="container1">
+                <div class="chart" id="Chart7"> </div>
+            </div>
+            <p> </p>
+            <p>This graph used data from the Yahoo Finance API to analyse if public transport stocks outbeat their local stock market. They tended to do so pre-pandemic and, despite a drop from 2020, are starting to again.</p>
+
+            <p><a href="https://colab.research.google.com/drive/1X4Hd17YuHsAyIPKanVnNYTWN8yxdLD_X?usp=sharing" target="_blank">The code</a>
+                used loops as there were many stocks. I created a three-day average to reduce noise. On mobiles I found the graph too busy, as the hover feature is harder to use. For clarity, I cut down the amount of stocks. I used hierarchical clustering (at the bottom of the above code) to see which stock differences were most varied, so one could see the nuance easier.</p>
+            <p><a id="source" href="Sources/Graph 7.html" target="_blank" >Sources</a></p>
                 <p> </p>
-                <div class="container1">
-                    <div class="chart" id="Chart9"> </div>
-                </div>
-                <p> </p>
-                <div class="container1">
-                    <div class="chart" id="Chart10"> </div>
-                </div>
-                <p> </p>
+
+                <hr class="long">
+
 
               
+                <h2>Conclusions</h2>
+              
+                <p>A lot of my graphs showed inconclusive relationships, signalling the need for further research. The true effect of public transport on economic indicators cannot be definitely proven with a simple analysis without other factors.</p>
+                <p>The inflation data is worrying as the fare prices are increasing faster than overall inflation. Public transport must be affordable for everyone to be optimally effective. Some positives have been the effect on city-level GDP and that public transport stocks are a good investment.</p>
 
 
-            
+
+
             </div>
 
 
@@ -145,39 +261,86 @@
 
 
         </div>
-    </div>
 
+</div>
+
+<footer>
+    <p>794 Words</p>
+    <p>Tom Caughley</p>
+    <p>fi19319@bristol.ac.uk</p>
+  </footer>
 </body>
 
 <script>
     //Define charts:
-    var myChart1 = "Graphs/graph_map_SDG.json";
-    var myChart2 = "Graphs/graph_bubble_railvsgrowth.json";
-    var myChart2b = "Graphs/graph_bubble_busvsgrowth.json";
-    var myChart3 = "Graphs/bivariatescale.json";
-    var myChart4 = "Graphs/graph_line_inflation_UK.json";
-    var myChart5 = "Graphs/graph_line_inflation_FRED.json";
-    var myChart6 = "Graphs/graph_scatter_citycomp de-timed.json";
-    var myChart7 = "Graphs/graph_trelis_cutwlines.json";
-    var myChart8 = "Graphs/graph_line_stock.json";
-    var myChart9 = "Graphs/graph_line_stock_spare.json";
-    var myChart10 = "Graphs/graph_line_stock_spare2.json";
+   
 
 
     // Embed charts:
-    vegaEmbed('#Chart1', myChart1);
-    vegaEmbed('#Chart2', myChart2);
-    vegaEmbed('#Chart2b', myChart2b);
-    vegaEmbed('#Chart3', myChart3);
-    vegaEmbed('#Chart4', myChart4);
-    vegaEmbed('#Chart5', myChart5);
-    vegaEmbed('#Chart6', myChart6);
-    vegaEmbed('#Chart7', myChart7);
-    vegaEmbed('#Chart8', myChart8);
-    vegaEmbed('#Chart9', myChart9);
-    vegaEmbed('#chart10', myChart10);
-    vegaEmbed('#chart11', myChart11);
+    
 
+
+
+    <!-- CONDITIONAL SCRIPT TO EMBED BASED ON SCREEN WIDTH -->
+
+
+// Find the current screen width:
+let width = screen.width;
+
+// Use an if function to pick the approprite visualisation:
+
+
+if (width > 710) {
+  var  myChart1 = "Graphs/graph_map_SDG.json";
+  var myChart2 = "Graphs/graph_bubble_PTvsgrowth.json";
+    var myChart3 = "Graphs/bivariatescale.json";
+    var myChart4 = "Graphs/graph_inflation_trelis.json";
+    var myChart5 = "Graphs/graph_scatter_citycomp de-timed.json";
+    var myChart6 = "Graphs/graph_trelis.json";
+    var myChart7 = "Graphs/graph_line_stock.json";
+} else {
+  var  myChart1 = "Graphs/graph_map_SDG_thin.json";
+  var myChart2 = "Graphs/graph_bubble_PTvsgrowth_thin.json";
+    var myChart3 = "Graphs/bivariatescale.json";
+    var myChart4 = "Graphs/graph_inflation_trelis_thin.json";
+    var myChart5 = "Graphs/graph_scatter_citycomp de-timed_thin.json";
+    var myChart6 = "Graphs/graph_trelis_thin.json";
+    var myChart7 = "Graphs/graph_line_stock_thin.json";
+}
+
+// Now embed the chart, which will vary based on screen width:
+vegaEmbed('#Chart1', myChart1, {"actions": false});   
+vegaEmbed('#Chart2', myChart2, {"actions": false});
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4, {"actions": false});
+    vegaEmbed('#Chart5', myChart5, {"actions": false});
+    vegaEmbed('#Chart6', myChart6, {"actions": false});
+    vegaEmbed('#Chart7', myChart7, {"actions": false});
+
+
+
+
+
+// script for my animation
+
+    let aim = document.getElementById('image'), overflow;
+
+window.addEventListener('load', function() {
+
+  let room = window.innerHeight,
+  space = room-aim.height;
+  overflow = document.body.scrollHeight-room;
+
+  aim.style.setProperty('--maximum', space + 'px');
+});
+
+window.addEventListener('scroll', function() {
+
+  let ratio = (this.pageYOffset || this.scrollY)/overflow;
+
+  aim.style.setProperty('--epoch', ratio);
+});
+    
 
 
     
