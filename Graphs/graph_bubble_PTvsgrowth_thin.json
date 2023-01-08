@@ -3,7 +3,7 @@
 
  "title": {
       "text": "Use of Public Transport vs GDP Growth",
-      "subtitle":["Passenger Transport Kilometers (x), Annual GDP Growth Rates (y), 1970-2021","Source: OECD","Size of points based on popluation", "Colour based on country for visual clarity"],
+      "subtitle":["Passenger Transport Kilometers (x), Annual GDP Growth Rates (y)","1970-2021, Source: OECD","Size of points based on popluation", "Colour based on country for visual clarity"],
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
