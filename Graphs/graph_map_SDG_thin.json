@@ -27,8 +27,8 @@
     }
   ],
 
-  "height": 300,
-  "width": 550,
+  "height": 175,
+  "width": 250,
   "data": {
     "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
     "format": {"type": "topojson", "feature": "countries"}
@@ -74,4 +74,4 @@
       "legend": {"orient": "bottom", "direction": "horizontal"}
     }
   }
-}
+} 

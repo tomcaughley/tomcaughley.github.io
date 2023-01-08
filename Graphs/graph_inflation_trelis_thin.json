@@ -1,0 +1,276 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+
+
+  "title": {
+  "text": "Public Transport Inflation",
+  "subtitle": ["Total vs Public Transport Related Inflation", ""],
+  "subtitleFontStyle":"italic",
+  "subtitleFontSize":10,
+  "anchor": "start",
+  "color": "black"
+  },
+
+
+"vconcat": [
+ 
+  {
+
+
+  "title": {
+  "text": "United Kingdom",
+  "subtitle": ["Jan 1997 = 100, Source = ONS"],
+  "subtitleFontStyle":"italic",
+  "subtitleFontSize":10,
+  "anchor": "start",
+  "color": "black"
+},
+
+"width":200,
+  "height":200,
+
+
+  "encoding": {
+
+     "x": {
+  "field": "date",
+  "type": "temporal",
+  "title": null,
+  "axis": {
+  "grid": true
+  }
+  },
+  "y": {
+  "field": "value",
+  "type": "quantitative",
+  "title": "Inflation index",
+  "axis": {
+  "grid": false
+  }
+  },
+    
+    "color": {
+      "field": "name", 
+      "type": "nominal", 
+      "title":null,
+      "legend":{"orient": "top", "columns":1},
+      "scale":{"scheme":"darkmulti"}}
+  },
+
+
+  "layer":[
+    
+  {"data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Fares%20API/data_ONS-CHAW.json",
+    "format": {"type":"json", "property": "years"}},
+    "transform": [
+      {"calculate":"replace(datum.quarter, '', '1. All Items Index')", "as": "name"}
+    ],
+    "mark":{"type": "line", "color": "#000000","strokeWidth": 2.5, "opacity": 0.8}},
+
+    {"data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Fares%20API/data_ONS-CHBR.json",
+    "format": {"type":"json", "property": "years"}},
+    "transform": [
+      {"calculate":"replace(datum.quarter, '', '2. Transport Fares Index')", "as": "name"}
+    ],
+    "mark":{"type": "line","strokeWidth": 2.5, "opacity": 0.8}},
+
+    {"data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Fares%20API/data_ONS-DOCW.json",
+    "format": {"type":"json", "property": "years"}},
+    "transform": [
+      {"calculate":"replace(datum.quarter, '', '3. Train Fares')", "as": "name"}
+  ],
+    "mark":{"type": "line","strokeWidth": 2.5, "opacity": 0.8}},
+
+    {"data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Fares%20API/data_ONS-DOCX.json",
+    "format": {"type":"json", "property": "years"}},
+    "transform": [
+      {"calculate":"replace(datum.quarter, '', '4. Bus & Coach Fares')", "as": "name"}
+    ],
+    "mark":{"type": "line","strokeWidth": 2.5, "opacity": 0.8}},
+
+    {"data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Fares%20API/data_ONS-DOCY.json",
+    "format": {"type":"json", "property": "years"}},
+    "transform": [
+      {"calculate":"replace(datum.quarter, '', '5. Other Travel Costs')", "as": "name"}
+    ],
+    "mark":{"type": "line","strokeWidth": 2.5, "opacity": 0.8}}
+  
+]
+ 
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "title": {
+  "text": "France",
+  "subtitle": ["2015 = 100, Source = Insee"],
+  "subtitleFontStyle":"italic",
+  "subtitleFontSize":10,
+  "anchor": "start",
+  "color": "black"
+},
+
+  "width":200,
+  "height":200,
+
+  "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/France%20Transport%20Inflation.csv"},
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Month", "type": "temporal", "title":null},
+    "y": {"field": "Inflation Index", "type": "quantitative", "scale": {"domain": [60,140]}},
+    "color": {"field": "Measure", "type": "nominal",       "legend":{"orient": "top"}
+}
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+  "title": {
+  "text": "Germany",
+  "subtitle": ["2015 = 100, Source = Statistisches Bundesamt"],
+  "subtitleFontStyle":"italic",
+  "subtitleFontSize":10,
+  "anchor": "start",
+  "color": "black"
+},
+
+  "width":200,
+  "height":200,
+
+  "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/German%20Transport%20Inflation.csv"},
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Month", "type": "temporal", "title":null},
+    "y": {"field": "Inflation Index", "type": "quantitative", "scale": {"domain": [90,130]}},
+    "color": {"field": "Measure", "type": "nominal"}
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "title": {
+  "text": "United States",
+  "subtitle": ["Index, 2007 = 100, Source = FRED, US BLS"],
+  "subtitleFontStyle":"italic",
+  "subtitleFontSize":10,
+  "anchor": "start",
+  "color": "black"
+},
+
+  "width":200,
+  "height":200,
+
+  "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/Fred%20Inflation%202007%20Index%20Years.csv"},
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Date", "type": "temporal", "title":null},
+    "y": {"field": "Percentage", "type": "quantitative", "scale": {"domain": [90,130]}},
+    "color": {"field": "Measure", "type": "nominal"}
+  } }
+
+
+  
+
+
+  
+
+
+  
+]
+
+}

@@ -1,0 +1,287 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+
+
+  "title": {
+    "text": ["Tram Difference in Difference"],
+    "subtitle":["Growth Rates after the introduction of a tram system","Compared to a city of similar size at time of introduction","Source: ONS", ""],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"},
+
+
+ "vconcat": [
+
+
+  {
+
+ "hconcat": [
+
+{
+
+  "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/tram%20diff%20in%20diff%20neat%20long%20a.csv"},
+
+
+"title": {
+      "text": ["Edinburgh vs Cambridge", "GDP per capita Growth Rate"],
+      "subtitle":["Edinburgh Tram Introduction 2014", "Cambridge Comparison City", ""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+
+
+"layer":[
+
+{
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Time Period", "type": "quantitative"},
+    "y": {"field": "Percentage", "type": "quantitative"},
+    "color": {"field": "Main or Comparison", "type": "nominal", "legend": {"orient": "right", "direction": "vertical"} }
+  }
+},
+
+
+{
+        "data": {
+          "values": [
+            {"y": "-5", "x": "0"},
+            {"y": "7", "x": "0"}
+            ]
+        },
+        "mark": {"type": "line", "fill":"black", "color":"black", "size":1.5, "stroke":"black",  "strokeDash": [10, 3]},
+        "encoding": {
+          "x": {"field": "x", "type": "quantitative"},
+          "y": {"field": "y", "type": "quantitative"}
+          
+        }
+      }
+
+
+
+]
+},
+
+
+
+
+
+
+
+
+
+{
+
+
+
+  "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/tram%20diff%20in%20diff%20neat%20long%20b.csv"},
+
+
+"title": {
+      "text": ["Edinburgh vs Cambridge","GDP Growth Rate"],
+      "subtitle":["Edinburgh Tram Introduction 2014", "Cambridge Comparison City", ""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+
+
+"layer":[
+
+{
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Time Period", "type": "quantitative"},
+    "y": {"field": "Percentage", "type": "quantitative"},
+    "color": {"field": "Main or Comparison", "type": "nominal", "legend": {"orient": "right", "direction": "vertical"} }
+  }
+},
+
+
+{
+        "data": {
+          "values": [
+            {"y": "-5", "x": "0"},
+            {"y": "7", "x": "0"}
+            ]
+        },
+        "mark": {"type": "line", "fill":"black", "color":"black", "size":1.5, "stroke":"black",  "strokeDash": [10, 3]},
+        "encoding": {
+          "x": {"field": "x", "type": "quantitative"},
+          "y": {"field": "y", "type": "quantitative"}
+          
+        }
+      }
+
+
+
+]
+}
+
+
+]
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+
+ "hconcat": [
+
+
+
+{
+
+  "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/tram%20diff%20in%20diff%20neat%20long%20c.csv"},
+
+
+"title": {
+      "text": ["West Midlands vs West Yorkshire", "GDP per capita Growth Rate"],
+      "subtitle":["Birmingham/Wolverhampton Tram Introduction 1999", "West Yorkshire Authority Comparison Area", ""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+
+
+
+"layer":[
+
+{
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Time Period", "type": "quantitative"},
+    "y": {"field": "Percentage", "type": "quantitative"},
+    "color": {"field": "Main or Comparison", "type": "nominal", "legend": {"orient": "right", "direction": "vertical"} }
+  }
+},
+
+
+{
+        "data": {
+          "values": [
+            {"y": "0", "x": "0"},
+            {"y": "7", "x": "0"}
+            ]
+        },
+        "mark": {"type": "line", "fill":"black", "color":"black", "size":1.5, "stroke":"black",  "strokeDash": [10, 3]},
+        "encoding": {
+          "x": {"field": "x", "type": "quantitative"},
+          "y": {"field": "y", "type": "quantitative"}
+          
+        }
+      }
+
+
+
+
+]
+},
+
+
+
+
+
+
+
+
+{
+  "data": {"url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/tram%20diff%20in%20diff%20neat%20long%20d.csv"},
+
+
+"title": {
+      "text": ["West Midlands vs West Yorkshire", "GDP Growth Rate"],
+      "subtitle":["Birmingham/Wolverhampton Tram Introduction 1999", "West Yorkshire Authority Comparison Area", ""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+
+
+      "layer":[
+
+{
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Time Period", "type": "quantitative"},
+    "y": {"field": "Percentage", "type": "quantitative"},
+    "color": {"field": "Main or Comparison", "type": "nominal", "legend": {"orient": "right", "direction": "vertical"} }
+  }
+},
+
+
+{
+        "data": {
+          "values": [
+            {"y": "7", "x": "0"},
+            {"y": "0", "x": "0"}
+            ]
+        },
+        "mark": {"type": "line", "fill":"black", "color":"black", "size":1.5, "stroke":"black",  "strokeDash": [10, 3]},
+        "encoding": {
+          "x": {"field": "x", "type": "quantitative"},
+          "y": {"field": "y", "type": "quantitative"}
+          
+        }
+      }
+
+
+
+]
+}
+
+
+]
+
+
+}
+
+
+]
+
+}

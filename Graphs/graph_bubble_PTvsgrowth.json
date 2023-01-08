@@ -1,0 +1,293 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+
+ "title": {
+      "text": "Use of Public Transport vs GDP Growth",
+      "subtitle":["Passenger Transport Kilometers (x), Annual GDP Growth Rates (y)", "1970-2021, Source: OECD","Size of points based on popluation", "Colour based on country for visual clarity"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+
+
+
+
+
+
+
+   "params": [
+     
+   
+    {
+    "name": "minYear",
+    "value": 2016,
+    "bind": {
+    "input": "range",
+    "min": 1970,
+    "max": 2021,
+    "step": 1,
+    "name": "Start year:"
+    }
+    },
+    {
+    "name": "maxYear",
+    "value": 2021,
+    "bind": {
+    "input": "range",
+    "min": 1970,
+    "max": 2021,
+    "step": 1,
+    "name": "End year:"
+    }
+    }
+    
+
+    ],
+
+     "config": {
+    "background":"white",
+    "view": {
+      "stroke": "transparent"}},
+
+
+
+
+"vconcat": [{
+
+    "title": {
+      "text": ["","Use of Rail vs GDP Growth"],
+      
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+ 
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/rail%20km%20per%20capita%20gdp%20growth.csv",
+      "format":{"type":"csv"}},
+    
+
+
+      "transform": [
+    
+    
+    
+    {
+        "filter": "datum.Year>=minYear"
+    },
+    {
+    "filter": "datum.Year<=maxYear"
+    }
+
+
+    ],
+
+
+
+    
+
+"height": 225,
+    "width": 475,
+   
+
+"layer":[{
+
+  
+    "mark": {
+      "type":"circle",
+      "color":"green",
+      "opacity":0.7},
+    
+    
+  
+    "encoding": {
+      "x": {
+        "field": "Rail Passenger KM per capita", 
+        "type": "quantitative",
+        "scale": {"domain": [0, 3500]},
+        "axis":{"grid": false},
+        "title":"Annual Rail Usage per capita (km)"},
+  
+      "y": {
+        "field": "GDP Growth Rate", 
+        "type": "quantitative",
+        "scale": {"domain": [-15, 15]},
+        "axis":{"grid": true},
+        "title":"GDP Growth Rate (%)"},
+  
+      "size": {
+        "field": "Population", 
+        "type": "quantitative",
+        "title":"Prison Rate",
+        "scale": { "range": [10, 600]},
+        "legend":null},
+
+        
+      "color": {
+      "field": "Country", 
+      "type": "ordinal", 
+      "title":null,
+      "legend":null,
+      "scale":{"scheme":"yellowgreenblue"}},
+      
+      "tooltip":[
+        {"field":"Country", "type": "ordinal", "title":"Country"},
+        {"field":"Rail Passenger KM per capita", "type": "quantitative", "title":"Rail km per capita", "format":".0f"},
+        {"field":"GDP Growth Rate", "type": "quantitative", "title":"GDP Growth Rate (%)", "format":".0f"},
+        {"field":"Population", "type": "quantitative", "title":"Population", "format":","},
+        {"field":"Year", "type": "quantitative", "title":"Year"}
+
+      ]
+      
+      }},
+
+    {
+      "mark": {"type": "line", "color": "grey"},
+
+      "transform": [{"regression": "GDP Growth Rate", "on": "Rail Passenger KM per capita", "extent": [30,1750]}],
+         
+      "encoding": {
+        "x": {"field": "Rail Passenger KM per capita", "type": "quantitative", "scale": {"domain": [0, 3500]}},
+        
+        "y": {"field": "GDP Growth Rate", "type": "quantitative", "scale": {"domain": [-15, 15]}}
+      }}
+      
+      
+      ]
+    
+
+
+
+
+
+      
+     }
+  ,
+
+{
+
+    "title": {
+      "text": "Use of Bus and Coaches vs GDP Growth",
+      
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/tomcaughley/tomcaughley.github.io/main/Data/bus%20km%20per%20capita%20gdp%20growth.csv",
+      "format":{"type":"csv"}},
+    
+
+
+      "transform": [
+    
+    
+    
+    {
+        "filter": "datum.Year>=minYear"
+    },
+    {
+    "filter": "datum.Year<=maxYear"
+    }
+
+
+    ],
+
+
+
+ 
+
+"height": 225,
+    "width": 475,
+   
+
+"layer":[{
+
+  
+    "mark": {
+      "type":"circle",
+      "color":"green",
+      "opacity":0.7},
+    
+    
+  
+    "encoding": {
+      "x": {
+        "field": "Bus Passenger KM per capita", 
+        "type": "quantitative",
+        "scale": {"domain": [0, 4300]},
+        "axis":{"grid": false},
+        "title":"Annual Bus Usage per capita (km)"},
+  
+      "y": {
+        "field": "GDP Growth Rate", 
+        "type": "quantitative",
+        "scale": {"domain": [-15, 15]},
+        "axis":{"grid": true},
+        "title":"GDP Growth Rate (%)"},
+  
+      "size": {
+        "field": "Population", 
+        "type": "quantitative",
+        "title":"Prison Rate",
+        "scale": { "range": [10, 600]},
+        "legend":null},
+
+        
+      "color": {
+      "field": "Country", 
+      "type": "ordinal", 
+      "title":null,
+      "legend":null,
+      "scale":{"scheme":"yellowgreenblue"}},
+      
+      "tooltip":[
+        {"field":"Country", "type": "ordinal", "title":"Country"},
+        {"field":"Bus Passenger KM per capita", "type": "quantitative", "title":"Bus km per capita", "format":".0f"},
+        {"field":"GDP Growth Rate", "type": "quantitative", "title":"GDP Growth Rate (%)", "format":".0f"},
+        {"field":"Population", "type": "quantitative", "title":"Population", "format":","},
+        {"field":"Year", "type": "quantitative", "title":"Year"}
+
+      ]
+      
+      }},
+
+    {
+      "mark": {"type": "line", "color": "grey"},
+
+      "transform": [{"regression": "GDP Growth Rate", "on": "Bus Passenger KM per capita", "extent": [30,1750]}],
+         
+      "encoding": {
+        "x": {"field": "Bus Passenger KM per capita", "type": "quantitative", "scale": {"domain": [0, 3500]}},
+        
+        "y": {"field": "GDP Growth Rate", "type": "quantitative", "scale": {"domain": [-15, 15]}}
+      }}
+      
+      
+      ]
+    
+
+
+
+
+
+      
+     }
+  
+
+
+
+
+
+      ]
+     }
+  

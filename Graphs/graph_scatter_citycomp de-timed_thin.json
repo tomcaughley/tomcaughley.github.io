@@ -5,23 +5,23 @@
   
   "title": {
       "text": "City Case Study Comparision",
-      "subtitle":["Comparison of three western-European cities of similar population size", "Bristol, West of England Combined Authority (UK), Hannover (DE), Toulouse (FR)", " Size of city-wide public transport(x), Annual GDP Growth Rates (y), 1998-2021","Sources: Statista, Eurostat, Region Hannover, Finanzen.net, OFX, ONS. Gov UK", " "],
+      "subtitle":["Comparison of three western-European cities of similar population size", "Bristol, West of England Combined Authority (UK)", "Hannover (DE), Toulouse (FR), 1998-2021", " Size of city-wide public transport(x), Annual GDP Growth Rates (y)", "Sources: Statista, Eurostat, Region Hannover, Gov UK", "Finanzen.net, OFX, ONS", " "],
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
       "color": "black"
     },
 
-    "width": 400,
-    "height": 250,
+    "width": 250,
+    "height": 200,
   
   "layer":[{
   
   "mark": "point",
   "encoding": {
-    "x": {"field": "Turnover de-time", "type": "quantitative", "title": "Local Transport Company Revenue De-Timed (Millions of Pounds)"},
+    "x": {"field": "Turnover de-time", "type": "quantitative", "title": "Local Transport Company Revenue De-Timed (£mil)"},
     "y": {"field": "GDP per capita de-time", "type": "quantitative", "title": "GDP per capita de-timed"},
-    "color":{"field":"City"}
+    "color":{"field":"City", "legend":{"orient": "bottom"}}
   }
 
   },
